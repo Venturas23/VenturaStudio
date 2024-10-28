@@ -1,0 +1,13 @@
+if (video) {
+    video.src = this.href;
+    video.load();
+    video.style.display = 'block';
+
+    try {
+        videojs(video);
+    } catch (error) {
+        console.error('Erro ao inicializar o player:', error);
+    }
+} else {
+    console.error('Elemento de vídeo não encontrado');
+}
