@@ -1,0 +1,51 @@
+#EXTM3U 
+#EXTINF:-1 tvg-id="telecine.action.br" tvg-name="Telecine Action FHD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5oJI1IPQ_cB9wDCCBP7_u6_.png" group-title="Canais | Telecine",Telecine Action FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfFKeC6YPlIMk83HWC2yvj1
+#EXTINF:-1 tvg-id="telecine.action.br" tvg-name="Telecine Action FHD [H265]" tvg-logo="https://liebeurl.me/logos/telecineaction.png" group-title="Canais | Telecine",Telecine Action FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVebZwmEU9vd5QdKNvz_kgG0
+#EXTINF:-1 tvg-id="telecine.action.br" tvg-name="Telecine Action HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5oJI1IPQ_cB9wDCCBP7_u6_.png" group-title="Canais | Telecine",Telecine Action HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVd8-Oot_P_mJ38irnhzkLqx
+#EXTINF:-1 tvg-id="telecine.action.br" tvg-name="Telecine Action HD [Alter]" tvg-logo="http://84.32.34.14:80/images/IWs_KlUK6yDKQup3KvMHy0TiPv_7XoweAVgTjJUNeo96efv0Cai9xIemOvg6hoHtR_suX_JYCgmKpfTlU1p-dQ.png" group-title="Canais | Telecine",Telecine Action HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcoyVJeuARjVytiBb9HALCn
+#EXTINF:-1 tvg-id="telecine.action.br" tvg-name="Telecine Action SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5oJI1IPQ_cB9wDCCBP7_u6_.png" group-title="Canais | Telecine",Telecine Action SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfiPNNOObJ9WWXXMEUCR7go
+#EXTINF:-1 tvg-id="telecine.cult.br" tvg-name="Telecine Cult FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5rdR-WkdOYEt0Q-1zSOSTeC.png" group-title="Canais | Telecine",Telecine Cult FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVetnDrRoPq3DrI_BXsGlC5c
+#EXTINF:-1 tvg-id="telecine.cult.br" tvg-name="Telecine Cult FHD [H265]" tvg-logo="https://liebeurl.me/logos/telecinecult.png" group-title="Canais | Telecine",Telecine Cult FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVekGc9OMDERJra0rRifExOJ
+#EXTINF:-1 tvg-id="telecine.cult.br" tvg-name="Telecine Cult HD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5rdR-WkdOYEt0Q-1zSOSTeC.png" group-title="Canais | Telecine",Telecine Cult HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVf5QQwcdDGXZvMzEOAMl9Fs
+#EXTINF:-1 tvg-id="telecine.cult.br" tvg-name="Telecine Cult SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5rdR-WkdOYEt0Q-1zSOSTeC.png" group-title="Canais | Telecine",Telecine Cult SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfBCj-29LWqLrRV2lswa3NK
+#EXTINF:-1 tvg-id="telecine.fun.br" tvg-name="Telecine Fun FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5rJjWZGORFihBjk7k-sfVMz.png" group-title="Canais | Telecine",Telecine Fun FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdSaZsnuT6G2jdA5PA6hPSP
+#EXTINF:-1 tvg-id="telecine.fun.br" tvg-name="Telecine Fun FHD [H265]" tvg-logo="https://liebeurl.me/logos/telecinefun.png" group-title="Canais | Telecine",Telecine Fun FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcCZoT1yOUnOqKH8L4wo3eD
+#EXTINF:-1 tvg-id="telecine.fun.br" tvg-name="Telecine Fun HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5rJjWZGORFihBjk7k-sfVMz.png" group-title="Canais | Telecine",Telecine Fun HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVe6fyJOP3DDcqh5sYeJT6J_
+#EXTINF:-1 tvg-id="telecine.fun.br" tvg-name="Telecine Fun SD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5rJjWZGORFihBjk7k-sfVMz.png" group-title="Canais | Telecine",Telecine Fun SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdt4vhlrtc55y09vb_oRbE_
+#EXTINF:-1 tvg-id="telecine.pipoca.br" tvg-name="Telecine Pipoca FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5rwfoYViODXW9gOKtVmEqQG.png" group-title="Canais | Telecine",Telecine Pipoca FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcZdcvnQ6WqjaKqb6QhagOA
+#EXTINF:-1 tvg-id="telecine.pipoca.br" tvg-name="Telecine Pipoca FHD [H265]" tvg-logo="https://liebeurl.me/logos/telecinepipoca.png" group-title="Canais | Telecine",Telecine Pipoca FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeE2YvkGIL3MHEKyN--iTq0
+#EXTINF:-1 tvg-id="telecine.pipoca.br" tvg-name="Telecine Pipoca HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5rwfoYViODXW9gOKtVmEqQG.png" group-title="Canais | Telecine",Telecine Pipoca HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVd6ufA-m8l6lQLM8ADSEMd2
+#EXTINF:-1 tvg-id="telecine.pipoca.br" tvg-name="Telecine Pipoca SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5rwfoYViODXW9gOKtVmEqQG.png" group-title="Canais | Telecine",Telecine Pipoca SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVefL6OWAb8XeQsPMsfH0PlN
+#EXTINF:-1 tvg-id="telecine.premium.br" tvg-name="Telecine Premium FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5pYffXkgN3WyjL5ROI-XpWb.png" group-title="Canais | Telecine",Telecine Premium FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcIbYZNNs9VbgcXCml2-ZWi
+#EXTINF:-1 tvg-id="telecine.premium.br" tvg-name="Telecine Premium FHD [H265]" tvg-logo="https://liebeurl.me/logos/telecinepremium.png" group-title="Canais | Telecine",Telecine Premium FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVePU2Z0wYUQMxcPplkkshD1
+#EXTINF:-1 tvg-id="telecine.premium.br" tvg-name="Telecine Premium HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5pYffXkgN3WyjL5ROI-XpWb.png" group-title="Canais | Telecine",Telecine Premium HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcsv_YR972aL5zewoLXCHfx
+#EXTINF:-1 tvg-id="telecine.premium.br" tvg-name="Telecine Premium SD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5pYffXkgN3WyjL5ROI-XpWb.png" group-title="Canais | Telecine",Telecine Premium SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdidSvPc9Wg3x4Qz8DpBX-t
+#EXTINF:-1 tvg-id="telecine.touch.br" tvg-name="Telecine Touch FHD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5pHvJ5i6rCRZ_yO5HkgHmC4.png" group-title="Canais | Telecine",Telecine Touch FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcuUgTRTDLYApKxKzoo4HpW
+#EXTINF:-1 tvg-id="telecine.touch.br" tvg-name="Telecine Touch FHD [H265]" tvg-logo="https://liebeurl.me/logos/telecinetouch.png" group-title="Canais | Telecine",Telecine Touch FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfaHgOMglri8D3uYpd5x94B
+#EXTINF:-1 tvg-id="telecine.touch.br" tvg-name="Telecine Touch HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5pHvJ5i6rCRZ_yO5HkgHmC4.png" group-title="Canais | Telecine",Telecine Touch HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeFy7bCQFOj-vrieIUbHSnO
+#EXTINF:-1 tvg-id="telecine.touch.br" tvg-name="Telecine Touch SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQtvhaybak4Be8O0kFHyBt5pHvJ5i6rCRZ_yO5HkgHmC4.png" group-title="Canais | Telecine",Telecine Touch SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVc-MLp63IpQVLgXOY9CRvvr

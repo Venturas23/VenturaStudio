@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@videojs/http-streaming": "^3.15.0",
+    "hls.js": "^1.5.17"
+  }
+}

@@ -1,0 +1,51 @@
+#EXTM3U 
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN 2 FHD" tvg-logo="https://liebeurl.me/logos/espn2.png" group-title="Canais | ESPN",ESPN 2 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVf8Hy267GnNANAXpG14To6E
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN 2 HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQv-Vugbev5koLlP9hnIaUTQcgvOJLmRTDE_JKbpA2Rop.png" group-title="Canais | ESPN",ESPN 2 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVc2y81D3XpKU-lLPceszgDb
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN 2 HD [Alter]" tvg-logo="https://liebeurl.me/logos/espn2.png" group-title="Canais | ESPN",ESPN 2 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeSAShCFFQVNjtNeU4luqrP
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN 2 SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQv-Vugbev5koLlP9hnIaUTQcgvOJLmRTDE_JKbpA2Rop.png" group-title="Canais | ESPN",ESPN 2 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcBqTILZeNK7sOXmAQhzPo_
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN 2 [H265]" tvg-logo="https://liebeurl.me/logos/espn2.png" group-title="Canais | ESPN",ESPN 2 [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcd9bsaQvaDf-RrIqXVc186
+#EXTINF:-1 tvg-id="a.e.br" tvg-name="ESPN 3 FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQi-PAajb8C6W0xtFkAsSRbX7JEwtGGQhWzzLRVlgBsYI.png" group-title="Canais | ESPN",ESPN 3 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcecpSfSDsrAhCugS1ak86A
+#EXTINF:-1 tvg-id="espn2.br" tvg-name="ESPN 3 FHD [H265]" tvg-logo="https://liebeurl.me/logos/espn30.png" group-title="Canais | ESPN",ESPN 3 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeLXzXbmRvxFZOxky8OhQvR
+#EXTINF:-1 tvg-id="a.e.br" tvg-name="ESPN 3 HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQi-PAajb8C6W0xtFkAsSRbX7JEwtGGQhWzzLRVlgBsYI.png" group-title="Canais | ESPN",ESPN 3 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVe2OjbAWxCxFu8BPSbzA5nF
+#EXTINF:-1 tvg-id="a.e.br" tvg-name="ESPN 3 HD [Alter]" tvg-logo="https://liebeurl.me/logos/espn30.png" group-title="Canais | ESPN",ESPN 3 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVc9ex6Ln6yCaxKpZBb7lksx
+#EXTINF:-1 tvg-id="a.e.br" tvg-name="ESPN 3 SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQi-PAajb8C6W0xtFkAsSRbX7JEwtGGQhWzzLRVlgBsYI.png" group-title="Canais | ESPN",ESPN 3 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfdH5JFFe2AfkCIHa6iT7be
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 4 FHD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQs04Q1nwo-OhWm_Z3tfAaNBsy2KVLqv0jV2kxboDQkxq.png" group-title="Canais | ESPN",ESPN 4 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcbT9IQq2j-KYz8wB34tzHb
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 4 FHD [H265]" tvg-logo="https://liebeurl.me/logos/espn4.png" group-title="Canais | ESPN",ESPN 4 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVd6jmi4QMCK6FIVfZDGBbVx
+#EXTINF:-1 tvg-id="fox.sports.br" tvg-name="ESPN 4 HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQs04Q1nwo-OhWm_Z3tfAaNBsy2KVLqv0jV2kxboDQkxq.png" group-title="Canais | ESPN",ESPN 4 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeDfl2oKJhXrJYI3rRPSu6c
+#EXTINF:-1 tvg-id="fox.sports.br" tvg-name="ESPN 4 HD [Alter]" tvg-logo="https://liebeurl.me/logos/espn4.png" group-title="Canais | ESPN",ESPN 4 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVep-Z9P8_7-ldIxgdbid1F9
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 4 SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQs04Q1nwo-OhWm_Z3tfAaNBsy2KVLqv0jV2kxboDQkxq.png" group-title="Canais | ESPN",ESPN 4 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeTWFnGWQNEmy4jnHJOm6rq
+#EXTINF:-1 tvg-id="espn.extra.br" tvg-name="ESPN 5 FHD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQrqo3Wc-7FYyykBfggcYyWKuzkf3BO3eFWyyfDy2w14E.png" group-title="Canais | ESPN",ESPN 5 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVe5l-PdE8ni2395zhb-txuy
+#EXTINF:-1 tvg-id="espn.extra.br" tvg-name="ESPN 5 FHD [H265]" tvg-logo="https://liebeurl.me/logos/espnextra.png" group-title="Canais | ESPN",ESPN 5 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdC4Dbivpwl26XzYAxqqJo1
+#EXTINF:-1 tvg-id="espn.extra.br" tvg-name="ESPN 5 HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQrqo3Wc-7FYyykBfggcYyWKuzkf3BO3eFWyyfDy2w14E.png" group-title="Canais | ESPN",ESPN 5 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVd7cTyAmRGVTiQw8Itzh8tX
+#EXTINF:-1 tvg-id="espn.extra.br" tvg-name="ESPN 5 HD [Alter]" tvg-logo="https://liebeurl.me/logos/espnextra.png" group-title="Canais | ESPN",ESPN 5 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVf82BPD18x4vaDNkL4E2y-8
+#EXTINF:-1 tvg-id="espn.extra.br" tvg-name="ESPN 5 SD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQrqo3Wc-7FYyykBfggcYyWKuzkf3BO3eFWyyfDy2w14E.png" group-title="Canais | ESPN",ESPN 5 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdoGD2gmSJ2hwcdz90ZLOm-
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQrptEVT8mY3W0OjEn9_CNFVGeL4oDwDwZPHZEBxx2ypU.png" group-title="Canais | ESPN",ESPN FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcS-A3HWaT_b43XXSIcZTxM
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN FHD [H265]" tvg-logo="https://liebeurl.me/logos/espn.png" group-title="Canais | ESPN",ESPN FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdekfrGA43hhz9SsJQNtAtE
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQrptEVT8mY3W0OjEn9_CNFVGeL4oDwDwZPHZEBxx2ypU.png" group-title="Canais | ESPN",ESPN HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfwuKCV03rWVRR4heQx2TyQ
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN HD [Alter]" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQrptEVT8mY3W0OjEn9_CNFVGeL4oDwDwZPHZEBxx2ypU.png" group-title="Canais | ESPN",ESPN HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfJl1MRgdRSnpTIVotGtv5e
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQrptEVT8mY3W0OjEn9_CNFVGeL4oDwDwZPHZEBxx2ypU.png" group-title="Canais | ESPN",ESPN SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfMgFgOvacCchiNRFyqb2jl

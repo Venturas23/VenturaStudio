@@ -1,0 +1,31 @@
+#EXTM3U 
+#EXTINF:-1 tvg-id="bandsports.br" tvg-name="BandSports FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQnM2IYf98W4aZhtF9gmDVFOGMeO_-DIx5o--d7U7X1m8.png" group-title="Canais | Esportes",BandSports FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeekkkA3lTrgoZ6JggXPcpr
+#EXTINF:-1 tvg-id="bandsports.br" tvg-name="BandSports FHD [H265]" tvg-logo="https://liebeurl.me/logos/bandsports.png" group-title="Canais | Esportes",BandSports FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfPdtYH4a9yyoRr072wyan9
+#EXTINF:-1 tvg-id="bandsports.br" tvg-name="BandSports HD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQnM2IYf98W4aZhtF9gmDVFOGMeO_-DIx5o--d7U7X1m8.png" group-title="Canais | Esportes",BandSports HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfR879wOqmb7Ep2dqeU6MSB
+#EXTINF:-1 tvg-id="bandsports.br" tvg-name="BandSports HD [Alter]" tvg-logo="https://liebeurl.me/logos/bandsports.png" group-title="Canais | Esportes",BandSports HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeLOzfwKZznlKMkOi8mgdSQ
+#EXTINF:-1 tvg-id="bandsports.br" tvg-name="BandSports SD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQnM2IYf98W4aZhtF9gmDVFOGMeO_-DIx5o--d7U7X1m8.png" group-title="Canais | Esportes",BandSports SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeV0KgN6fNqDD5s6oVQ1iwh
+#EXTINF:-1 tvg-id="combate.br" tvg-name="Combate FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQstpaF39CuKEoTcagnFka29eQEAp6PmHbze1oO9-WpZE.png" group-title="Canais | Esportes",Combate FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeHMS_adD9jo6r_W0sanmkG
+#EXTINF:-1 tvg-id="combate.br" tvg-name="Combate FHD [H265]" tvg-logo="https://liebeurl.me/logos/combate.png" group-title="Canais | Esportes",Combate FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeuB7Fci-FNgaAbzpr9LD2L
+#EXTINF:-1 tvg-id="combate.br" tvg-name="Combate HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQstpaF39CuKEoTcagnFka29eQEAp6PmHbze1oO9-WpZE.png" group-title="Canais | Esportes",Combate HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfaVEARRpz7SeoXT9-cA3w3
+#EXTINF:-1 tvg-id="combate.br" tvg-name="Combate HD [Alter]" tvg-logo="https://liebeurl.me/logos/combate.png" group-title="Canais | Esportes",Combate HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdgPFHQqgLkvsTrYJn9mV4k
+#EXTINF:-1 tvg-id="combate.br" tvg-name="Combate SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQstpaF39CuKEoTcagnFka29eQEAp6PmHbze1oO9-WpZE.png" group-title="Canais | Esportes",Combate SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVe8LvFr6c0_71JhZtFxqsk3
+#EXTINF:-1 tvg-id="fox.sports.2.br" tvg-name="Fox Sports 2 FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQuI3GuCR8tS8tJl7X3g43MvmlB7hCSGdnu7gXOYdPNj6.png" group-title="Canais | Esportes",Fox Sports 2 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeW9aB0_sUL6rrzUK4YU6ZZ
+#EXTINF:-1 tvg-id="fox.sports.2.br" tvg-name="Fox Sports 2 FHD [H265]" tvg-logo="https://liebeurl.me/logos/foxsports2.png" group-title="Canais | Esportes",Fox Sports 2 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcYitT8Rs3tuYHVAKC9vTaQ
+#EXTINF:-1 tvg-id="fox.sports.2.br" tvg-name="Fox Sports 2 HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQuI3GuCR8tS8tJl7X3g43MvmlB7hCSGdnu7gXOYdPNj6.png" group-title="Canais | Esportes",Fox Sports 2 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfFEt8lBELiST_SvB94Sq9U
+#EXTINF:-1 tvg-id="fox.sports.2.br" tvg-name="Fox Sports 2 HD [Alter]" tvg-logo="https://liebeurl.me/logos/foxsports2.png" group-title="Canais | Esportes",Fox Sports 2 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVca6hStWO-SLDI4Bzxcuslq
+#EXTINF:-1 tvg-id="fox.sports.2.br" tvg-name="Fox Sports 2 SD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQuI3GuCR8tS8tJl7X3g43MvmlB7hCSGdnu7gXOYdPNj6.png" group-title="Canais | Esportes",Fox Sports 2 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdwequJAGy8_GO2UWx6R66a

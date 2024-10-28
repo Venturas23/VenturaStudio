@@ -1,0 +1,67 @@
+#EXTM3U 
+#EXTINF:-1 tvg-id="hbo.2.br" tvg-name="HBO 2 FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQuG71GvDC_TtkCcPQO8j0E6D3t-afmcSzJkQY06NjJNw.png" group-title="Canais | HBO",HBO 2 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVereqjbOtwOsE6dl4x9VnAG
+#EXTINF:-1 tvg-id="hbo.2.br" tvg-name="HBO 2 FHD [H265]" tvg-logo="https://liebeurl.me/logos/hbo2.png" group-title="Canais | HBO",HBO 2 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeho1rd175syGkEyYxZxMeu
+#EXTINF:-1 tvg-id="hbo2.br" tvg-name="HBO 2 HD" tvg-logo="https://liebeurl.me/logos/hbo2.png" group-title="Canais | HBO",HBO 2 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVepgFRwGE8LGvHDog3nmvec
+#EXTINF:-1 tvg-id="hbo.2.br" tvg-name="HBO 2 SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQuG71GvDC_TtkCcPQO8j0E6D3t-afmcSzJkQY06NjJNw.png" group-title="Canais | HBO",HBO 2 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfeBkX-2ezxOqlc2B-eQj5f
+#EXTINF:-1 tvg-id="hbo.2.br" tvg-name="HBO Family FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQotE40rQ7LrfC1StoK_Tf1kKH0hwZuZSQETnuavaObTF.png" group-title="Canais | HBO",HBO Family FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVem2h72tJzykdyRvzf49xOT
+#EXTINF:-1 tvg-id="hbo.family.br" tvg-name="HBO Family FHD [H265]" tvg-logo="https://liebeurl.me/logos/hbofamily.png" group-title="Canais | HBO",HBO Family FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeghKrpbqGMCP9F9-zluHSc
+#EXTINF:-1 tvg-id="hbo.2.br" tvg-name="HBO Family HD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQotE40rQ7LrfC1StoK_Tf1kKH0hwZuZSQETnuavaObTF.png" group-title="Canais | HBO",HBO Family HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeDCj4272XwHujFACDzt7GE
+#EXTINF:-1 tvg-id="hbo.family.br" tvg-name="HBO Family SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQotE40rQ7LrfC1StoK_Tf1kKH0hwZuZSQETnuavaObTF.png" group-title="Canais | HBO",HBO Family SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfNyTl5N8Jc9yjICHTMxCiv
+#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQuSp_iBLOJ25QR9KjoJKCGazhSNqecrKReXuFLCpdADR.png" group-title="Canais | HBO",HBO FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdOfGY9nAfv8dw0N9gKeRHY
+#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO FHD [H265]" tvg-logo="https://liebeurl.me/logos/hbo.png" group-title="Canais | HBO",HBO FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVf7JSd1gnQF2vz9Ykpc3gF4
+#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQuSp_iBLOJ25QR9KjoJKCGazhSNqecrKReXuFLCpdADR.png" group-title="Canais | HBO",HBO HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcJNoHpCE_tCu2RfInjZ1K8
+#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO HD [Alter]" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQuSp_iBLOJ25QR9KjoJKCGazhSNqecrKReXuFLCpdADR.png" group-title="Canais | HBO",HBO HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVd372ZzWEdFIP92-GAo_ehO
+#EXTINF:-1 tvg-id="hbo.mundi.br" tvg-name="HBO Mundi FHD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQlQp88WSe4PMDoNusZgI2hhpveiVT4IvdJQDGONp1Bir.png" group-title="Canais | HBO",HBO Mundi FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfXrrlHC_QJFE6PqKYrWOSP
+#EXTINF:-1 tvg-id="hbo.mundi.br" tvg-name="HBO Mundi FHD [H265]" tvg-logo="https://liebeurl.me/logos/hbomundi.png" group-title="Canais | HBO",HBO Mundi FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVehArYQUr14CM1RmAYJGi6v
+#EXTINF:-1 tvg-id="hbo.mundi.br" tvg-name="HBO Mundi HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQlQp88WSe4PMDoNusZgI2hhpveiVT4IvdJQDGONp1Bir.png" group-title="Canais | HBO",HBO Mundi HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfymKuiKNuEy3HBPH3Lcw8D
+#EXTINF:-1 tvg-id="hbo.mundi.br" tvg-name="HBO Mundi SD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQlQp88WSe4PMDoNusZgI2hhpveiVT4IvdJQDGONp1Bir.png" group-title="Canais | HBO",HBO Mundi SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfmvujtUo8BhxYhxp1Mv-7p
+#EXTINF:-1 tvg-id="hbo.plus.br" tvg-name="HBO Plus FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQmWhdOw3GI2wwDo8S68VoZ6448L2CgTTXiUAWDqIz8FD.png" group-title="Canais | HBO",HBO Plus FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVf831hswnaKrrWh4iF9gMhJ
+#EXTINF:-1 tvg-id="hbo.plus.br" tvg-name="HBO Plus FHD [H265]" tvg-logo="https://liebeurl.me/logos/hboplus.png" group-title="Canais | HBO",HBO Plus FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcf7OP0E9ohjvukDG9RO0np
+#EXTINF:-1 tvg-id="hbo.plus.br" tvg-name="HBO Plus HD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQmWhdOw3GI2wwDo8S68VoZ6448L2CgTTXiUAWDqIz8FD.png" group-title="Canais | HBO",HBO Plus HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfavwENJ-M333hiQXE3uAY9
+#EXTINF:-1 tvg-id="hbo.plus.br" tvg-name="HBO Plus SD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQmWhdOw3GI2wwDo8S68VoZ6448L2CgTTXiUAWDqIz8FD.png" group-title="Canais | HBO",HBO Plus SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcMqbW_eJGU8YkViqekZ1CT
+#EXTINF:-1 tvg-id="hbo.pop.br" tvg-name="HBO Pop FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQghxdtscLgstxVu_sivAUtVdELI-rfuEF55zMPoXlmdY.png" group-title="Canais | HBO",HBO Pop FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfGuVEegLobT9jzMc_fcUKH
+#EXTINF:-1 tvg-id="hbo.pop.br" tvg-name="HBO Pop FHD [H265]" tvg-logo="https://liebeurl.me/logos/hbopop.png" group-title="Canais | HBO",HBO Pop FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdylvdF6TkaZVCn7ffvvipD
+#EXTINF:-1 tvg-id="hbo.pop.br" tvg-name="HBO Pop HD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQghxdtscLgstxVu_sivAUtVdELI-rfuEF55zMPoXlmdY.png" group-title="Canais | HBO",HBO Pop HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdmoAncJo9Kioo9D-gIo7ey
+#EXTINF:-1 tvg-id="hbo.pop.br" tvg-name="HBO Pop SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQghxdtscLgstxVu_sivAUtVdELI-rfuEF55zMPoXlmdY.png" group-title="Canais | HBO",HBO Pop SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfRFzlRQU-GFD6Dya5TJ7Oe
+#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQuSp_iBLOJ25QR9KjoJKCGazhSNqecrKReXuFLCpdADR.png" group-title="Canais | HBO",HBO SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVecfrciNCoPvCCkMefXgOIK
+#EXTINF:-1 tvg-id="hbo.signature.br" tvg-name="HBO Signature FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQlZox7XO7lDWaKAxDOXE8TtuOTHMOolTun4-qxM7gHAV.png" group-title="Canais | HBO",HBO Signature FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfFwpwQ5ZGe73lNpEXMYchx
+#EXTINF:-1 tvg-id="hbo.signature.br" tvg-name="HBO Signature FHD [H265]" tvg-logo="https://liebeurl.me/logos/hbosignature.png" group-title="Canais | HBO",HBO Signature FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdLaDJ3_EAMCvMFVxLP_FRP
+#EXTINF:-1 tvg-id="hbo.signature.br" tvg-name="HBO Signature HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQlZox7XO7lDWaKAxDOXE8TtuOTHMOolTun4-qxM7gHAV.png" group-title="Canais | HBO",HBO Signature HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdReZ1-rUi6-IWbCLjD5Z-V
+#EXTINF:-1 tvg-id="hbo.signature.br" tvg-name="HBO Signature SD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQlZox7XO7lDWaKAxDOXE8TtuOTHMOolTun4-qxM7gHAV.png" group-title="Canais | HBO",HBO Signature SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcFDp58GXO0bQG5n-fhDozc
+#EXTINF:-1 tvg-id="hbo.xtreme.br" tvg-name="HBO Xtreme FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQmK6tWkky119TuFGu5B5daJM2Z_yqSy1m27itz6OGes3.png" group-title="Canais | HBO",HBO Xtreme FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfBEJ54DpY4Ek_qjKTRPLsU
+#EXTINF:-1 tvg-id="hbo.xtreme.br" tvg-name="HBO Xtreme FHD [H265]" tvg-logo="https://liebeurl.me/logos/hboxtreme.png" group-title="Canais | HBO",HBO Xtreme FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfMqTeqYuWeI9q55sAQa6ZB
+#EXTINF:-1 tvg-id="hbo.xtreme.br" tvg-name="HBO Xtreme HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQmK6tWkky119TuFGu5B5daJM2Z_yqSy1m27itz6OGes3.png" group-title="Canais | HBO",HBO Xtreme HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVerGMub1ZSlFUU_zA1o0M8e
+#EXTINF:-1 tvg-id="hbo.xtreme.br" tvg-name="HBO Xtreme SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQmK6tWkky119TuFGu5B5daJM2Z_yqSy1m27itz6OGes3.png" group-title="Canais | HBO",HBO Xtreme SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdx_o7I4VXzhpsj9mW-c3yK

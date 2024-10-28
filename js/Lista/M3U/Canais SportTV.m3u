@@ -1,0 +1,31 @@
+#EXTM3U 
+#EXTINF:-1 tvg-id="sportv2.br" tvg-name="SporTV 2 FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEckzR2DKwlq-uCpW-C3MdAbV.png" group-title="Canais | SporTV",SporTV 2 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcM6EOKcciD65ze1a99Pbdv
+#EXTINF:-1 tvg-id="sportv2.br" tvg-name="SporTV 2 FHD [H265]" tvg-logo="https://liebeurl.me/logos/sportv2.png" group-title="Canais | SporTV",SporTV 2 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeZaxRuhWNJpxiYrjgeW4WY
+#EXTINF:-1 tvg-id="sportv2.br" tvg-name="SporTV 2 HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEckzR2DKwlq-uCpW-C3MdAbV.png" group-title="Canais | SporTV",SporTV 2 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcnWXcUp_9xlcMnNrs2_2dT
+#EXTINF:-1 tvg-id="sportv2.br" tvg-name="SporTV 2 HD [Alter]" tvg-logo="https://liebeurl.me/logos/sportv2.png" group-title="Canais | SporTV",SporTV 2 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfdE1GV-1cuzIL0Vx_Lb6cg
+#EXTINF:-1 tvg-id="sportv2.br" tvg-name="SporTV 2 SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEckzR2DKwlq-uCpW-C3MdAbV.png" group-title="Canais | SporTV",SporTV 2 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdgcnGz-S1K2sO9ptjIMtz3
+#EXTINF:-1 tvg-id="sportv3.br" tvg-name="SporTV 3 FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEcnxHU8iHupa5kI25xiHDet8.png" group-title="Canais | SporTV",SporTV 3 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdaldOok2rzO-Tj8eqlHz15
+#EXTINF:-1 tvg-id="sportv3.br" tvg-name="SporTV 3 FHD [H265]" tvg-logo="https://liebeurl.me/logos/sportv3.png" group-title="Canais | SporTV",SporTV 3 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfTGynNJqLtgGdXUGZfYSA3
+#EXTINF:-1 tvg-id="sportv3.br" tvg-name="SporTV 3 HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEcnxHU8iHupa5kI25xiHDet8.png" group-title="Canais | SporTV",SporTV 3 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeSVdVyK9GVo7laJRapaB-E
+#EXTINF:-1 tvg-id="sportv3.br" tvg-name="SporTV 3 HD [Alter]" tvg-logo="https://liebeurl.me/logos/sportv3.png" group-title="Canais | SporTV",SporTV 3 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfXk8eroqwU5b4QV9AWYoKP
+#EXTINF:-1 tvg-id="sportv3.br" tvg-name="SporTV 3 SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEcnxHU8iHupa5kI25xiHDet8.png" group-title="Canais | SporTV",SporTV 3 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcPgiq1Pn9G7c4ksjggC2IC
+#EXTINF:-1 tvg-id="sportv.br" tvg-name="SporTV FHD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEcntzfbfxYX-7d60RdQX803E.png" group-title="Canais | SporTV",SporTV FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVd1_bm8wN5tdS6HoTs0svVR
+#EXTINF:-1 tvg-id="sportv.br" tvg-name="SporTV FHD [H265]" tvg-logo="https://liebeurl.me/logos/sportv.png" group-title="Canais | SporTV",SporTV FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcQ0_0SNKnKiqDw3v2AdS_L
+#EXTINF:-1 tvg-id="sportv.br" tvg-name="SporTV HD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEcntzfbfxYX-7d60RdQX803E.png" group-title="Canais | SporTV",SporTV HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVe0OGGLJZcS1TS18k-WLnlg
+#EXTINF:-1 tvg-id="sportv.br" tvg-name="SporTV HD [Alter]" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEcntzfbfxYX-7d60RdQX803E.png" group-title="Canais | SporTV",SporTV HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfVh8qbyZjR4U1Y5SCGXFV_
+#EXTINF:-1 tvg-id="sportv.br" tvg-name="SporTV SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQuOXuGkY9VMvT5KMaUozEcntzfbfxYX-7d60RdQX803E.png" group-title="Canais | SporTV",SporTV SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdHLBjGIKKvoT4MpUr2VYgC

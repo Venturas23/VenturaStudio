@@ -1,0 +1,75 @@
+#EXTM3U 
+#EXTINF:-1 tvg-id="premiere.2.br" tvg-name="Premiere 2 FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 2 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfUsQGQnlM3TJIPvY556D3T
+#EXTINF:-1 tvg-id="premiere.2.br" tvg-name="Premiere 2 FHD [H265]" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 2 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVd9lQ_do_O4f5YieIRHNwu7
+#EXTINF:-1 tvg-id="premiere.2.br" tvg-name="Premiere 2 HD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 2 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdHddOcCfsDBU6GD5gzpJJS
+#EXTINF:-1 tvg-id="premiere.2.br" tvg-name="Premiere 2 HD [Alter]" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 2 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfPOXcg_7_TzKiHi_nzW6c1
+#EXTINF:-1 tvg-id="premiere.2.br" tvg-name="Premiere 2 SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 2 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcoh5KiM39LgExUKKfpgs10
+#EXTINF:-1 tvg-id="premiere.3.br" tvg-name="Premiere 3 FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 3 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdzFWTkcG5Ke-1dLFzc6kbW
+#EXTINF:-1 tvg-id="premiere.3.br" tvg-name="Premiere 3 FHD [H265]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 3 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfqXJrz9Lze63ZX9gA4Iwhb
+#EXTINF:-1 tvg-id="premiere.3.br" tvg-name="Premiere 3 HD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 3 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdxGK8Y6KBQHc7xzLj7hVgb
+#EXTINF:-1 tvg-id="premiere.3.br" tvg-name="Premiere 3 HD [Alter]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 3 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVe_xwgWlaZfdC6LMMU52zZo
+#EXTINF:-1 tvg-id="premiere.3.br" tvg-name="Premiere 3 SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 3 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdrpn5MXzhTXqlzIKlXe4T3
+#EXTINF:-1 tvg-id="premiere.4.br" tvg-name="Premiere 4 FHD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 4 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeaBHdqBM614okJS3q7QFrG
+#EXTINF:-1 tvg-id="premiere.4.br" tvg-name="Premiere 4 FHD [H265]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 4 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVe7qtDoK1opBmvMrWy2IUIX
+#EXTINF:-1 tvg-id="premiere.4.br" tvg-name="Premiere 4 HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 4 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdBQ_OvYbjON3eDicCCIyvL
+#EXTINF:-1 tvg-id="premiere.4.br" tvg-name="Premiere 4 HD [Alter]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 4 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeVstO4uVO3VNMVqISEbIsj
+#EXTINF:-1 tvg-id="premiere.4.br" tvg-name="Premiere 4 SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 4 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfZLwj9JsVmPgMrF6rNF38Q
+#EXTINF:-1 tvg-id="premiere.5.br" tvg-name="Premiere 5 FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 5 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVf8_ul7S26lOi01zD3jCqHp
+#EXTINF:-1 tvg-id="premiere.5.br" tvg-name="Premiere 5 FHD [H265]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 5 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVf2g-B6AER8zEMhnc9zkO3a
+#EXTINF:-1 tvg-id="premiere.5.br" tvg-name="Premiere 5 HD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 5 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVe1llf0ZYHqLOLbhs2cGVah
+#EXTINF:-1 tvg-id="premiere.5.br" tvg-name="Premiere 5 HD [Alter]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 5 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfpFMSiSpq-Uu7L49Kf4T8Y
+#EXTINF:-1 tvg-id="premiere.5.br" tvg-name="Premiere 5 SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 5 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdM2lFajuWMymbUa4-symls
+#EXTINF:-1 tvg-id="premiere.6.br" tvg-name="Premiere 6 FHD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 6 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVemjpmPrFSPQJX73D9JT1Of
+#EXTINF:-1 tvg-id="premiere.6.br" tvg-name="Premiere 6 FHD [H265]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 6 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdcCGpJ5zmamRaS2K47zr4E
+#EXTINF:-1 tvg-id="premiere.6.br" tvg-name="Premiere 6 HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 6 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdKd9DxeyEJIBfqbUtwQBes
+#EXTINF:-1 tvg-id="premiere.6.br" tvg-name="Premiere 6 HD [Alter]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 6 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVd-Uf01mUUFfdIsO7JsyJlA
+#EXTINF:-1 tvg-id="premiere.6.br" tvg-name="Premiere 6 SD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 6 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVc3rHkcOfPzWgQUQ61PqpiD
+#EXTINF:-1 tvg-id="premiere.7.br" tvg-name="Premiere 7 FHD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 7 FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVd8cEy1TsCDP8kDWZBdcV-G
+#EXTINF:-1 tvg-id="premiere.7.br" tvg-name="Premiere 7 FHD [H265]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 7 FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVe535IVwkWa4ktaPje_Z1O1
+#EXTINF:-1 tvg-id="premiere.7.br" tvg-name="Premiere 7 HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 7 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfQ2q7ByDLiKEClfsbqK4MR
+#EXTINF:-1 tvg-id="premiere.7.br" tvg-name="Premiere 7 HD [Alter]" tvg-logo="https://liebeurl.me/logos/premiere1.png" group-title="Canais | Premiere",Premiere 7 HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdpnIGqZdY1RXpG6k4EcPbF
+#EXTINF:-1 tvg-id="premiere.7.br" tvg-name="Premiere 7 SD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 7 SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfKOl6Gdyr9DdnzxPx9L5R4
+#EXTINF:-1 tvg-id="" tvg-name="Premiere 8 HD" tvg-logo="http://84.32.34.14:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq4deV1TAuAEHhdn14XE9XX6.png" group-title="Canais | Premiere",Premiere 8 HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfFtfgrmz2bMLRTwDVldM-D
+#EXTINF:-1 tvg-id="premiere.clubes.br" tvg-name="Premiere Clubes 4K FHDR" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq50iHDjaciu0b6Cg3A_jzWN.png" group-title="Canais | Premiere",Premiere Clubes 4K FHDR
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfBHKRQkMq3KbXvcLQz3BpF
+#EXTINF:-1 tvg-id="premiere.clubes.br" tvg-name="Premiere Clubes FHD" tvg-logo="http://84.32.190.189:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq50iHDjaciu0b6Cg3A_jzWN.png" group-title="Canais | Premiere",Premiere Clubes FHD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdApPlsc5POSQThoCMCCjFe
+#EXTINF:-1 tvg-id="premiere.clubes.br" tvg-name="Premiere Clubes FHD [H265]" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq50iHDjaciu0b6Cg3A_jzWN.png" group-title="Canais | Premiere",Premiere Clubes FHD [H265]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVfvQiDat2hZX6qhI_8fLHNR
+#EXTINF:-1 tvg-id="premiere.clubes.br" tvg-name="Premiere Clubes HD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq50iHDjaciu0b6Cg3A_jzWN.png" group-title="Canais | Premiere",Premiere Clubes HD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVcY4ba2XWm2-Vy3gqLsEsjw
+#EXTINF:-1 tvg-id="premiere.clubes.br" tvg-name="Premiere Clubes HD [Alter]" tvg-logo="https://liebeurl.me/logos/premiereclubes.png" group-title="Canais | Premiere",Premiere Clubes HD [Alter]
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVdzi4OauQfF-rVhn-qSrJI2
+#EXTINF:-1 tvg-id="premiere.clubes.br" tvg-name="Premiere Clubes SD" tvg-logo="http://84.32.34.98:80/images/2re1UsQIFrpZHWQ4lxBTQq-o4cJnlL-xPe6q9aYNiq50iHDjaciu0b6Cg3A_jzWN.png" group-title="Canais | Premiere",Premiere Clubes SD
+http://84.32.34.98:80/play/w-JPwVjQ8YNTBehUjTMILSMtfuJhvpy3paKcyTjvIVeSkqFdJDs7k6QedJ7hrntV
