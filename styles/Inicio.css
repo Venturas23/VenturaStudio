@@ -2,11 +2,15 @@ html{
     overflow: hidden;
 }
 :root{
+    --fonte-principal:"Poppins";
     --vermelho:red;
     --preto:black;
     --cinza:gray;
     --cinza-escuro:rgb(43, 43, 43);
     --cinza-escuro-transparente:rgba(43, 43, 43, 0.8);
+}
+.body{
+    font-family: var(--fonte-principal);
 }
 .img--Fundo{
     position: absolute;

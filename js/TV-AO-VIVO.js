@@ -113,16 +113,12 @@ const arquivosM3U = [
                 const videoElement = document.getElementById("videoPlayer");
 
                 if (videoElement.requestFullscreen) {
-                    videoElement.classList('videoRodando');
                     videoElement.requestFullscreen();
                 } else if (videoElement.mozRequestFullScreen) { // Firefox
-                    videoElement.classList('videoRodando');
                     videoElement.mozRequestFullScreen();
                 } else if (videoElement.webkitRequestFullscreen) { // Chrome, Safari e Opera
-                    videoElement.classList('videoRodando');
                     videoElement.webkitRequestFullscreen();
                 } else if (videoElement.msRequestFullscreen) { // IE/Edge
-                    videoElement.classList('videoRodando');
                     videoElement.msRequestFullscreen();
                 }
             });
