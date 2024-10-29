@@ -1,34 +1,6 @@
 const arquivosM3U = [
-    'js/Lista/M3U/Canais 4K [FHDR].m3u',
-    'js/Lista/M3U/Canais 24H Desenhos.m3u',
-    'js/Lista/M3U/Canais 24H Séries.m3u',
-    'js/Lista/M3U/Canais A Fazenda.m3u',
-    'js/Lista/M3U/Canais Abertos.m3u',
-    'js/Lista/M3U/Canais Campeonatos Estaduais.m3u',
-    'js/Lista/M3U/Canais Cine SKY Play.m3u',
-    'js/Lista/M3U/Canais Disney+.m3u',
-    'js/Lista/M3U/Canais Documentários.m3u',
-    'js/Lista/M3U/Canais ESPN.m3u',
-    'js/Lista/M3U/Canais Esportes.m3u',
-    'js/Lista/M3U/Canais F1 TV PRO.m3u',
-    'js/Lista/M3U/Canais Fimes e Séries.m3u',
-    'js/Lista/M3U/Canais Geral.m3u',
-    'js/Lista/M3U/Canais Globo.m3u',
-    'js/Lista/M3U/Canais HBO Max.m3u',
-    'js/Lista/M3U/Canais HBO.m3u',
-    'js/Lista/M3U/Canais Infantis.m3u',
-    'js/Lista/M3U/Canais Liga Futsal.m3u',
-    'js/Lista/M3U/Canais NBA League Pass.m3u',
-    'js/Lista/M3U/Canais Notícias.m3u',
-    'js/Lista/M3U/Canais Paramont+.m3u',
-    'js/Lista/M3U/Canais PPV.m3u',
-    'js/Lista/M3U/Canais Premiere.m3u',
-    'js/Lista/M3U/Canais Prime Video.m3u',
-    'js/Lista/M3U/Canais Religiosos.m3u',
-    'js/Lista/M3U/Canais SportTV.m3u',
-    'js/Lista/M3U/Canais Star+.m3u',
-    'js/Lista/M3U/Canais Telecine.m3u',
-    'js/Lista/M3U/Canais Variedades.m3u'
+    'js/Lista/M3U/Canais Escolhidos.m3u',
+    'js/Lista/M3U/Canais TV Aberta.m3u'
     // Adicione mais arquivos aqui
   ];
   function removerExtensao(nomeArquivo) {
