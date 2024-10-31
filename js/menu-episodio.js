@@ -1,5 +1,15 @@
-var menuItem = document.querySelectorAll('.Capa-Geral');
+var Capa = document.querySelector('.Capa-Geral');
+var opcao = document.querySelectorAll('.episodio');
+var Quadrado = document.querySelectorAll('.Episodio-All')
 
-menuItem.addEventListener('click', function(){
-    menuItem.classList.toggle('aberto');
+
+Capa.addEventListener('click', function(){
+    opcao.forEach((item)=>
+        item.classList.toggle('expandir')
+    );
+});
+Capa.addEventListener('click', function(){
+    Quadrado.forEach((item)=>
+        item.classList.toggle('expandir')
+    );
 });

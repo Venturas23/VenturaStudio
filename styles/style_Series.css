@@ -146,42 +146,91 @@ ul li.item-menu a .icon > i{
     position: absolute;
     left: 45%;
 }
-.Titulo-Geral{
-    visibility: hidden;
-}
-.Capa-Geral{
-    position: relative;
-    width: 300px;
-    height: 500px;
-    display: block;
-    border-radius: 10px;
-    top: 20px;
-    left: 10px;
-    transition: 0.3s ease;
-    z-index: 8;
-}
-.Capa-Geral:hover{
-    
-    transform: scale(1.07);
-}
-.Capa-Geral:hover img{
-    
-    transform: scale(1.2);
+
+#serieList {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    top: 130px;
+    left: 120px;
 }
 
-.Item-Geral{
-    position: relative;
-    top: 0px;
-    left: 95px;
-    display: inline-block;
+.Item-Geral {
+    transition: 0.3s ease-in;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-color: #333;
+    white-space: nowrap;
+    padding: 50px;
+    border-radius: 8px;
     margin: 10px;
-    text-align: center;
-    font-size: 200%;
-    word-break: break-word;
-    width: 340px;
-    height: 700px;
-    overflow: hidden;
 }
-.episodio{
-    visibility: hidden;
+.Titulo-Geral{
+    position: relative;
+    left: -10px;
+    font-size: 26px;
+}
+.Titulo-Geral:hover{
+    position: relative;
+    left: 600px;
+    font-size: 26px;
+}
+.Link-Retorn{
+    width: 300px;
+    height: 500px;
+}
+.Capa-Geral {
+    transition: 0.3s ease-in-out;
+    position:static;
+    width: 300px;
+    height: 500px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 2;
+    transform: scale(1.0);
+}
+.Capa-Geral:hover {
+    transform: scale(1.1);
+}
+.Episodio-All{
+    display: inline-flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding-right: 150px;
+    border-radius: 8px;
+    width: 80%;
+    left: 250%;
+    height: auto;
+    
+}
+.episodio {
+    transition: 0.3s ease-in-out;
+    position: relative;
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    top: 0;
+    text-decoration: none;
+    font-size: 17px;
+    flex-wrap: wrap;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    z-index: 2 ;
+    text-overflow: ellipsis;
+    transform: scale(1.0);
+}
+
+.episodio:hover {
+    transform: scale(1.1);
+    background-color: #777;
 }
