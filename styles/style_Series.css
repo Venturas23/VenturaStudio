@@ -234,3 +234,6 @@ ul li.item-menu a .icon > i{
     transform: scale(1.1);
     background-color: #777;
 }
+.videojs{
+    position:fixed;
+}
