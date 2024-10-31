@@ -155,32 +155,27 @@ function salvarUltimoEpisodio(serieNome, link) {
 function reproduzirVideo(serieNome, episodios, linkAtual) {
     const videoPlayer = document.getElementById("videoPlayer");
     
-    // Verifica se o videoPlayer é válido
+    // Verifica se o elemento videoPlayer existe e é um elemento de vídeo válido
     if (!videoPlayer || typeof videoPlayer.play !== "function") {
         console.error("Elemento videoPlayer não encontrado ou não é um elemento de vídeo.");
         return;
     }
 
+    // Define a URL do vídeo
     videoPlayer.src = linkAtual;
     videoPlayer.play();
 
     // Salva o último episódio ao iniciar a reprodução
     salvarUltimoEpisodio(serieNome, linkAtual);
 
+    // Entra em tela cheia automaticamente ao iniciar o episódio
+    videoPlayer.requestFullscreen()
+        .catch(err => console.log("Erro ao entrar em tela cheia:", err));
+
+    // Avança para o próximo episódio automaticamente ao finalizar
     videoPlayer.onended = () => {
-        // Busca o próximo episódio
         const indiceAtual = episodios.findIndex(ep => ep.link === linkAtual);
         const proximoEpisodio = episodios[indiceAtual + 1];
-
-        if (videoPlayer.requestFullscreen) {
-            videoPlayer.requestFullscreen();
-        } else if (videoPlayer.mozRequestFullScreen) { // Firefox
-            videoPlayer.mozRequestFullScreen();
-        } else if (videoPlayer.webkitRequestFullscreen) { // Chrome, Safari e Opera
-            videoPlayer.webkitRequestFullscreen();
-        } else if (videoPlayer.msRequestFullscreen) { // IE/Edge
-            videoPlayer.msRequestFullscreen();
-        }
 
         if (proximoEpisodio) {
             reproduzirVideo(serieNome, episodios, proximoEpisodio.link);
