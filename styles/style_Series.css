@@ -236,4 +236,5 @@ ul li.item-menu a .icon > i{
 }
 .videojs{
     position:fixed;
+    z-index: 3;
 }

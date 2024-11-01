@@ -42,60 +42,54 @@ const arquivosM3U = [
             const linhas = m3uText.split("\n");
             const canalList = document.getElementById("canalList");
             canalList.innerHTML = ''; // Limpa a lista antes de exibir
-
+        
             let nomeCanal = '';
             let grupo = '';
             let capa = '';
             let link = '';
-
+        
             linhas.forEach(linha => {
                 linha = linha.trim();
-
+        
                 if (linha.startsWith("#EXTINF")) {
                     // Extrai o nome do canal e o grupo
                     nomeCanal = linha.split(",")[1] || 'Canal Sem Nome';
                     grupo = linha.includes("group-title=") 
                             ? linha.split("group-title=")[1].split('"')[1]
                             : 'Outros';
-
+        
                     // Extrai a capa (logo) se presente
                     capa = linha.includes("tvg-logo=") 
                            ? linha.split("tvg-logo=")[1].split('"')[1]
                            : '';
-
                 } else if (linha && !linha.startsWith("#")) {
-                    // Considera essa linha como o link do canal
+                    // Verifica se a linha atual é um link e armazena
                     link = linha;
-
-                    // Cria o item na lista com as informações do canal
-                    const listItem = document.createElement("div");
-                    listItem.classList.add('Item-Geral');
-                    const linkElement = document.createElement("a");
-                    linkElement.href = link;
-                    linkElement.textContent = nomeCanal;
-                    linkElement.style = 'visibility:collapse';
-
-                    // Adiciona capa (imagem) se existir
-                    if (capa) {
-                        const img = document.createElement("img");
-                        img.src = capa;
-                        img.alt = `Capa de ${nomeCanal}`;
-                        img.classList.add('Capa-Geral');
-                        listItem.appendChild(img);
-                        img.href = link;
-                        img.textContent = nomeCanal;
-                        img.onclick = (e) =>{
-                            e.preventDefault();
-                            console.log(img.href);
-                            reproduzirVideo(img.href);
+        
+                    if (link) {
+                        // Cria o item na lista com as informações do canal
+                        const listItem = document.createElement("div");
+                        listItem.classList.add('Item-Geral');
+        
+                        // Adiciona capa (imagem) se existir
+                        if (capa) {
+                            const img = document.createElement("img");
+                            img.src = capa;
+                            img.alt = `Capa de ${nomeCanal}`;
+                            img.classList.add('Capa-Geral');
+        
+                            // Configura o evento de clique para abrir o link
+                            img.onclick = () => {
+                                console.log(linha);
+                                window.open(linha, '_blank'); // Abre em nova aba
+                            };
+        
+                            listItem.appendChild(img);
                         }
+        
+                        canalList.appendChild(listItem);
                     }
-
-                    // Adiciona o título e o link
-                    //listItem.appendChild(linkElement);
-                    //listItem.appendChild(document.createTextNode(` - Grupo: ${grupo}`));
-                    canalList.appendChild(listItem);
-                    
+        
                     // Limpa as variáveis para o próximo canal
                     nomeCanal = '';
                     grupo = '';
@@ -104,26 +98,5 @@ const arquivosM3U = [
                 }
             });
         }
-        function reproduzirVideo(url) {
-            console.log(url);
-            const player = videojs('videoPlayer');
-            player.src({type: 'application/x-mpegurl', src: url });
-            player.ready(() => {
-                player.play();
-                const videoElement = document.getElementById("videoPlayer");
-
-                if (videoElement.requestFullscreen) {
-                    videoElement.requestFullscreen();
-                } else if (videoElement.mozRequestFullScreen) { // Firefox
-                    videoElement.mozRequestFullScreen();
-                } else if (videoElement.webkitRequestFullscreen) { // Chrome, Safari e Opera
-                    videoElement.webkitRequestFullscreen();
-                } else if (videoElement.msRequestFullscreen) { // IE/Edge
-                    videoElement.msRequestFullscreen();
-                }
-            });
-            
-        }
-
         // Inicializa a lista de arquivos ao carregar a página
         listarArquivos();
