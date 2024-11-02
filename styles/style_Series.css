@@ -125,7 +125,7 @@ ul li.item-menu a .icon > i{
 }
 .Filtro{
     position: absolute;
-    left: 1535px;
+    left: 1335px;
     top: 91px;
     font-size: 17px;
     background-color: #353535;
@@ -136,7 +136,7 @@ ul li.item-menu a .icon > i{
 }
 .Texto-Filtro{
     position: absolute;
-    left: 1300px;
+    left: 1100px;
     top: 87px;
     white-space: nowrap;
     font-size: 20px;
@@ -151,7 +151,7 @@ ul li.item-menu a .icon > i{
 }
 .searchBar{
     position: absolute;
-    left: 1785px;
+    left: 1585px;
     top: 98px;
     font-size: 17px;
     background-color: #353535;
