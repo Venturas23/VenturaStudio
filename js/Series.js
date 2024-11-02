@@ -61,9 +61,20 @@ async function carregarArquivoM3U() {
     }
 }
 
+// Adicione um campo de entrada para selecionar a letra
+document.addEventListener("DOMContentLoaded", () => {
+    const inputLetra = document.createElement("input");
+    inputLetra.id = "filtroLetra";
+    inputLetra.classList.add("Pesquisa");
+    inputLetra.placeholder = "Digite o Nome da Serie";
+    document.body.insertBefore(inputLetra, document.getElementById("serieList"));
+});
+
+// Modifique a função exibirSeries para incluir a filtragem
 function exibirSeries(m3uText) {
     const linhas = m3uText.split("\n");
     const seriesAgrupadas = {};
+    const filtroLetra = document.getElementById("filtroLetra").value.toUpperCase();
 
     linhas.forEach(linha => {
         linha = linha.trim();
@@ -76,11 +87,13 @@ function exibirSeries(m3uText) {
                 const [_, serieNome, temporadaEp] = resultado;
                 const capa = info.includes("tvg-logo=") ? info.split("tvg-logo=")[1].split('"')[1] : '';
 
-                if (!seriesAgrupadas[serieNome]) {
-                    seriesAgrupadas[serieNome] = { capa, episodios: [] };
+                // Filtra a série pela inicial
+                if (!filtroLetra || serieNome.toUpperCase().startsWith(filtroLetra)) {
+                    if (!seriesAgrupadas[serieNome]) {
+                        seriesAgrupadas[serieNome] = { capa, episodios: [] };
+                    }
+                    seriesAgrupadas[serieNome].episodios.push({ nome: temporadaEp, link: '' });
                 }
-
-                seriesAgrupadas[serieNome].episodios.push({ nome: temporadaEp, link: '' });
             }
         } else if (linha && !linha.startsWith("#")) {
             const serieNomeAtual = Object.keys(seriesAgrupadas).slice(-1)[0];
@@ -93,61 +106,72 @@ function exibirSeries(m3uText) {
     exibirSeriesNaPagina(seriesAgrupadas);
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    // Adiciona evento para acionar a busca ao pressionar Enter
+    const searchInput = document.getElementById("searchBar");
+    searchInput.placeholder = "Pesquise a Serie..."
+    searchInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+            carregarArquivoM3U();
+        }
+    });
+});
+
 function exibirSeriesNaPagina(seriesAgrupadas) {
     const serieList = document.getElementById("serieList");
+    const searchInput = document.getElementById("searchBar").value.toLowerCase().trim();
+
+    // Verifica se a barra de pesquisa está vazia e limpa a lista se necessário
+    if (!searchInput) {
+        serieList.innerHTML = '';
+        return;
+    }
+
+    // Limpa a lista antes de exibir
     serieList.innerHTML = '';
 
+    let encontrouResultados = false;
+
     for (const [serieNome, { capa, episodios }] of Object.entries(seriesAgrupadas)) {
-        const serieDiv = document.createElement("div");
-        const episodioDiv = document.createElement("div");
-        serieDiv.classList.add("Item-Geral");
-        episodioDiv.classList.add("Episodio-All");
+        if (serieNome.toLowerCase().includes(searchInput)) {
+            encontrouResultados = true;
 
-        const tituloSerie = document.createElement("h3");
-        tituloSerie.classList.add('Titulo-Geral');
-        tituloSerie.textContent = serieNome;
-        serieDiv.appendChild(tituloSerie);
+            const serieDiv = document.createElement("div");
+            const episodioDiv = document.createElement("div");
+            serieDiv.classList.add("Item-Geral");
+            episodioDiv.classList.add("Episodio-All");
 
-        // Link para a capa que leva ao último episódio assistido
-        const linkElement = document.createElement("a");
-        linkElement.href = "#";
-        linkElement.classList.add("Link-Retorn")
-        linkElement.addEventListener("click", (e) => {
-            e.preventDefault();
-            const ultimoEpisodio = localStorage.getItem(`ultimoEpisodio-${serieNome}`);
-            if (ultimoEpisodio) {
-                reproduzirVideo(serieNome, episodios, ultimoEpisodio);
-            } else {
-                reproduzirVideo(serieNome, episodios, episodios[0].link);
+            const tituloSerie = document.createElement("h3");
+            tituloSerie.classList.add('Titulo-Geral');
+            tituloSerie.textContent = serieNome;
+            serieDiv.appendChild(tituloSerie);
+
+            if (capa) {
+                const imgCapa = document.createElement("img");
+                imgCapa.src = capa;
+                imgCapa.alt = `Capa de ${serieNome}`;
+                imgCapa.classList.add("Capa-Geral");
+                serieDiv.appendChild(imgCapa);
             }
-        });
 
-        if (capa) {
-            const imgCapa = document.createElement("img");
-            imgCapa.src = capa;
-            imgCapa.alt = `Capa de ${serieNome}`;
-            imgCapa.classList.add("Capa-Geral");
-            linkElement.appendChild(imgCapa);
-            serieDiv.appendChild(linkElement);
-        }
-
-        episodios.forEach(({ nome, link }) => {
-            const episodioLink = document.createElement("a");
-            episodioLink.href = link;
-            episodioLink.textContent = nome;
-            episodioLink.classList.add("episodio");
-            episodioLink.addEventListener("click", (e) => {
-                e.preventDefault();
-                salvarUltimoEpisodio(serieNome, link);
-                reproduzirVideo(serieNome, episodios, link);
+            episodios.forEach(({ nome, link }) => {
+                const episodioLink = document.createElement("a");
+                episodioLink.href = link;
+                episodioLink.textContent = nome;
+                episodioLink.classList.add("episodio");
+                episodioDiv.appendChild(episodioLink);
             });
-            episodioDiv.appendChild(episodioLink);
+
             serieDiv.appendChild(episodioDiv);
-        });
-        
-        serieList.appendChild(serieDiv);
+            serieList.appendChild(serieDiv);
+        }
+    }
+
+    if (!encontrouResultados) {
+        serieList.textContent = "Nenhuma série encontrada.";
     }
 }
+
 function salvarUltimoEpisodio(serieNome, link) {
     localStorage.setItem(`ultimoEpisodio-${serieNome}`, link);
 }
@@ -188,8 +212,4 @@ function reproduzirVideo(serieNome, episodios, linkAtual) {
 // Inicializar a lista de arquivos ao carregar a página
 document.addEventListener("DOMContentLoaded", () => {
     listarArquivos();
-
-    // Adicionar evento para limpar a categoria ao selecionar outra
-    const filtroArquivo = document.getElementById("filtroArquivo");
-    filtroArquivo.addEventListener("change", carregarArquivoM3U);
 });
