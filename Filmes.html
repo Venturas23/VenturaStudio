@@ -62,6 +62,13 @@
         <option value="">Selecione a Categoria</option>
         </select>
         </div>
+        <div class="Barra-Pesquisa">
+            <span class="icon-Search"><i class="bi bi-search"></i></span>
+            <input type="text" id="barraDeBusca" placeholder="Pesquisar canal..." oninput="carregarArquivoM3U()">
+                <select id="filtroArquivo" onchange="carregarArquivoM3U()"></select>
+                
+        </div>
+        <div id="canalList"></div>
 
         <video
     id="videoPlayer"
@@ -69,10 +76,10 @@
     controls
     preload="auto"
     data-setup='{}'>
-        <source src="" type="application/x-mpegurl">
+        <source src="" type="video/mp4">
       </video>
         
-        <ul class="Texto-de-Alerta" id="canalList">Selecione uma Categoria</ul>
+        <ul class="Texto-de-Alerta" id="canalList"></ul>
     </div>
     
     
@@ -80,6 +87,7 @@
     <!-- Adiciona o JS do Video.js -->
  <script src="js/Filmes.js"></script>
  <script src="js/menu.js"></script>
+ <script src="js/Pesquisa.js"></script>
  <script src="js/videocontrol.js"></script>
  <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
  <script src="video.core.min.js"></script>

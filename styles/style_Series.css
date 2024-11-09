@@ -11,9 +11,7 @@ body {
     font-family: var(--fonte-principal);
     background:#000000;
     color: white;
-    width: 100%;
     overflow-x:hidden;
-    height: 100vh;
     
 }
 .Texto-de-Alerta{
@@ -146,107 +144,99 @@ ul li.item-menu a .icon > i{
     position: absolute;
     left: 45%;
 }
-.Pesquisa{
+#serieList {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr)); /* Cria colunas flexíveis */
+    gap: 16px; /* Espaçamento entre as séries */
+    position: relative;
+    
+    left: 90px;
+    top:100px;
+}
+.serie{
+    height: 600px;
+    width: 300px;
+    padding: 20px;
+}
+.serie img{
+    transition: 0.3s ease-in;
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    scale: 1.0;
+}
+.serie img:hover{
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    scale: 1.05;
+}
+.serie h3{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.Barra-Pesquisa{
+    position: absolute;
+    left: 700px;
+    top: 90px;
+}
+
+.Barra-Pesquisa span{
+    transition: 0.3s ease-out;
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+    left: 350px;
+    z-index: 3;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Barra-Pesquisa span:hover{
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #1f1f1f;
+    border-radius: 100%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Barra-Pesquisa span.expandir{
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+    left: 55px;
+}
+.Barra-Pesquisa input{
+    position: relative;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: white;
+    background-color: #1f1f1f;
+    font-size: 18px;
+    border-radius: 100px;
+    padding: 10px;
+    right: 10px;
+    padding-left:100px ;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+}
+.Barra-Pesquisa input.expandir{
+    position: relative;
+    color: white;
+    background-color: #1f1f1f;
+    font-size: 18px;
+    border-radius: 100px;
+    right: 0px;
+    padding: 10px;
+    padding-left:100px ;
+    visibility: visible;
+    opacity: 1;
+}
+.Barra-Pesquisa select{
     visibility: hidden;
 }
-.searchBar{
-    position: absolute;
-    left: 1585px;
-    top: 98px;
-    font-size: 17px;
-    background-color: #353535;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-}
-#serieList {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    top: 130px;
-    left: 120px;
-}
 
-.Item-Geral {
-    transition: 0.3s ease-in;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    background-color: #333;
-    white-space: nowrap;
-    padding: 50px;
-    border-radius: 8px;
-    margin: 10px;
-}
-.Titulo-Geral{
-    position: relative;
-    left: -10px;
-    font-size: 26px;
-}
-.Titulo-Geral:hover{
-    position: relative;
-    left: 600px;
-    font-size: 26px;
-}
-.Link-Retorn{
-    width: 300px;
-    height: 500px;
-}
-.Capa-Geral {
-    transition: 0.3s ease-in-out;
-    position:static;
-    width: 300px;
-    height: 500px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    z-index: 2;
-    transform: scale(1.0);
-}
-.Capa-Geral:hover {
-    transform: scale(1.1);
-}
-.Episodio-All{
-    display: inline-flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    padding-right: 150px;
-    border-radius: 8px;
-    width: 80%;
-    left: 250%;
-    height: auto;
-    
-}
-.episodio {
-    transition: 0.3s ease-in-out;
-    position: relative;
-    display: inline-block;
-    background-color: #555;
-    color: #fff;
-    padding: 8px 12px;
-    border-radius: 5px;
-    top: 0;
-    text-decoration: none;
-    font-size: 17px;
-    flex-wrap: wrap;
-    transition: background-color 0.3s;
-    cursor: pointer;
-    z-index: 2 ;
-    text-overflow: ellipsis;
-    transform: scale(1.0);
-}
 
-.episodio:hover {
-    transform: scale(1.1);
-    background-color: #777;
-}
-.videojs{
-    position:fixed;
-    z-index: 3;
-}

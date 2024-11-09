@@ -143,11 +143,9 @@ ul li.item-menu a .icon > i{
 .Lista-Filmes{
     display: inline-block;
     position: absolute;
-    left: 45%;
+    left: 5%;
 }
-.Titulo-Geral{
-    visibility: hidden;
-}
+
 .Capa-Geral{
     position: relative;
     width: 300px;
@@ -170,9 +168,9 @@ ul li.item-menu a .icon > i{
 
 .Item-Geral{
     position: relative;
-    top: 100px;
-    left: 50px;
-    display: inline-block;
+    top: 120px;
+    left: 120px;
+    display: inline-flex;
     margin: 10px;
     text-align: center;
     font-size: 200%;
@@ -180,4 +178,67 @@ ul li.item-menu a .icon > i{
     width: 340px;
     height: 700px;
     overflow: hidden;
+}
+.Item-Geral p{
+    visibility: hidden;
+}
+.Barra-Pesquisa{
+    position: absolute;
+    left: 870px;
+    top: 90px;
+}
+
+.Barra-Pesquisa span{
+    transition: 0.3s ease-out;
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+    left: 350px;
+    z-index: 3;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Barra-Pesquisa span:hover{
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #1f1f1f;
+    border-radius: 100%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Barra-Pesquisa span.expandir{
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+    left: 55px;
+}
+.Barra-Pesquisa input{
+    position: relative;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: white;
+    background-color: #1f1f1f;
+    font-size: 18px;
+    border-radius: 100px;
+    padding: 10px;
+    right: 10px;
+    padding-left:100px ;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+}
+.Barra-Pesquisa input.expandir{
+    position: relative;
+    color: white;
+    background-color: #1f1f1f;
+    font-size: 18px;
+    border-radius: 100px;
+    right: 0px;
+    padding: 10px;
+    padding-left:100px ;
+    visibility: visible;
+    opacity: 1;
+}
+.Barra-Pesquisa select{
+    visibility: hidden;
 }

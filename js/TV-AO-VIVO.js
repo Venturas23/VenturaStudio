@@ -1,6 +1,6 @@
 const arquivosM3U = [
-    'js/Lista/M3U/Canais Escolhidos.m3u',
-    'js/Lista/M3U/Canais TV Aberta.m3u'
+    'js/Lista/M3U/TV-AO-VIVO/Canais Escolhidos.m3u',
+    'js/Lista/M3U/TV-AO-VIVO/Canais TV Aberta.m3u'
     // Adicione mais arquivos aqui
   ];
   function removerExtensao(nomeArquivo) {

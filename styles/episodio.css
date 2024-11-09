@@ -1,0 +1,129 @@
+:root {
+    --fonte-principal:"Poppins";
+    --vermelho: #E50914;
+    --preta: #141414;
+    --cinzagra:linear-gradient(0deg, #000000 35.49%, #1f1f1f 165.37%);
+    --cinzagraops:linear-gradient(180deg, #000000 35.49%, #1f1f1f 165.37%);
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background:#000000;
+    color: white;
+    width: 100%;
+    overflow-x:hidden;
+    height: 100vh;
+    
+}
+nav.Barra-Lateral{
+    width: 150px;
+    height: 100%;
+    background-color:#0e0e0e ;
+    padding: 40px 0 0px 0;
+    box-shadow: 0 0 50px #0e0e0e;
+    position: fixed;
+    top: 0px;
+    left: -42px;
+    overflow: hidden;
+    transition: .4s ease-out;
+    z-index: 10;
+}
+nav.Barra-Lateral.expandir{
+    width: 300px;
+}
+.btn-expandir{
+    width: 100%;
+    padding-left: 75px;
+}
+.btn-expandir > i{
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.img--cabeçalho{
+    position: relative;
+    left: 2%;
+    padding-left: 40px;
+    transition: .5s;
+    opacity: 0;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu{
+    transition: 0.5s ease;
+    
+}
+ul li.ativo{
+    background-color: #1f1f1f;
+}
+ul li.item-menu:hover{
+    background-color: #353535;
+}
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 0;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+ul li.item-menu a .txt-link{
+    margin-left: 80px;
+    white-space: nowrap;
+    transition: .5s;
+    opacity: 0;
+}
+nav.Barra-Lateral.expandir .txt-link{
+    margin-left: 45px;
+    opacity: 1;
+}
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    padding-left: 35px;
+
+}
+.Lista-Filmes{
+    position: absolute;
+    left: 250px;
+}
+.tituloSerie{
+    position: relative;
+    left: 35%;
+}
+.video-js{
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    width:700px ;
+    height: 500px;
+}
+.episodiosList{
+    position: relative;
+    width: 1000px;
+    left: 20%;
+}
+.episodiosList a{
+    display: inline-flex;
+    transition: 0.3s ease-out;
+    margin: 10px;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+.episodiosList a:hover{
+    margin: 10px;
+    background-color: #353535;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+.video-js{
+    position: relative;
+    top: 100px;
+}

@@ -50,7 +50,6 @@
     </nav>
     <div class="header">
         <h1 class="Lista-Filmes">Lista de Séries</h1>
-        <a class="cabeçalho-pesquisa" href="">Pesquisa</a>
     </div>
     <div class="Marcação">
         <div class="Alinhar">
@@ -62,8 +61,12 @@
         <!-- Aqui os arquivos .m3u serão adicionados dinamicamente -->
         </select>
         </div>
-        <input class="searchBar" type="text" id="searchBar" oninput="listarArquivos()" placeholder="Search for series...">
-        <select id="filtroArquivo"></select>
+        <div class="Barra-Pesquisa">
+            <span class="icon-Search"><i class="bi bi-search"></i></span>
+            <input type="text" id="barraDeBusca" placeholder="Pesquisar canal..." oninput="carregarArquivoM3U()">
+                <select id="filtroArquivo" onchange="carregarArquivoM3U()"></select>
+                
+        </div>
         
         <ul class="Texto-de-Alerta" id="canalList">Selecione uma Categoria</ul>
     </div>
@@ -71,12 +74,13 @@
 
     <div id="serieList"></div>
     
-    <video id="videoPlayer" class="videojs" controls></video>
+    
 
 
     <!-- Adiciona o JS do Video.js -->
  <script src="js/Series.js"></script>
  <script src="js/menu.js"></script>
+ <script src="js/Pesquisa.js"></script>
  <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
  
 
