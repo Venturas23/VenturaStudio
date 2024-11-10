@@ -1,11 +1,16 @@
 const arquivosM3U = [
     'js/Lista/M3U/FILMES/Filmes 4K.m3u',
     'js/Lista/M3U/FILMES/Filmes Ação & Aventura.m3u',
-    'js/Lista/M3U/FILMES/Filmes Cinema.m3u js/Lista/M3U/FILMES/Filmes Clássicos Legendados.m3u',
-    'js/Lista/M3U/FILMES/Filmes Clássicos.m3u js/Lista/M3U/FILMES/Filmes Comédia.m3u',
-    'js/Lista/M3U/FILMES/Filmes Crime.m3u js/Lista/M3U/FILMES/Filmes Dança.m3u',
-    'js/Lista/M3U/FILMES/Filmes DC Universe.m3u js/Lista/M3U/FILMES/Filmes Drama & Suspense.m3u',
-    'js/Lista/M3U/FILMES/Filmes Fantasia.m3u js/Lista/M3U/FILMES/Filmes Faroeste.m3u',
+    'js/Lista/M3U/FILMES/Filmes Cinema.m3u',
+    'js/Lista/M3U/FILMES/Filmes Clássicos Legendados.m3u',
+    'js/Lista/M3U/FILMES/Filmes Clássicos.m3u ',
+    'js/Lista/M3U/FILMES/Filmes Comédia.m3u',
+    'js/Lista/M3U/FILMES/Filmes Crime.m3u',
+    'js/Lista/M3U/FILMES/Filmes Dança.m3u',
+    'js/Lista/M3U/FILMES/Filmes DC Universe.m3u',
+    'js/Lista/M3U/FILMES/Filmes Drama & Suspense.m3u',
+    'js/Lista/M3U/FILMES/Filmes Fantasia.m3u',
+    'js/Lista/M3U/FILMES/Filmes Faroeste.m3u',
     'js/Lista/M3U/FILMES/Filmes Geral.m3u',
     'js/Lista/M3U/FILMES/Filmes Guerra.m3u',
     'js/Lista/M3U/FILMES/Filmes Infantil.m3u',
@@ -46,93 +51,127 @@ const arquivosM3U = [
         }
 
         // Função para carregar e processar o arquivo M3U selecionado
+        let itensPorPagina = 45;
+        let paginaAtual = 1;
+        let m3uTextGlobal = '';  // Variável global para armazenar o conteúdo do arquivo
+        
         async function carregarArquivoM3U() {
+            // Redefine a página atual para 1 ao selecionar um novo filtro
+            paginaAtual = 1;
+        
             const arquivoSelecionado = document.getElementById("filtroArquivo").value;
             const termoBusca = document.getElementById("barraDeBusca").value.toLowerCase();
             if (!arquivoSelecionado) return;
-
-        try {
-            const response = await fetch(arquivoSelecionado);
-            if (!response.ok) throw new Error(`Erro: ${response.statusText}`);
         
-            const m3uText = await response.text();
-            exibirCanais(m3uText, termoBusca);
-        } catch (error) {
-            console.error("Erro ao carregar o arquivo M3U:", error);
-            document.getElementById("canalList").textContent = "Erro ao carregar canais.";
-    }
+            try {
+                const response = await fetch(arquivoSelecionado);
+                if (!response.ok) throw new Error(`Erro: ${response.statusText}`);
+            
+                m3uTextGlobal = await response.text();  // Armazena o conteúdo do arquivo M3U
+                exibirCanais(m3uTextGlobal, termoBusca);  // Chama exibirCanais diretamente
+            } catch (error) {
+                console.error("Erro ao carregar o arquivo M3U:", error);
+                document.getElementById("canalList").textContent = "Erro ao carregar canais.";
+            }
         }
-
-        // Função para processar e exibir os canais do arquivo M3U
-        // Função para processar e exibir os canais do arquivo M3U
-function exibirCanais(m3uText) {
-    const linhas = m3uText.split("\n");
-    const canalList = document.getElementById("canalList");
-    const termoBusca = document.getElementById("barraDeBusca").value.toLowerCase();
-
-    // Limpa a lista antes de exibir
-    canalList.innerHTML = ''; 
-
-    let nomeCanal = '';
-    let grupo = '';
-    let capa = '';
-    let link = '';
-
-    // Itera sobre cada linha do arquivo M3U
-    linhas.forEach(linha => {
-        linha = linha.trim();
-
-        if (linha.startsWith("#EXTINF")) {
-            nomeCanal = linha.split(",")[1] || 'Canal Sem Nome';
-            grupo = linha.includes("group-title=") 
-                    ? linha.split("group-title=")[1].split('"')[1]
-                    : 'Outros';
-            capa = linha.includes("tvg-logo=") 
-                   ? linha.split("tvg-logo=")[1].split('"')[1]
-                   : '';
-        } else if (linha && !linha.startsWith("#")) {
-            link = linha;
-
-            // Aplica o filtro de busca no conteúdo do canal
-            if (nomeCanal.toLowerCase().includes(termoBusca) ||
-                grupo.toLowerCase().includes(termoBusca) ||
-                link.toLowerCase().includes(termoBusca)) {
-
+        
+        function exibirCanais(m3uText, termoBusca) {
+            const linhas = m3uText.split("\n");
+            const canalList = document.getElementById("canalList");
+            canalList.innerHTML = ''; 
+        
+            let nomeCanal = '';
+            let grupo = '';
+            let capa = '';
+            let link = '';
+            
+            // Filtrar linhas que contêm o termo de busca
+            const canaisFiltrados = linhas.reduce((result, linha) => {
+                linha = linha.trim();
+                if (linha.startsWith("#EXTINF")) {
+                    nomeCanal = linha.split(",")[1] || 'Canal Sem Nome';
+                    grupo = linha.includes("group-title=") 
+                            ? linha.split("group-title=")[1].split('"')[1]
+                            : 'Outros';
+                    capa = linha.includes("tvg-logo=") 
+                           ? linha.split("tvg-logo=")[1].split('"')[1]
+                           : '';
+                } else if (linha && !linha.startsWith("#")) {
+                    link = linha;
+                    if (nomeCanal.toLowerCase().includes(termoBusca) ||
+                        grupo.toLowerCase().includes(termoBusca) ||
+                        link.toLowerCase().includes(termoBusca)) {
+                        result.push({ nomeCanal, grupo, capa, link });
+                    }
+                    nomeCanal = '';
+                    grupo = '';
+                    capa = '';
+                    link = '';
+                }
+                return result;
+            }, []);
+        
+            // Calcular o índice inicial e final para a página atual
+            const inicio = (paginaAtual - 1) * itensPorPagina;
+            const fim = inicio + itensPorPagina;
+            const canaisPaginados = canaisFiltrados.slice(inicio, fim);
+        
+            // Exibir itens paginados
+            canaisPaginados.forEach(canal => {
                 const listItem = document.createElement("div");
                 listItem.classList.add('Item-Geral');
-
+                
                 const linkElement = document.createElement("a");
-                linkElement.href = link;
-                linkElement.textContent = nomeCanal;
+                linkElement.href = canal.link;
+                linkElement.textContent = canal.nomeCanal;
                 linkElement.style = 'visibility:collapse';
-
-                // Adiciona imagem de capa, se disponível
-                if (capa) {
+        
+                if (canal.capa) {
                     const img = document.createElement("img");
-                    img.src = capa;
-                    img.alt = `Capa de ${nomeCanal}`;
+                    img.src = canal.capa;
+                    img.alt = `Capa de ${canal.nomeCanal}`;
                     img.classList.add('Capa-Geral');
-                    img.href = link;
+                    img.href = canal.link;
                     listItem.appendChild(img);
                     
                     img.onclick = (e) => {
                         e.preventDefault();
-                        reproduzirVideo(linha);
+                        reproduzirVideo(canal.link);
                     };
                 }
-
+        
                 listItem.appendChild(linkElement);
                 canalList.appendChild(listItem);
-            }
-
-            // Limpa as variáveis para o próximo canal
-            nomeCanal = '';
-            grupo = '';
-            capa = '';
-            link = '';
+            });
+        
+            // Exibir botões de navegação
+            exibirBotoesPaginacao(canaisFiltrados.length);
         }
-    });
-}
+        
+        function exibirBotoesPaginacao(totalItens) {
+            const totalPaginas = Math.ceil(totalItens / itensPorPagina);
+            const paginacaoContainer = document.getElementById("paginacaoContainer");
+            paginacaoContainer.innerHTML = ''; // Limpa os botões anteriores
+        
+            for (let i = 1; i <= totalPaginas; i++) {
+                const botao = document.createElement("button");
+                botao.textContent = i;
+                botao.classList.add('botao-paginacao');
+                if (i === paginaAtual) {
+                    botao.classList.add('ativo');
+                }
+                botao.onclick = () => mudarPagina(i);
+                paginacaoContainer.appendChild(botao);
+            }
+        }
+        
+        function mudarPagina(novaPagina) {
+            paginaAtual = novaPagina;
+            const termoBusca = document.getElementById("barraDeBusca").value.toLowerCase();
+            exibirCanais(m3uTextGlobal, termoBusca);  // Exibe a nova página diretamente
+        }
+        
+                
 
         
         function reproduzirVideo(url) {

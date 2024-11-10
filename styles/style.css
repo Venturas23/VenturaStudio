@@ -242,3 +242,23 @@ ul li.item-menu a .icon > i{
 .Barra-Pesquisa select{
     visibility: hidden;
 }
+.paginacaoContainer{
+    position: relative;
+    left: 120px;
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha quando o limite da tela é atingido */
+    gap: 8px; /* Espaçamento entre os botões */
+    justify-content: center; /* Centraliza os botões na horizontal */
+    margin-top: 10px;
+    width: 2200px;
+}
+
+.botao-paginacao {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 100%;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
