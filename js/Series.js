@@ -32,16 +32,13 @@ function listarArquivos() {
     const filtroArquivo = document.getElementById("filtroArquivo");
     const termoBusca = document.getElementById("barraDeBusca").value.toLowerCase();
 
-    // Limpa o seletor antes de adicionar as opções
-    filtroArquivo.innerHTML = '';
+    filtroArquivo.innerHTML = ''; // Limpa as opções anteriores
 
-    // Adiciona a opção inicial
     const option_null = document.createElement("option");
     option_null.value = "";
     option_null.textContent = 'Selecione a Categoria';
     filtroArquivo.appendChild(option_null);
 
-    // Filtra os arquivos e adiciona as opções
     arquivosM3U
         .filter(arquivo => removerExtensao(arquivo.split('/').pop()).toLowerCase().includes(termoBusca))
         .forEach(arquivo => {
@@ -50,7 +47,11 @@ function listarArquivos() {
             option.textContent = removerExtensao(arquivo.split('/').pop());
             filtroArquivo.appendChild(option);
         });
+
+    // Reinicia para a primeira página ao aplicar novo filtro
+    paginaAtual = 1;
 }
+
 
 // Função para carregar o arquivo M3U selecionado
 async function carregarArquivoM3U() {
@@ -73,34 +74,47 @@ async function carregarArquivoM3U() {
 // Função para exibir as séries do arquivo M3U na página
 function exibirSeries(m3uText) {
     const linhas = m3uText.split("\n");
-    seriesAgrupadas = {}; // Limpa as séries agrupadas
+    seriesAgrupadas = {}; // Limpa o objeto que guarda as séries agrupadas
 
     let serieNomeAtual = '';
-    linhas.forEach(linha => {
+    linhas.forEach((linha, index) => {
         linha = linha.trim();
 
+        // Verifica se a linha inicia com #EXTINF e possui os atributos
         if (linha.startsWith("#EXTINF")) {
-            const [info, nome] = linha.split(",");
-            const match = nome.match(/(.*) (S\d+E\d+)/);
+            const tvgNameMatch = linha.match(/tvg-name="([^"]+)"/);
+            const tvgLogoMatch = linha.match(/tvg-logo="([^"]+)"/);
+            const groupTitleMatch = linha.match(/group-title="([^"]+)"/);
+
+            const nomeCompleto = tvgNameMatch ? tvgNameMatch[1] : 'Nome Desconhecido';
+            const capa = tvgLogoMatch ? tvgLogoMatch[1] : '';
+            const categoria = groupTitleMatch ? groupTitleMatch[1] : 'Outros';
+
+            // Extrai o nome da série e o episódio a partir do nome completo
+            const match = nomeCompleto.match(/(.*) (S\d+E\d+)/);
 
             if (match) {
                 const [serieNome, temporadaEp] = match.slice(1);
-                const capa = info.includes("tvg-logo=") ? info.split("tvg-logo=")[1].split('"')[1] : '';
 
+                // Verifica se a série já foi adicionada no objeto de agrupamento
                 if (!seriesAgrupadas[serieNome]) {
-                    seriesAgrupadas[serieNome] = { capa, episodios: [] };
+                    seriesAgrupadas[serieNome] = { capa, categoria, episodios: [] };
                 }
 
+                // Adiciona o episódio na série correspondente
                 seriesAgrupadas[serieNome].episodios.push({ nome: temporadaEp, link: '' });
                 serieNomeAtual = serieNome;
             } else {
-                console.warn("Linha #EXTINF não tem o formato esperado:", linha);
+                console.warn("Formato inesperado no nome do episódio:", nomeCompleto);
             }
-        } else if (linha && !linha.startsWith("#")) {
+        } 
+        // Linha seguinte ao #EXTINF contém o link do episódio
+        else if (linha && !linha.startsWith("#")) {
             if (serieNomeAtual && seriesAgrupadas[serieNomeAtual]) {
-                seriesAgrupadas[serieNomeAtual].episodios.slice(-1)[0].link = linha;
+                const ultimoEpisodio = seriesAgrupadas[serieNomeAtual].episodios.slice(-1)[0];
+                ultimoEpisodio.link = linha;
             } else {
-                console.warn("Tentativa de adicionar link sem série correspondente:", linha);
+                console.warn("Link encontrado sem série correspondente:", linha);
             }
         }
     });
@@ -108,67 +122,73 @@ function exibirSeries(m3uText) {
     exibirSeriesNaPagina(seriesAgrupadas);
 }
 
+let itensPorPagina = 45; // Número de séries por página
+let paginaAtual = 1;    // Página inicial
+
 // Função para exibir as séries na página com base na pesquisa
 function exibirSeriesNaPagina(seriesAgrupadas) {
     const serieList = document.getElementById("serieList");
     serieList.innerHTML = '';
-
+    
     const termoBusca = document.getElementById("barraDeBusca").value.toLowerCase();
+    
+    // Filtra as séries de acordo com o termo de busca
+    const seriesFiltradas = Object.entries(seriesAgrupadas)
+        .filter(([serieNome]) => serieNome.toLowerCase().includes(termoBusca));
 
-    for (const [serieNome, { capa, episodios }] of Object.entries(seriesAgrupadas)) {
-        // Se a pesquisa corresponder ao nome da série ou episódio
-        if (serieNome.toLowerCase().includes(termoBusca)) {
-            const serieDiv = document.createElement("div");
-            serieDiv.classList.add("serie");
+    // Calcular o índice de início e fim para a paginação
+    const inicio = (paginaAtual - 1) * itensPorPagina;
+    const fim = inicio + itensPorPagina;
+    const seriesPaginadas = seriesFiltradas.slice(inicio, fim);
 
-            const tituloSerie = document.createElement("h3");
-            tituloSerie.textContent = serieNome;
-            serieDiv.appendChild(tituloSerie);
+    seriesPaginadas.forEach(([serieNome, { capa, episodios }]) => {
+        const serieDiv = document.createElement("div");
+        serieDiv.classList.add("serie");
 
-            if (capa) {
-                const imgCapa = document.createElement("img");
-                imgCapa.src = capa;
-                imgCapa.alt = `Capa de ${serieNome}`;
-                imgCapa.classList.add("capa");
+        const tituloSerie = document.createElement("h3");
+        tituloSerie.textContent = serieNome;
+        serieDiv.appendChild(tituloSerie);
 
-                imgCapa.addEventListener("click", () => {
-                    window.location.href = `episodios.html?serie=${encodeURIComponent(serieNome)}`;
-                });
+        if (capa) {
+            const imgCapa = document.createElement("img");
+            imgCapa.src = capa;
+            imgCapa.alt = `Capa de ${serieNome}`;
+            imgCapa.classList.add("capa");
 
-                serieDiv.appendChild(imgCapa);
-            }
-
-            serieList.appendChild(serieDiv);
-        } else {
-            // Filtra episódios
-            episodios.forEach(episodio => {
-                if (episodio.nome.toLowerCase().includes(termoBusca)) {
-                    const serieDiv = document.createElement("div");
-                    serieDiv.classList.add("serie");
-
-                    const tituloSerie = document.createElement("h3");
-                    tituloSerie.textContent = serieNome;
-                    serieDiv.appendChild(tituloSerie);
-
-                    if (capa) {
-                        const imgCapa = document.createElement("img");
-                        imgCapa.src = capa;
-                        imgCapa.alt = `Capa de ${serieNome}`;
-                        imgCapa.classList.add("capa");
-
-                        imgCapa.addEventListener("click", () => {
-                            window.location.href = `episodios.html?serie=${encodeURIComponent(serieNome)}`;
-                        });
-
-                        serieDiv.appendChild(imgCapa);
-                    }
-
-                    serieList.appendChild(serieDiv);
-                }
+            imgCapa.addEventListener("click", () => {
+                window.location.href = `episodios.html?serie=${encodeURIComponent(serieNome)}`;
             });
+
+            serieDiv.appendChild(imgCapa);
         }
+
+        serieList.appendChild(serieDiv);
+    });
+
+    // Exibe os botões de navegação de página
+    exibirBotoesPaginacao(seriesFiltradas.length);
+}
+function exibirBotoesPaginacao(totalItens) {
+    const totalPaginas = Math.ceil(totalItens / itensPorPagina);
+    const paginacaoContainer = document.getElementById("paginacaoContainer");
+    paginacaoContainer.innerHTML = ''; // Limpa os botões anteriores
+
+    for (let i = 1; i <= totalPaginas; i++) {
+        const botao = document.createElement("button");
+        botao.textContent = i;
+        botao.classList.add('botao-paginacao');
+        if (i === paginaAtual) {
+            botao.classList.add('ativo');
+        }
+        botao.onclick = () => mudarPagina(i);
+        paginacaoContainer.appendChild(botao);
     }
 }
+function mudarPagina(novaPagina) {
+    paginaAtual = novaPagina;
+    exibirSeriesNaPagina(seriesAgrupadas);
+}
+
 
 // Inicializar ao carregar a página
 document.addEventListener('DOMContentLoaded', () => {

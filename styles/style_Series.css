@@ -238,5 +238,32 @@ ul li.item-menu a .icon > i{
 .Barra-Pesquisa select{
     visibility: hidden;
 }
+#paginacaoContainer{
+    position: relative;
+    top: 70px;
+    left: 120px;
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha quando o limite da tela é atingido */
+    gap: 8px; /* Espaçamento entre os botões */
+    justify-content: center; /* Centraliza os botões na horizontal */
+    margin-top: 10px;
+    width: 1900px;
+}
+
+.botao-paginacao {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 100%;
+    background-color: #0e0e0e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+.botao-paginacao:hover{
+    background-color: #1f1f1f;
+}
+.botao-paginacao.ativo{
+    background-color: #353535;
+}
 
 

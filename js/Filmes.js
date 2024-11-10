@@ -3,7 +3,7 @@ const arquivosM3U = [
     'js/Lista/M3U/FILMES/Filmes Ação & Aventura.m3u',
     'js/Lista/M3U/FILMES/Filmes Cinema.m3u',
     'js/Lista/M3U/FILMES/Filmes Clássicos Legendados.m3u',
-    'js/Lista/M3U/FILMES/Filmes Clássicos.m3u ',
+    'js/Lista/M3U/FILMES/Filmes Clássicos.m3u',
     'js/Lista/M3U/FILMES/Filmes Comédia.m3u',
     'js/Lista/M3U/FILMES/Filmes Crime.m3u',
     'js/Lista/M3U/FILMES/Filmes Dança.m3u',
