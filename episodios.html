@@ -9,86 +9,86 @@
     <link rel="stylesheet" href="styles/episodio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script>
-        const arquivosM3U = [
-            'js/Lista/M3U/SERIES/Séries Geral.m3u'
-        ];
-        let episodios = []; // Para armazenar a lista de episódios carregados
-        let episodioAtualIndex = 0; // Índice do episódio atual
+       const arquivosM3U = [
+    'js/Lista/M3U/SERIES/Séries Geral.m3u'
+];
+let episodios = []; // Lista de episódios carregados
+let episodioAtualIndex = 0; // Índice do episódio atual
 
-        async function carregarEpisodios() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const serie = urlParams.get('serie');
-            if (!serie) {
-                document.getElementById('episodiosList').textContent = 'Nenhuma série selecionada.';
-                return;
-            }
+async function carregarEpisodios() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const serie = urlParams.get('serie');
+    if (!serie) {
+        document.getElementById('episodiosList').textContent = 'Nenhuma série selecionada.';
+        return;
+    }
 
-            document.title = `Episódios de ${serie}`;
-            document.getElementById('tituloSerie').textContent = `Episódios de ${serie}`;
+    document.title = `Episódios de ${serie}`;
+    document.getElementById('tituloSerie').textContent = `Episódios de ${serie}`;
 
-            for (const arquivo of arquivosM3U) {
-                try {
-                    const response = await fetch(arquivo);
-                    if (!response.ok) continue;
-                    const m3uText = await response.text();
-                    exibirEpisodiosDaSerie(m3uText, serie);
-                } catch (error) {
-                    console.error(`Erro ao carregar o arquivo ${arquivo}:`, error.message);
-                }
-            }
-
-            // Carrega o último episódio assistido, se houver
-            const ultimoEpisodio = localStorage.getItem(`ultimoEpisodio_${serie}`);
-            if (ultimoEpisodio) {
-                const ultimoIndex = episodios.findIndex(ep => ep.link === ultimoEpisodio);
-                if (ultimoIndex !== -1) {
-                    episodioAtualIndex = ultimoIndex;
-                    reproduzirVideo(episodios[episodioAtualIndex].link);
-                }
-            }
+    for (const arquivo of arquivosM3U) {
+        try {
+            const response = await fetch(arquivo);
+            if (!response.ok) continue;
+            const m3uText = await response.text();
+            exibirEpisodiosDaSerie(m3uText, serie);
+        } catch (error) {
+            console.error(`Erro ao carregar o arquivo ${arquivo}:`, error.message);
         }
+    }
 
-        function exibirEpisodiosDaSerie(m3uText, serie) {
-            const linhas = m3uText.split("\n");
-            const episodiosList = document.getElementById('episodiosList');
-            episodiosList.innerHTML = '';
+    // Carrega o último episódio assistido, se houver
+    const ultimoEpisodio = localStorage.getItem(`ultimoEpisodio_${serie}`);
+    if (ultimoEpisodio) {
+        const ultimoIndex = episodios.findIndex(ep => ep.link === ultimoEpisodio);
+        if (ultimoIndex !== -1) {
+            episodioAtualIndex = ultimoIndex;
+            reproduzirVideo(episodios[episodioAtualIndex].link);
+        }
+    }
+}
 
-            linhas.forEach((linha, index) => {
-                linha = linha.trim();
-                if (linha.startsWith("#EXTINF")) {
-                    const [info, nome] = linha.split(",");
-                    const match = nome.match(/(.*) (S\d+E\d+)/);
-                    if (match) {
-                        const [serieNome, temporadaEp] = match.slice(1);
-                        if (serieNome.trim() === serie.trim()) {
-                            const link = linhas[index + 1]?.trim();
-                            if (link && !link.startsWith("#")) {
-                                const episodioObj = { nome: temporadaEp, link: link };
-                                episodios.push(episodioObj);
+function exibirEpisodiosDaSerie(m3uText, serie) {
+    const linhas = m3uText.split("\n");
+    const episodiosList = document.getElementById('episodiosList');
+    episodiosList.innerHTML = '';
 
-                                // Cria o link do episódio na página
-                                const episodioLink = document.createElement("a");
-                                episodioLink.href = link;
-                                episodioLink.textContent = temporadaEp;
-                                episodioLink.classList.add("episodio");
-                                episodioLink.addEventListener("click", (e) => {
-                                    e.preventDefault();
-                                    episodioAtualIndex = episodios.indexOf(episodioObj);
-                                    reproduzirVideo(link);
-                                });
-                                episodiosList.appendChild(episodioLink);
-                            }
-                        }
+    linhas.forEach((linha, index) => {
+        linha = linha.trim();
+        if (linha.startsWith("#EXTINF")) {
+            const [info, nome] = linha.split(",");
+            const match = nome.match(/^(.*) \((\d{4})\) (S\d+ E\d+)/); // Novo regex para "1 Contra Todos (2016) S1 E1"
+            if (match) {
+                const [_, serieNome, ano, temporadaEp] = match;
+                if (serieNome.trim() === serie.trim()) {
+                    const link = linhas[index + 1]?.trim();
+                    if (link && !link.startsWith("#")) {
+                        const episodioObj = { nome: temporadaEp, link: link };
+                        episodios.push(episodioObj);
+
+                        // Cria o link do episódio na página
+                        const episodioLink = document.createElement("a");
+                        episodioLink.href = link;
+                        episodioLink.textContent = `${temporadaEp} (${ano})`;
+                        episodioLink.classList.add("episodio");
+                        episodioLink.addEventListener("click", (e) => {
+                            e.preventDefault();
+                            episodioAtualIndex = episodios.indexOf(episodioObj);
+                            reproduzirVideo(link);
+                        });
+                        episodiosList.appendChild(episodioLink);
                     }
                 }
-            });
-
-            if (episodios.length === 0) {
-                episodiosList.textContent = 'Nenhum episódio encontrado para esta série.';
             }
         }
+    });
 
-        function reproduzirVideo(url) {
+    if (episodios.length === 0) {
+        episodiosList.textContent = 'Nenhum episódio encontrado para esta série.';
+    }
+}
+
+function reproduzirVideo(url) {
     const player = videojs('videoPlayer'); // Inicializa o player
     player.src({ type: 'video/mp4', src: url }); // Define a fonte do vídeo
 
@@ -103,7 +103,7 @@
     localStorage.setItem(`ultimoEpisodio_${serie}`, url);
 
     // Evento para passar para o próximo episódio ao terminar
-    player.on('ended', () => { // Usa o objeto player ao invés de VideoPlayer
+    player.on('ended', () => {
         episodioAtualIndex++;
         if (episodioAtualIndex < episodios.length) {
             reproduzirVideo(episodios[episodioAtualIndex].link);
@@ -111,7 +111,9 @@
     });
 }
 
-        document.addEventListener('DOMContentLoaded', carregarEpisodios);
+document.addEventListener('DOMContentLoaded', carregarEpisodios);
+
+
     </script>
 </head>
 <body>

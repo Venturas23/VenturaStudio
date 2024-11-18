@@ -1,6 +1,6 @@
 const arquivosM3U = [
-    'js/Lista/M3U/TV-AO-VIVO/Canais Escolhidos.m3u',
-    'js/Lista/M3U/TV-AO-VIVO/Canais TV Aberta.m3u'
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/TV-AO-VIVO/Canais Escolhidos.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/TV-AO-VIVO/Canais TV Aberta.m3u'
     // Adicione mais arquivos aqui
   ];
   function removerExtensao(nomeArquivo) {

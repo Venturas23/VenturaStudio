@@ -1,23 +1,30 @@
 const arquivosM3U = [
-    'js/Lista/M3U/SERIES/Séries Animação(Desenho).m3u',
-    'js/Lista/M3U/SERIES/Séries Animações (Clássicos).m3u',
-    'js/Lista/M3U/SERIES/Séries Anime (Dublado).m3u',
-    'js/Lista/M3U/SERIES/Séries Anime (Legendado).m3u',
-    'js/Lista/M3U/SERIES/Séries Apple TV.m3u',
-    'js/Lista/M3U/SERIES/Séries Classicos.m3u',
-    'js/Lista/M3U/SERIES/Séries Discovery.m3u',
-    'js/Lista/M3U/SERIES/Séries Disney.m3u',
-    'js/Lista/M3U/SERIES/Séries Dorama.m3u',
+    'js/Lista/M3U/SERIES/Séries Amazon Prime Video.m3u',
+    'js/Lista/M3U/SERIES/Séries AMC Plus.m3u',
+    'js/Lista/M3U/SERIES/Séries Apple TV Plus.m3u',
+    'js/Lista/M3U/SERIES/Séries Brasil Paralelo.m3u',
+    'js/Lista/M3U/SERIES/Séries Claro Video.m3u',
+    'js/Lista/M3U/SERIES/Séries Crunchyroll.m3u',
+    'js/Lista/M3U/SERIES/Séries DirecTV.m3u',
+    'js/Lista/M3U/SERIES/Séries Discovery Plus.m3u',
+    'js/Lista/M3U/SERIES/Séries Disney Plus.m3u',
+    'js/Lista/M3U/SERIES/Séries Doramas.m3u',
+    'js/Lista/M3U/SERIES/Séries Funimation Now.m3u',
     'js/Lista/M3U/SERIES/Séries Geral.m3u',
-    'js/Lista/M3U/SERIES/Séries GloboPlay.m3u',
-    'js/Lista/M3U/SERIES/Séries HBO.m3u',
+    'js/Lista/M3U/SERIES/Séries Globoplay.m3u',
+    'js/Lista/M3U/SERIES/Séries Legendadas.m3u',
+    'js/Lista/M3U/SERIES/Séries Lionsgate.m3u',
+    'js/Lista/M3U/SERIES/Séries MAX.m3u',
     'js/Lista/M3U/SERIES/Séries Netflix.m3u',
-    'js/Lista/M3U/SERIES/Séries Novelas Turcas.m3u',
     'js/Lista/M3U/SERIES/Séries Novelas.m3u',
-    'js/Lista/M3U/SERIES/Séries Prime Video.m3u',
-    'js/Lista/M3U/SERIES/Séries Series TV.m3u',
-    'js/Lista/M3U/SERIES/Séries Starz e Paramount+.m3u',
-    'js/Lista/M3U/SERIES/Séries Tokusatsu.m3u'
+    'js/Lista/M3U/SERIES/Séries Outras Produtoras.m3u',
+    'js/Lista/M3U/SERIES/Séries Outros Streams.m3u',
+    'js/Lista/M3U/SERIES/Séries Paramount.m3u',
+    'js/Lista/M3U/SERIES/Séries Programas de TV.m3u',
+    'js/Lista/M3U/SERIES/Séries Sem Grupo.m3u',
+    'js/Lista/M3U/SERIES/Séries Star Plus.m3u',
+    'js/Lista/M3U/SERIES/Séries Tokusatsu.m3u',
+    'js/Lista/M3U/SERIES/Séries Turca.m3u'
 ];
 
 let seriesAgrupadas = {}; // Guardará as séries agrupadas para a pesquisa
@@ -72,15 +79,16 @@ async function carregarArquivoM3U() {
 }
 
 // Função para exibir as séries do arquivo M3U na página
+// Atualizando o padrão de agrupamento
 function exibirSeries(m3uText) {
     const linhas = m3uText.split("\n");
-    seriesAgrupadas = {}; // Limpa o objeto que guarda as séries agrupadas
-
+    seriesAgrupadas = {}; // Reinicia o objeto para agrupar as séries
     let serieNomeAtual = '';
-    linhas.forEach((linha, index) => {
+    
+    linhas.forEach((linha) => {
         linha = linha.trim();
-
-        // Verifica se a linha inicia com #EXTINF e possui os atributos
+        
+        // Detecta linhas #EXTINF com tvg-name
         if (linha.startsWith("#EXTINF")) {
             const tvgNameMatch = linha.match(/tvg-name="([^"]+)"/);
             const tvgLogoMatch = linha.match(/tvg-logo="([^"]+)"/);
@@ -90,25 +98,24 @@ function exibirSeries(m3uText) {
             const capa = tvgLogoMatch ? tvgLogoMatch[1] : '';
             const categoria = groupTitleMatch ? groupTitleMatch[1] : 'Outros';
 
-            // Extrai o nome da série e o episódio a partir do nome completo
-            const match = nomeCompleto.match(/(.*) (S\d+E\d+)/);
-
+            // Padrão ajustado para "Nome da Série (Ano) S1 E1"
+            const match = nomeCompleto.match(/^(.*) \((\d{4})\) (S\d+ E\d+)/);
             if (match) {
-                const [serieNome, temporadaEp] = match.slice(1);
+                const [_, serieNome, ano, episodio] = match;
 
-                // Verifica se a série já foi adicionada no objeto de agrupamento
+                // Inicializa série se ainda não existir
                 if (!seriesAgrupadas[serieNome]) {
-                    seriesAgrupadas[serieNome] = { capa, categoria, episodios: [] };
+                    seriesAgrupadas[serieNome] = { capa, categoria, ano, episodios: [] };
                 }
 
-                // Adiciona o episódio na série correspondente
-                seriesAgrupadas[serieNome].episodios.push({ nome: temporadaEp, link: '' });
+                // Adiciona episódio à série correspondente
+                seriesAgrupadas[serieNome].episodios.push({ nome: episodio, link: '' });
                 serieNomeAtual = serieNome;
             } else {
                 console.warn("Formato inesperado no nome do episódio:", nomeCompleto);
             }
         } 
-        // Linha seguinte ao #EXTINF contém o link do episódio
+        // A linha seguinte ao #EXTINF é o link
         else if (linha && !linha.startsWith("#")) {
             if (serieNomeAtual && seriesAgrupadas[serieNomeAtual]) {
                 const ultimoEpisodio = seriesAgrupadas[serieNomeAtual].episodios.slice(-1)[0];
@@ -121,15 +128,13 @@ function exibirSeries(m3uText) {
 
     exibirSeriesNaPagina(seriesAgrupadas);
 }
-
 let itensPorPagina = 45; // Número de séries por página
 let paginaAtual = 1;    // Página inicial
-
-// Função para exibir as séries na página com base na pesquisa
+// Exibição agrupada por série
 function exibirSeriesNaPagina(seriesAgrupadas) {
     const serieList = document.getElementById("serieList");
     serieList.innerHTML = '';
-    
+
     const termoBusca = document.getElementById("barraDeBusca").value.toLowerCase();
     
     // Filtra as séries de acordo com o termo de busca
@@ -141,12 +146,12 @@ function exibirSeriesNaPagina(seriesAgrupadas) {
     const fim = inicio + itensPorPagina;
     const seriesPaginadas = seriesFiltradas.slice(inicio, fim);
 
-    seriesPaginadas.forEach(([serieNome, { capa, episodios }]) => {
+    seriesPaginadas.forEach(([serieNome, { capa, categoria, ano, episodios }]) => {
         const serieDiv = document.createElement("div");
         serieDiv.classList.add("serie");
 
         const tituloSerie = document.createElement("h3");
-        tituloSerie.textContent = serieNome;
+        tituloSerie.textContent = `${serieNome} (${ano})`;
         serieDiv.appendChild(tituloSerie);
 
         if (capa) {
@@ -155,8 +160,11 @@ function exibirSeriesNaPagina(seriesAgrupadas) {
             imgCapa.alt = `Capa de ${serieNome}`;
             imgCapa.classList.add("capa");
 
+            // Redireciona ao clicar na capa
             imgCapa.addEventListener("click", () => {
-                window.location.href = `episodios.html?serie=${encodeURIComponent(serieNome)}`;
+                // Codifica o nome da série para evitar problemas com caracteres especiais
+                const encodedSerieNome = encodeURIComponent(serieNome);
+                window.location.href = `episodios.html?serie=${encodedSerieNome}`;
             });
 
             serieDiv.appendChild(imgCapa);
@@ -168,6 +176,8 @@ function exibirSeriesNaPagina(seriesAgrupadas) {
     // Exibe os botões de navegação de página
     exibirBotoesPaginacao(seriesFiltradas.length);
 }
+
+
 function exibirBotoesPaginacao(totalItens) {
     const totalPaginas = Math.ceil(totalItens / itensPorPagina);
     const paginacaoContainer = document.getElementById("paginacaoContainer");

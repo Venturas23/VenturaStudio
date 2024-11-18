@@ -1,103 +1,219 @@
 #EXTM3U 
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Perseguido (2001)" tvg-name="O Perseguido (2001)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2VggwzUUv9uZBEFdYROyzmX17PI.jpg" group-title="Filmes | Faroeste",O Perseguido (2001)
-http://loadbl2.online:80/movie/31685132/08374408/2111948.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Tom Horn   O Cowboy" tvg-name="Tom Horn   O Cowboy" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2VggwzUUv9uZBEFdYROyzmX17PI.jpg" group-title="Filmes | Faroeste",Tom Horn   O Cowboy
-http://loadbl2.online:80/movie/31685132/08374408/2111904.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Chegou o Tempo de Matar (1968)" tvg-name="Chegou o Tempo de Matar (1968)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aP8vATUjUqlwzp01lR4cvSQxOMu.jpg" group-title="Filmes | Faroeste",Chegou o Tempo de Matar (1968)
-http://loadbl2.online:80/movie/31685132/08374408/2111944.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Céu Mandou Alguém (1948)" tvg-name="O Céu Mandou Alguém (1948)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xcfccl3a0pjIm5E1HYTFzzzd4Vj.jpg" group-title="Filmes | Faroeste",O Céu Mandou Alguém (1948)
-http://loadbl2.online:80/movie/31685132/08374408/2111936.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Vicio de Matar" tvg-name="Vicio de Matar" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xcfccl3a0pjIm5E1HYTFzzzd4Vj.jpg" group-title="Filmes | Faroeste",Vicio de Matar
-http://loadbl2.online:80/movie/31685132/08374408/2111897.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Vamos Ter Sarilho" tvg-name="Vamos Ter Sarilho" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xcfccl3a0pjIm5E1HYTFzzzd4Vj.jpg" group-title="Filmes | Faroeste",Vamos Ter Sarilho
-http://loadbl2.online:80/movie/31685132/08374408/2111889.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Gringo Não Perdoa, Mata (1995)" tvg-name="Gringo Não Perdoa, Mata (1995)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jqnrU71YTEzEBJibpqlbQXi2zP.jpg" group-title="Filmes | Faroeste", Mata (1995)
-http://loadbl2.online:80/movie/31685132/08374408/2111926.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Duelo de Gigantes (1976)" tvg-name="Duelo de Gigantes (1976)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/r6aJoMydvF8sxSbM2v2g0jQUTMr.jpg" group-title="Filmes | Faroeste",Duelo de Gigantes (1976)
-http://loadbl2.online:80/movie/31685132/08374408/2111941.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os Oito Odiados (2015)" tvg-name="Os Oito Odiados (2015)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jfTo9U9OgOXODEEspNnYFuZdR1q.jpg" group-title="Filmes | Faroeste",Os Oito Odiados (2015)
-http://loadbl2.online:80/movie/31685132/08374408/2111939.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Pistoleiro de Sacramento (1965)" tvg-name="O Pistoleiro de Sacramento (1965)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jeRdxSjT0KgJaBtyhu35TarHuSM.jpg" group-title="Filmes | Faroeste",O Pistoleiro de Sacramento (1965)
-http://loadbl2.online:80/movie/31685132/08374408/2111914.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Paixão Perigosa (2019)" tvg-name="Paixão Perigosa (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/17jgYhamB6anfnKCTciqTEEOcsK.jpg" group-title="Filmes | Faroeste",Paixão Perigosa (2019)
-http://loadbl2.online:80/movie/31685132/08374408/2111907.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Marca da Forca (1968)" tvg-name="A Marca da Forca (1968)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nASOz9NuLD3hHoB0ku9shjFal78.jpg" group-title="Filmes | Faroeste",A Marca da Forca (1968)
-http://loadbl2.online:80/movie/31685132/08374408/2111933.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Continuaram a Chamar me Trinita" tvg-name="Continuaram a Chamar me Trinita" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nASOz9NuLD3hHoB0ku9shjFal78.jpg" group-title="Filmes | Faroeste",Continuaram a Chamar me Trinita
-http://loadbl2.online:80/movie/31685132/08374408/2111898.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="As Vinhas da Ira (1940)" tvg-name="As Vinhas da Ira (1940)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xg2lYQ05OJ0t7pI6ESV8d3zrydU.jpg" group-title="Filmes | Faroeste",As Vinhas da Ira (1940)
-http://loadbl2.online:80/movie/31685132/08374408/2111935.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Ultimo Fica Vivo" tvg-name="O Ultimo Fica Vivo" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xg2lYQ05OJ0t7pI6ESV8d3zrydU.jpg" group-title="Filmes | Faroeste",O Ultimo Fica Vivo
-http://loadbl2.online:80/movie/31685132/08374408/2111892.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Arizona Colt (1966)" tvg-name="Arizona Colt (1966)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uRu2vcmzoemSettbMwMBUzhhp8p.jpg" group-title="Filmes | Faroeste",Arizona Colt (1966)
-http://loadbl2.online:80/movie/31685132/08374408/2111923.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Desperate Riders" tvg-name="Desperate Riders" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uRu2vcmzoemSettbMwMBUzhhp8p.jpg" group-title="Filmes | Faroeste",Desperate Riders
-http://loadbl2.online:80/movie/31685132/08374408/2111890.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Tombstone: A Justiça Está Chegando (1993)" tvg-name="Tombstone: A Justiça Está Chegando (1993)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3DQe3q5SqapTPhIMWaZvOJHDhcY.jpg" group-title="Filmes | Faroeste",Tombstone: A Justiça Está Chegando (1993)
-http://loadbl2.online:80/movie/31685132/08374408/2111943.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Duas Pecadoras e Uma Mula (2023)" tvg-name="Duas Pecadoras e Uma Mula (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aRaO9OMNfsw03C04NHEgzBVWCiK.jpg" group-title="Filmes | Faroeste",Duas Pecadoras e Uma Mula (2023)
-http://loadbl2.online:80/movie/31685132/08374408/2111928.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os Ambiciosos Tambem Morrem" tvg-name="Os Ambiciosos Tambem Morrem" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aRaO9OMNfsw03C04NHEgzBVWCiK.jpg" group-title="Filmes | Faroeste",Os Ambiciosos Tambem Morrem
-http://loadbl2.online:80/movie/31685132/08374408/2111927.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Cactus Jack, o Vilão (1979)" tvg-name="Cactus Jack, o Vilão (1979)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xs8JEbXMkMUtY30HwFiFsrLQDs2.jpg" group-title="Filmes | Faroeste", o Vilão (1979)
-http://loadbl2.online:80/movie/31685132/08374408/2111937.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Duelo no Texas (1963)" tvg-name="Duelo no Texas (1963)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1UX24C3reBv7gAsEsh5F8suTyUg.jpg" group-title="Filmes | Faroeste",Duelo no Texas (1963)
-http://loadbl2.online:80/movie/31685132/08374408/2111940.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os Inadaptados" tvg-name="Os Inadaptados" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1UX24C3reBv7gAsEsh5F8suTyUg.jpg" group-title="Filmes | Faroeste",Os Inadaptados
-http://loadbl2.online:80/movie/31685132/08374408/2111911.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="T'ammazzo! - Raccomandati a Dio (1968)" tvg-name="T'ammazzo! - Raccomandati a Dio (1968)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/j0gpfa9GzJcg8PaBnlSTHqX1bnF.jpg" group-title="Filmes | Faroeste",T'ammazzo! - Raccomandati a Dio (1968)
-http://loadbl2.online:80/movie/31685132/08374408/2111951.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Black Jack - Un uomo per 5 vendette (1968)" tvg-name="Black Jack - Un uomo per 5 vendette (1968)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9NVv2Ws8PG1gM4O8HwkHDrgECTz.jpg" group-title="Filmes | Faroeste",Black Jack - Un uomo per 5 vendette (1968)
-http://loadbl2.online:80/movie/31685132/08374408/2111930.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Cavaleiro Solitário (2013)" tvg-name="O Cavaleiro Solitário (2013)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oz7euNg7BmA5aYjcjKIzIAMT8V6.jpg" group-title="Filmes | Faroeste",O Cavaleiro Solitário (2013)
-http://loadbl2.online:80/movie/31685132/08374408/2111946.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Morte nao Conta Dolares" tvg-name="A Morte nao Conta Dolares" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oz7euNg7BmA5aYjcjKIzIAMT8V6.jpg" group-title="Filmes | Faroeste",A Morte nao Conta Dolares
-http://loadbl2.online:80/movie/31685132/08374408/2111891.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Consciências Mortas (1943)" tvg-name="Consciências Mortas (1943)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mAiDUTELbMUJKOTroJLrbYMBk3i.jpg" group-title="Filmes | Faroeste",Consciências Mortas (1943)
-http://loadbl2.online:80/movie/31685132/08374408/2111938.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="American Western (2022)" tvg-name="American Western (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iKU3jo2HDtVObF5CrUkz1z62Ikd.jpg" group-title="Filmes | Faroeste",American Western (2022)
-http://loadbl2.online:80/movie/31685132/08374408/2111905.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Trilha de Sangue (2021)" tvg-name="Trilha de Sangue (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sSG7noMZN9Vx1EzHrAcx6sP41fa.jpg" group-title="Filmes | Faroeste",Trilha de Sangue (2021)
-http://loadbl2.online:80/movie/31685132/08374408/2111918.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Gringo Nao Era um Santinho" tvg-name="Gringo Nao Era um Santinho" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sSG7noMZN9Vx1EzHrAcx6sP41fa.jpg" group-title="Filmes | Faroeste",Gringo Nao Era um Santinho
-http://loadbl2.online:80/movie/31685132/08374408/2111919.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Ben e Charlie (1972)" tvg-name="Ben e Charlie (1972)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dZ927MqQIlJQ43T7tPgZr8qT2Jn.jpg" group-title="Filmes | Faroeste",Ben e Charlie (1972)
-http://loadbl2.online:80/movie/31685132/08374408/2111954.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os Abutres Têm Fome (1970)" tvg-name="Os Abutres Têm Fome (1970)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aPPeYwc1dco7gEHe6A9dmDUiTKP.jpg" group-title="Filmes | Faroeste",Os Abutres Têm Fome (1970)
-http://loadbl2.online:80/movie/31685132/08374408/2111942.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Floresta Do Escalpe (2021)" tvg-name="A Floresta Do Escalpe (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2OG6YCYabCBNcmXv5w4AP9uTbsb.jpg" group-title="Filmes | Faroeste",A Floresta Do Escalpe (2021)
-http://loadbl2.online:80/movie/31685132/08374408/2111956.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Heranca de Honra" tvg-name="Heranca de Honra" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2OG6YCYabCBNcmXv5w4AP9uTbsb.jpg" group-title="Filmes | Faroeste",Heranca de Honra
-http://loadbl2.online:80/movie/31685132/08374408/2111917.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Cemitério Sem Cruzes (1969)" tvg-name="Cemitério Sem Cruzes (1969)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iTVGwPkgmhKnlssl9YUYZY6d027.jpg" group-title="Filmes | Faroeste",Cemitério Sem Cruzes (1969)
-http://loadbl2.online:80/movie/31685132/08374408/2111945.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Return of the Gunfighter" tvg-name="Return of the Gunfighter" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iTVGwPkgmhKnlssl9YUYZY6d027.jpg" group-title="Filmes | Faroeste",Return of the Gunfighter
-http://loadbl2.online:80/movie/31685132/08374408/2111901.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="El Dorado (1966)" tvg-name="El Dorado (1966)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/o5HwSBjcAX9As6qUpDDMhXle5Pu.jpg" group-title="Filmes | Faroeste",El Dorado (1966)
-http://loadbl2.online:80/movie/31685132/08374408/2111955.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Era uma Vez no Oeste (1968)" tvg-name="Era uma Vez no Oeste (1968)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sBcaRQEZInpiQNSKKW5wjcEtXUS.jpg" group-title="Filmes | Faroeste",Era uma Vez no Oeste (1968)
-http://loadbl2.online:80/movie/31685132/08374408/2111952.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Rebelde do Kansas" tvg-name="O Rebelde do Kansas" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sBcaRQEZInpiQNSKKW5wjcEtXUS.jpg" group-title="Filmes | Faroeste",O Rebelde do Kansas
-http://loadbl2.online:80/movie/31685132/08374408/2111922.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Margem da Lei" tvg-name="A Margem da Lei" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sBcaRQEZInpiQNSKKW5wjcEtXUS.jpg" group-title="Filmes | Faroeste",A Margem da Lei
-http://loadbl2.online:80/movie/31685132/08374408/2111909.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Desaparecida (2002)" tvg-name="A Desaparecida (2002)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4275XPrESxKGhACZVXQc26qMdK.jpg" group-title="Filmes | Faroeste",A Desaparecida (2002)
-http://loadbl2.online:80/movie/31685132/08374408/2111924.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Django: O Bastardo (1969)" tvg-name="Django: O Bastardo (1969)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xxOLSvLNhN70dLaYrPGdwd09iPl.jpg" group-title="Filmes | Faroeste",Django: O Bastardo (1969)
-http://loadbl2.online:80/movie/31685132/08374408/2111931.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Justica de Cahill" tvg-name="Justica de Cahill" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xxOLSvLNhN70dLaYrPGdwd09iPl.jpg" group-title="Filmes | Faroeste",Justica de Cahill
-http://loadbl2.online:80/movie/31685132/08374408/2111912.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Matarei Um Por Um (1968)" tvg-name="Matarei Um Por Um (1968)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s3dd5bDgebWRzjazArfvKWUkHPx.jpg" group-title="Filmes | Faroeste",Matarei Um Por Um (1968)
-http://loadbl2.online:80/movie/31685132/08374408/2111921.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Lucky Luke (1991)" tvg-name="Lucky Luke (1991)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cnBw87wu31s6VM6LKilokFwgqZu.jpg" group-title="Filmes | Faroeste",Lucky Luke (1991)
-http://loadbl2.online:80/movie/31685132/08374408/2111934.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Retorno da Lenda (2021)" tvg-name="Retorno da Lenda (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/a5TMox6zYw686BbVS8D1UTPUYGI.jpg" group-title="Filmes | Faroeste",Retorno da Lenda (2021)
-http://loadbl2.online:80/movie/31685132/08374408/2111953.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Três Homens em Conflito (1966)" tvg-name="Três Homens em Conflito (1966)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/16z08yn82sTmdSS7nsGvRNDIVnz.jpg" group-title="Filmes | Faroeste",Três Homens em Conflito (1966)
-http://loadbl2.online:80/movie/31685132/08374408/2111957.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Reze a Deus... e Cave Sua Sepultura" tvg-name="Reze a Deus... e Cave Sua Sepultura" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/16z08yn82sTmdSS7nsGvRNDIVnz.jpg" group-title="Filmes | Faroeste",Reze a Deus... e Cave Sua Sepultura
-http://loadbl2.online:80/movie/31685132/08374408/2111888.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Irmãos de Luta (2005)" tvg-name="Irmãos de Luta (2005)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/64lTF6AX2NF48o3jTyQdysMtla0.jpg" group-title="Filmes | Faroeste",Irmãos de Luta (2005)
-http://loadbl2.online:80/movie/31685132/08374408/2149631.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Minha Arma Era a Lei (2023)" tvg-name="Minha Arma Era a Lei (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kwl5FxszBJ9kfdHuy14pv8pJspT.jpg" group-title="Filmes | Faroeste",Minha Arma Era a Lei (2023)
-http://loadbl2.online:80/movie/31685132/08374408/2170091.mp4
+#EXTINF:-1 tvg-id="" tvg-name="100 Rifles (1969)" tvg-logo="https://image.tmdb.org/t/p/w780/slmaFStLZ0RMaWopC1xMT125cXy.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",100 Rifles (1969)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788929.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Balada de Buster Scruggs (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/nb4crpD43qLIlNj3k5mqC0izPCk.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Balada de Buster Scruggs (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788930.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Caminho do Oeste (1967)" tvg-logo="https://image.tmdb.org/t/p/w780/w9E0w4E3wazxx4qm70MJSTWHnBI.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Caminho do Oeste (1967)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788931.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Difícil Vingança (2012)" tvg-logo="https://image.tmdb.org/t/p/w780/uUqcv8ZlRTwy5myECIyR6yA2grA.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Difícil Vingança (2012)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788932.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Face Oculta (1961)" tvg-logo="https://image.tmdb.org/t/p/w780/xal47bRKVIxErB7h2CScY3GBnoT.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Face Oculta (1961)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788933.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Hora da Pistola (1967)" tvg-logo="https://image.tmdb.org/t/p/w780/4sFnOXm9wvJIfWzfwIvTN1dZ8KE.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Hora da Pistola (1967)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788934.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Lenda do Cavaleiro Solitário (1981)" tvg-logo="https://image.tmdb.org/t/p/w780/6AgJFQsZm3JHry8ek13X0xKGWt6.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Lenda do Cavaleiro Solitário (1981)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788936.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Qualquer Custo (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/fz3RPQPquiyb4xi0isCIf6lIx7F.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Qualquer Custo (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788937.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Salvação (2014)" tvg-logo="https://image.tmdb.org/t/p/w780/xkuXj5nma1UKajzX3ef0hcmRNao.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Salvação (2014)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788938.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Vingança de Lefty Brown (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/xQoi7Dapb6UZHpYQRfdX2eYAtwT.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Vingança de Lefty Brown (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788939.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Vingança de Wyatt Earp (2012)" tvg-logo="https://image.tmdb.org/t/p/w780/hqQvZ3TcV8f1oy8K5No9bR0FOxQ.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",A Vingança de Wyatt Earp (2012)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789036.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Alma de Cowboy (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/7OBNEWwkFhsArvWJwgeL9BFmU7c.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Alma de Cowboy (2020)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788941.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Além da Liberdade - 20019 " tvg-logo="https://image.tmdb.org/t/p/w780/xQoi7Dapb6UZHpYQRfdX2eYAtwT.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Além da Liberdade - 20019 
+http://dns.6tp.xyz/movie/luizneto/997143156/2788940.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Amaldiçoada (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/qZOWoWHH8Ukwtxl6MASFtXfy84c.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Amaldiçoada (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788942.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Appaloosa - Uma Cidade sem Lei (2008)" tvg-logo="https://image.tmdb.org/t/p/w780/31EyHyUEijrxExHHGlKfSH6clDN.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Appaloosa - Uma Cidade sem Lei (2008)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788943.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Assim Caminha a Humanidade (1956)" tvg-logo="https://image.tmdb.org/t/p/w780/rxjmr0giX8l19XepjXZVoyL30lK.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Assim Caminha a Humanidade (1956)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788944.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Atire Para Viver e Reze Pelos Mortos (1971)" tvg-logo="https://image.tmdb.org/t/p/w780/oDpGKO4aVzeMTHj6c6v6BeLqaKx.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Atire Para Viver e Reze Pelos Mortos (1971)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788945.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Audácia de Um Forasteiro - 1959" tvg-logo="https://image.tmdb.org/t/p/w780/oDpGKO4aVzeMTHj6c6v6BeLqaKx.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Audácia de Um Forasteiro - 1959
+http://dns.6tp.xyz/movie/luizneto/997143156/2788946.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Bacurau (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/a67kzUEuneZC5vsOHQqQ877JEJQ.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Bacurau (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788947.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Big Kill - A Cidade do Medo (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/sNJjVkLXgMi5sk3gVMV9oiHrVKq.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Big Kill - A Cidade do Medo (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788948.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Black '47 (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/gZiu9RIcMeQLUaDVqQffQTl6bhy.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Black '47 (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788949.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Bronco Billy (1980)" tvg-logo="https://image.tmdb.org/t/p/w780/qiWVmWUq4M9Hc2Ui4jPkAnX6oAz.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Bronco Billy (1980)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788950.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Butch Cassidy (1969)" tvg-logo="https://image.tmdb.org/t/p/w780/s36qmgkFYtlb634moF05KgrybHm.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Butch Cassidy (1969)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788951.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Cactus Jack, o Vilão (1979)" tvg-logo="https://image.tmdb.org/t/p/w780/xs8JEbXMkMUtY30HwFiFsrLQDs2.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎", o Vilão (1979)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788953.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Cahill, o Xerife do Oeste (1973)" tvg-logo="https://image.tmdb.org/t/p/w780/hzxcSilaWXwOm6RXbHT1Mm56o4W.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎", o Xerife do Oeste (1973)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788954.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Califórnia (1947)" tvg-logo="https://image.tmdb.org/t/p/w780/5uzCAnXTkzw1UTAR3bTXh7Wf831.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Califórnia (1947)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788955.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Cavaleiros Desesperados (2022)" tvg-logo="https://image.tmdb.org/t/p/w780/vMfcyQAb1YybrQEazNPZlPiG1ag.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Cavaleiros Desesperados (2022)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788960.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Caçador de Almas (2012)" tvg-logo="https://image.tmdb.org/t/p/w780/cGBmTiNomYCk6Lr4Gkhbssg0m82.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Caçador de Almas (2012)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788952.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Cidade de Fantasmas (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/c1RxAfjPsSWV1PxuxnJM9BXMTFP.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Cidade de Fantasmas (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788969.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Com Sartana Cada Bala é Uma Cruz (1970)" tvg-logo="https://image.tmdb.org/t/p/w780/j8Nhms9H7VJSEaDDWqLBTiKboHE.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Com Sartana Cada Bala é Uma Cruz (1970)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788956.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Criminosos e Anjos (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/x3nA5xQn2eOp9ohHLKsPa6z3eNZ.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Criminosos e Anjos (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788957.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Cry Macho: O Caminho para a Redenção (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/ei16H5IuCVt9pHYdQMkxOXeIkbp.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Cry Macho: O Caminho para a Redenção (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788958.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Deadwood (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/yfjU44FxUxjgedHafq8o3HmzIja.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Deadwood (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788959.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Django (1966)" tvg-logo="https://image.tmdb.org/t/p/w780/pYsDq0fTMC1XuEg63NOXfxzHBJY.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Django (1966)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788961.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Django Livre (2012)" tvg-logo="https://image.tmdb.org/t/p/w780/ar63Sx8jeqk0OOu2uchS477S2zE.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Django Livre (2012)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788962.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Do Outro Lado da Lei (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/cw0izcXHFuOGwgaVmdoYZL6lDyf.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Do Outro Lado da Lei (2020)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788963.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Dois Homens um Destino (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/ioIEt0lpJjivLbyoDFVjPcfpS2S.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Dois Homens um Destino (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788964.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Em Busca da Justiça (2015)" tvg-logo="https://image.tmdb.org/t/p/w780/eAqBjWgs67vzh5JhNFvIsj284G9.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Em Busca da Justiça (2015)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788965.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Enterrem Meu Coração na Curva do Rio (2007)" tvg-logo="https://image.tmdb.org/t/p/w780/wANzNYcnY4uxyGPFKBtreVN6Kev.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Enterrem Meu Coração na Curva do Rio (2007)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788966.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Era uma Vez no Oeste (1968)" tvg-logo="https://image.tmdb.org/t/p/w780/sBcaRQEZInpiQNSKKW5wjcEtXUS.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Era uma Vez no Oeste (1968)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788967.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Espírito Selvagem (2000)" tvg-logo="https://image.tmdb.org/t/p/w780/sh5WND2VQl5OvKY1BXEWFTCZu2o.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Espírito Selvagem (2000)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788968.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Gerônimo: Uma Lenda Americana (1993)" tvg-logo="https://image.tmdb.org/t/p/w780/oW4IM0G5fCR68YalmemTGbPK15F.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Gerônimo: Uma Lenda Americana (1993)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788970.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Gigantes em Luta (1967)" tvg-logo="https://image.tmdb.org/t/p/w780/eeLi9BAjyOJGfD76ZR9lq5vGVvP.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Gigantes em Luta (1967)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788971.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Hostis (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/ncHc81uGBw4PmsKfkFTJNCSKWgc.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Hostis (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788972.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Inferno na Fronteira (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/lp9yaPNrdz1cck6qLcMZNQ27wsd.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Inferno na Fronteira (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788973.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Inferno no Faroeste (2013)" tvg-logo="https://image.tmdb.org/t/p/w780/wwpD6suBvsqIgSVm7xyqeVQ21LI.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Inferno no Faroeste (2013)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788974.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Inferno no Faroeste 2 (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/7KiUlAcTFADLEoNJErIWSFLBI8y.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Inferno no Faroeste 2 (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788975.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jake Grandão (1971)" tvg-logo="https://image.tmdb.org/t/p/w780/hSwLFWVTpQqVHv9lERmwXBDQj5l.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Jake Grandão (1971)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788976.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jesse James (1939)" tvg-logo="https://image.tmdb.org/t/p/w780/s85NggId22ntp4pbYwTbtHdalnY.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Jesse James (1939)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788977.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Joe, o Pistoleiro Implacável (1966)" tvg-logo="https://image.tmdb.org/t/p/w780/5GAQl0T3aanQBCKmU94Y6yrcWD.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎", o Pistoleiro Implacável (1966)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788978.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Johnny Yuma - O Vingador (1966)" tvg-logo="https://image.tmdb.org/t/p/w780/tYkmMi46uuRd7tv9wHiH5U2OBMN.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Johnny Yuma - O Vingador (1966)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788979.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Josey Wales: O Fora da Lei (1976)" tvg-logo="https://image.tmdb.org/t/p/w780/7qhPffMpzmXQKcShsnlf0aln1ej.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Josey Wales: O Fora da Lei (1976)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788980.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jovens Demais para Morrer (1990)" tvg-logo="https://image.tmdb.org/t/p/w780/yWFgFHW1snV4yYRtPMdR10Qw10n.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Jovens Demais para Morrer (1990)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788981.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Justiça - Entre a Lei e a Vingança (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/vqV3qlspRr2C87EeZQdoTSh8SSy.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Justiça - Entre a Lei e a Vingança (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788982.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Keoma (1976)" tvg-logo="https://image.tmdb.org/t/p/w780/9SphX2YG2FxEkT2IVxlcKFeOjfY.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Keoma (1976)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788983.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Lua Cheia (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/rNYWjCvK4m6WQeJwiF7wZTIXTu9.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Lua Cheia (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788984.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Lucky Luke (1991)" tvg-logo="https://image.tmdb.org/t/p/w780/cnBw87wu31s6VM6LKilokFwgqZu.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Lucky Luke (1991)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788985.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mar de Fogo (2004)" tvg-logo="https://image.tmdb.org/t/p/w780/1xFLWSxUp28egthMzqdfEokYa3h.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Mar de Fogo (2004)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788986.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Nomadland (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/589uhtJOujc72fgNl6HcMYJS64D.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Nomadland (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788988.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Bom, O Ruim, o Estranho - 2008" tvg-logo="https://image.tmdb.org/t/p/w780/589uhtJOujc72fgNl6HcMYJS64D.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎", o Estranho - 2008
+http://dns.6tp.xyz/movie/luizneto/997143156/2788989.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Cavaleiro Solitário (1985)" tvg-logo="https://image.tmdb.org/t/p/w780/qINa4QIWMtASsToMVgCcVlomJrB.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Cavaleiro Solitário (1985)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788990.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Dólar Furado (1965)" tvg-logo="https://image.tmdb.org/t/p/w780/biX9CEacIkqvCwSA7aGs3ILCDry.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Dólar Furado (1965)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788991.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Estranho que Nós Amamos (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/IPmMFZAgQhUOmiQlICxnDlC2V1.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Estranho que Nós Amamos (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788992.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Homem do Oeste (1958)" tvg-logo="https://image.tmdb.org/t/p/w780/jmTbK9u2h3LDbx9vsWs1BZIIzxI.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Homem do Oeste (1958)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788993.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Limite da Traição (1987)" tvg-logo="https://image.tmdb.org/t/p/w780/AhWYiWKdCm15LIEJrBzwA7Ig8ET.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Limite da Traição (1987)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788994.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Meu Melhor Companheiro (1957)" tvg-logo="https://image.tmdb.org/t/p/w780/cAywXQWKv0QgjrKQPHGY6Qle3Zn.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Meu Melhor Companheiro (1957)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788995.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Ouro de Mackenna (1969)" tvg-logo="https://image.tmdb.org/t/p/w780/bY2nhM1Va91Ps5NYUIxTq8wKBjT.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Ouro de Mackenna (1969)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788996.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Purgatório (1999)" tvg-logo="https://image.tmdb.org/t/p/w780/tAIzLYNl61HtMFfLlPjaFerUfDI.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Purgatório (1999)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789016.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Retorno de John Henry (2015)" tvg-logo="https://image.tmdb.org/t/p/w780/dmHzO8cBleQRrfeq7ujALIeDQVi.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Retorno de John Henry (2015)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788997.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Trem do Inferno (1975)" tvg-logo="https://image.tmdb.org/t/p/w780/1bWNV5YyYhXYjEaMW4L3iLkg1Dk.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Trem do Inferno (1975)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788998.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Xerife Pistoleiro (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/oTmBk34zblowybsJOABe0zEz9Kz.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Xerife Pistoleiro (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788935.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Último Duelo (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/nMkAKBBlxRW4ZAXr0TvMThMSTW4.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Último Duelo (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789000.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Último Duelo (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/nMkAKBBlxRW4ZAXr0TvMThMSTW4.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Último Duelo (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788999.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Último Duelo (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/mhrzzNauB1PKrwnqVbLQODNNTJN.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",O Último Duelo (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789001.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Onde Começa o Inferno (1959)" tvg-logo="https://image.tmdb.org/t/p/w780/ak6tkgygSxfy1DbpMYfjtrzi1O2.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Onde Começa o Inferno (1959)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789003.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Onde Imperam as Balas (1956)" tvg-logo="https://image.tmdb.org/t/p/w780/dseUhH2ZGlDmAI3UndbNgfS8KuX.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Onde Imperam as Balas (1956)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789004.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os 6 Ridículos (2015)" tvg-logo="https://image.tmdb.org/t/p/w780/kPc80jywR5Nm2KIQjkY5i4VXSx4.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Os 6 Ridículos (2015)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789005.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Imperdoáveis (1992)" tvg-logo="https://image.tmdb.org/t/p/w780/kmMDDCOB8xPCrmFW7w9zqgymCWJ.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Os Imperdoáveis (1992)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789006.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Irmãos Sisters (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/uEm7m49gDyiaEPPYs8pclwBF7Bc.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Os Irmãos Sisters (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789007.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Jovens Pistoleiros (1988)" tvg-logo="https://image.tmdb.org/t/p/w780/pVSLobLOyZqgUguTF5BZKEfRuhs.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Os Jovens Pistoleiros (1988)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789008.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Oito Odiados (2015)" tvg-logo="https://image.tmdb.org/t/p/w780/jfTo9U9OgOXODEEspNnYFuZdR1q.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Os Oito Odiados (2015)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789009.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Renegados (2012)" tvg-logo="https://image.tmdb.org/t/p/w780/qgxpjJieJFeB652qBOUrybJRQiZ.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Os Renegados (2012)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789010.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacto de Justiça (2003)" tvg-logo="https://image.tmdb.org/t/p/w780/xttAh5kaSUzFq1gfL9uLNFztdde.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Pacto de Justiça (2003)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789011.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pancho Villa - 1968" tvg-logo="https://image.tmdb.org/t/p/w780/xttAh5kaSUzFq1gfL9uLNFztdde.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Pancho Villa - 1968
+http://dns.6tp.xyz/movie/luizneto/997143156/2789012.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pegue a Bala (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/m3DUe1cpiBsLg0caIO2JDr7HK5Z.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Pegue a Bala (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789013.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Por um Punhado de Dólares (1964)" tvg-logo="https://image.tmdb.org/t/p/w780/jaF2Pr2JucNk0pALCBDDPOGU9lQ.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Por um Punhado de Dólares (1964)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789014.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Punidos Pelo Próprio Sangue - 1956 " tvg-logo="https://image.tmdb.org/t/p/w780/jaF2Pr2JucNk0pALCBDDPOGU9lQ.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Punidos Pelo Próprio Sangue - 1956 
+http://dns.6tp.xyz/movie/luizneto/997143156/2789015.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Resgate no Oeste (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/cZc77NqnbELikUxv8i7YpnOCfkO.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Resgate no Oeste (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789017.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Retorno da Lenda (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/a5TMox6zYw686BbVS8D1UTPUYGI.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Retorno da Lenda (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789002.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sabata, o Homem que Veio para Matar (1969)" tvg-logo="https://image.tmdb.org/t/p/w780/3gvYkewcHtIRW8euWrA9PkDXlLG.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎", o Homem que Veio para Matar (1969)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789018.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sangue de Heróis - 1984" tvg-logo="https://image.tmdb.org/t/p/w780/3gvYkewcHtIRW8euWrA9PkDXlLG.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Sangue de Heróis - 1984
+http://dns.6tp.xyz/movie/luizneto/997143156/2789019.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sete Homens e Um Destino (1960)" tvg-logo="https://image.tmdb.org/t/p/w780/sJaBbNqyN0k0z0nJ7EIsAZ4L5SG.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Sete Homens e Um Destino (1960)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789020.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silverado (1985)" tvg-logo="https://image.tmdb.org/t/p/w780/k6zurzegRKsNGMICXZ57VJDUzXO.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Silverado (1985)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789021.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sob o Sol do Oeste (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/aSA7maO0olKMY16hwTiG6PCKOXq.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Sob o Sol do Oeste (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789022.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Terra dos Bravos (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/bvbgUujcz9UF1fBe31v755bOmFG.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Terra dos Bravos (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789023.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Terra Violenta (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/27PAeztGdJLa32Y0ycS5roljYzI.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Terra Violenta (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2788987.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Tombstone: A Justiça Está Chegando (1993)" tvg-logo="https://image.tmdb.org/t/p/w780/3DQe3q5SqapTPhIMWaZvOJHDhcY.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Tombstone: A Justiça Está Chegando (1993)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789024.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Trinity é o Meu Nome (1970)" tvg-logo="https://image.tmdb.org/t/p/w780/e3yxh1bd7Z8wikMTJJ4jJevqtr.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Trinity é o Meu Nome (1970)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789026.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Três Homens em Conflito (1966)" tvg-logo="https://image.tmdb.org/t/p/w780/16z08yn82sTmdSS7nsGvRNDIVnz.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Três Homens em Conflito (1966)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789025.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Um Refúgio (2014)" tvg-logo="https://image.tmdb.org/t/p/w780/t83wxcWKUcoNgEgDEU37oENveJt.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Um Refúgio (2014)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789027.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Uma Cidade Contra o Xerife (1969)" tvg-logo="https://image.tmdb.org/t/p/w780/o0o188F7ZuplQI171sbBxVn4kYu.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Uma Cidade Contra o Xerife (1969)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789028.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Uma Pistola Para Ringo (1965)" tvg-logo="https://image.tmdb.org/t/p/w780/pveEikUHPYHulL4gVZEAe9Sf4MQ.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Uma Pistola Para Ringo (1965)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789029.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vinganca e Castigo - 2021" tvg-logo="https://image.tmdb.org/t/p/w780/zwonyZQ9ZidBMQ3BoJxjxe5ShyP.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Vinganca e Castigo - 2021
+http://dns.6tp.xyz/movie/luizneto/997143156/2789031.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingança Cega (1994)" tvg-logo="https://image.tmdb.org/t/p/w780/zwonyZQ9ZidBMQ3BoJxjxe5ShyP.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Vingança Cega (1994)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789030.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingança e Castigo - 2021" tvg-logo="https://image.tmdb.org/t/p/w780/zwonyZQ9ZidBMQ3BoJxjxe5ShyP.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Vingança e Castigo - 2021
+http://dns.6tp.xyz/movie/luizneto/997143156/2789032.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Westworld - Onde Ninguém Tem Alma (1973)" tvg-logo="https://image.tmdb.org/t/p/w780/2EY15bxJ1fsvzmE3mAMJDWJkZ4k.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Westworld - Onde Ninguém Tem Alma (1973)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789033.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Wild Bill - 1995" tvg-logo="https://image.tmdb.org/t/p/w780/2EY15bxJ1fsvzmE3mAMJDWJkZ4k.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Wild Bill - 1995
+http://dns.6tp.xyz/movie/luizneto/997143156/2789034.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Wyatt Earp (1994)" tvg-logo="https://image.tmdb.org/t/p/w780/51LItgyecu2KMAtIchYogEykCIu.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Wyatt Earp (1994)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789035.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Wyatt Earp (1994)" tvg-logo="https://image.tmdb.org/t/p/w780/51LItgyecu2KMAtIchYogEykCIu.jpg" group-title="🎬 Filmes | Faroeste 🤠🐎",Wyatt Earp (1994)
+http://dns.6tp.xyz/movie/luizneto/997143156/2794329.mp4

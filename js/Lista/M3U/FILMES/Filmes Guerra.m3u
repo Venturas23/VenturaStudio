@@ -1,457 +1,149 @@
 #EXTM3U 
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Torpedo: U-235 (2019)" tvg-name="Torpedo: U-235 (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kbRuiYJCctdzKJpIBSv1mSw7j7r.jpg" group-title="Filmes | Guerra",Torpedo: U-235 (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1730555.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="12 Heróis (2018)" tvg-name="12 Heróis (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mBgAJeIx1d5kxU8nR748o9qnAUK.jpg" group-title="Filmes | Guerra",12 Heróis (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1727960.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Sobrevivente (2006)" tvg-name="O Sobrevivente (2006)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dPfe5vQwCq54yGgtxmNXKZytgiY.jpg" group-title="Filmes | Guerra",O Sobrevivente (2006)
-http://loadbl2.online:80/movie/31685132/08374408/1729854.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Atrás da Linha: Fuga para Dunkirk (2020)" tvg-name="Atrás da Linha: Fuga para Dunkirk (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5OFNp1wuHnph8ytCE5HWyAFTLrz.jpg" group-title="Filmes | Guerra",Atrás da Linha: Fuga para Dunkirk (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1728385.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="15 Minutos de Guerra (2019)" tvg-name="15 Minutos de Guerra (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iwXNed7a2TERq4D7AUY3wltGrqw.jpg" group-title="Filmes | Guerra",15 Minutos de Guerra (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1727981.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Aliados (2016)" tvg-name="Aliados (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jN2Q3zbNKIVn9RhqUPC8JnIibhb.jpg" group-title="Filmes | Guerra",Aliados (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1728287.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Sniper: Operações Especiais (2016)" tvg-name="Sniper: Operações Especiais (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mdzK6VzX0NYDvYvMw5Gy8ojHtgB.jpg" group-title="Filmes | Guerra",Sniper: Operações Especiais (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1730398.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Três Reis (1999)" tvg-name="Três Reis (1999)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3tteAin7WS4kpx250joRsu7kEU0.jpg" group-title="Filmes | Guerra",Três Reis (1999)
-http://loadbl2.online:80/movie/31685132/08374408/1730661.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="T-34: O Monstro de Metal (2018)" tvg-name="T-34: O Monstro de Metal (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3nag9eCEMIo4yVZD7sKLodEPe8T.jpg" group-title="Filmes | Guerra",T-34: O Monstro de Metal (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1730497.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Missão de Honra (2018)" tvg-name="Missão de Honra (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3lQAAu6WZ7l0Cn4KW3igVGIMPXl.jpg" group-title="Filmes | Guerra",Missão de Honra (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1729463.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Esquadrão 303 (2018)" tvg-name="Esquadrão 303 (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gVzgZBoXsC3rm7IoY02Tmf3Ku5Z.jpg" group-title="Filmes | Guerra",Esquadrão 303 (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1728980.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Lobo Guerreiro 2 (2017)" tvg-name="Lobo Guerreiro 2 (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jii5bSMJMlU2AWYzOOdgo7r0P1m.jpg" group-title="Filmes | Guerra",Lobo Guerreiro 2 (2017)
-http://loadbl2.online:80/movie/31685132/08374408/1729384.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Mestre dos Mares: O Lado Mais Distante do Mundo (2003)" tvg-name="Mestre dos Mares: O Lado Mais Distante do Mundo (2003)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3v61179ciXMpmyiJZmpqyCoV5us.jpg" group-title="Filmes | Guerra",Mestre dos Mares: O Lado Mais Distante do Mundo (2003)
-http://loadbl2.online:80/movie/31685132/08374408/1729402.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Comboio 48: A Última Resistência (2019)" tvg-name="Comboio 48: A Última Resistência (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xSF9LRDRoie7YNwMT1yAfJ8IWNz.jpg" group-title="Filmes | Guerra",Comboio 48: A Última Resistência (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1728670.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Mensageiro (2019)" tvg-name="O Mensageiro (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/90wQuKiwuJYzOFcJpRMLwQUdyd0.jpg" group-title="Filmes | Guerra",O Mensageiro (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1729770.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Heróis de Guerra (2019)" tvg-name="Heróis de Guerra (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AttAWFTg1K4Qxjo12nMhu8NQIFR.jpg" group-title="Filmes | Guerra",Heróis de Guerra (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1729134.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="300: A Ascensão do Império (2014)" tvg-name="300: A Ascensão do Império (2014)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l9T9hsVca2mh0S29olWRUE3uBpz.jpg" group-title="Filmes | Guerra",300: A Ascensão do Império (2014)
-http://loadbl2.online:80/movie/31685132/08374408/1728010.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Zona Verde (2010)" tvg-name="Zona Verde (2010)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wfpGtqT5Jq52pCTPELLc9M5hy04.jpg" group-title="Filmes | Guerra",Zona Verde (2010)
-http://loadbl2.online:80/movie/31685132/08374408/1730743.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="300 (2007)" tvg-name="300 (2007)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/h7Lcio0c9ohxPhSZg42eTlKIVVY.jpg" group-title="Filmes | Guerra",300 (2007)
-http://loadbl2.online:80/movie/31685132/08374408/1727991.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Fortaleza em Shanghai (2019)" tvg-name="Fortaleza em Shanghai (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vERiKs7A43ReCaeicfFJcm2Dc7g.jpg" group-title="Filmes | Guerra",Fortaleza em Shanghai (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1729023.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Posto de Combate (2020)" tvg-name="Posto de Combate (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/b1LYcrHuYGUGFZwhOiAitapWHfl.jpg" group-title="Filmes | Guerra",Posto de Combate (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1730103.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Último Resgate (2020)" tvg-name="O Último Resgate (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9K2TuO2e0B3hzVKon1ODrIHPSV5.jpg" group-title="Filmes | Guerra",O Último Resgate (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1729902.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="U311: Guerra em Alto Mar (2020)" tvg-name="U311: Guerra em Alto Mar (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iyZ5xWPmGEuGopE1NPzSQiPO0Zj.jpg" group-title="Filmes | Guerra",U311: Guerra em Alto Mar (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1730578.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Pearl Harbor (2001)" tvg-name="Pearl Harbor (2001)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/y8A0Cvp8WQmZ3bjbnsL53lY0dsC.jpg" group-title="Filmes | Guerra",Pearl Harbor (2001)
-http://loadbl2.online:80/movie/31685132/08374408/1730044.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Inimigo Invisível (2019)" tvg-name="Inimigo Invisível (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/znmFGF41VKALJIQx0coyjBXNWYm.jpg" group-title="Filmes | Guerra",Inimigo Invisível (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1729135.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="13 Horas: Os Soldados Secretos de Benghazi (2016)" tvg-name="13 Horas: Os Soldados Secretos de Benghazi (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/K4lEgO47Axbidt5MJo5KljpP3G.jpg" group-title="Filmes | Guerra",13 Horas: Os Soldados Secretos de Benghazi (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1727950.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Zeros e Uns (2021)" tvg-name="Zeros e Uns (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nUklycRTVya348M5dG7JyticAsW.jpg" group-title="Filmes | Guerra",Zeros e Uns (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1730784.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os 800 (2020)" tvg-name="Os 800 (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mx0PP392PYCZ4x0xNryO5ry637X.jpg" group-title="Filmes | Guerra",Os 800 (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1730001.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Linhas Inimigas (2020)" tvg-name="Linhas Inimigas (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2MuH7e5uNagt9djLR74JTgVFzEa.jpg" group-title="Filmes | Guerra",Linhas Inimigas (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1729319.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Greyhound - Na Mira do Inimigo (2020)" tvg-name="Greyhound - Na Mira do Inimigo (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/el7iWlogQ4Mv6A0qvBn4ZyxHGiW.jpg" group-title="Filmes | Guerra",Greyhound - Na Mira do Inimigo (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1729089.mkv
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Lágrimas do Sol (2003)" tvg-name="Lágrimas do Sol (2003)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/WksMUDKv4I241w6mR263m3IKBs.jpg" group-title="Filmes | Guerra",Lágrimas do Sol (2003)
-http://loadbl2.online:80/movie/31685132/08374408/1729284.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Guerra Sob a Terra (2021)" tvg-name="Guerra Sob a Terra (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ndOvtUxWiCAF6QsVajGidQJeZTM.jpg" group-title="Filmes | Guerra",Guerra Sob a Terra (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1729130.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Corvo Branco (2022)" tvg-name="Corvo Branco (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1zNcJWXQYgMDAF3pNoqxU47FHfc.jpg" group-title="Filmes | Guerra",Corvo Branco (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1728746.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Bombardeio (2021)" tvg-name="O Bombardeio (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u83WpSu9ke9yA3kZ9vXbM2HEGN2.jpg" group-title="Filmes | Guerra",O Bombardeio (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1729596.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Bastardos Inglórios (2009)" tvg-name="Bastardos Inglórios (2009)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6UjYycIR6VLYgggfNpmSPJHmFS0.jpg" group-title="Filmes | Guerra",Bastardos Inglórios (2009)
-http://loadbl2.online:80/movie/31685132/08374408/1728457.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Zoya (2021)" tvg-name="Zoya (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/YznWGdh0NCe7JXEyQQqVHu03wr.jpg" group-title="Filmes | Guerra",Zoya (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1730785.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="KV1 – Almas de Ferro (2018)" tvg-name="KV1 – Almas de Ferro (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6uEnKbYMSp3u5QoqaPo1uH4LVPN.jpg" group-title="Filmes | Guerra",KV1 – Almas de Ferro (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1729259.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Amazonas Lendárias (2011)" tvg-name="Amazonas Lendárias (2011)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3nMepoigjyKoilWw6Q3Z5FOKKBl.jpg" group-title="Filmes | Guerra",Amazonas Lendárias (2011)
-http://loadbl2.online:80/movie/31685132/08374408/1728308.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Patriota (2000)" tvg-name="O Patriota (2000)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oe26GVJTIEFLW8WjGMj1K0MbWUJ.jpg" group-title="Filmes | Guerra",O Patriota (2000)
-http://loadbl2.online:80/movie/31685132/08374408/1729784.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Deixando o Afeganistão (2019)" tvg-name="Deixando o Afeganistão (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/k7ITNM3zLK6FhRlfG1yi0oIAQQv.jpg" group-title="Filmes | Guerra",Deixando o Afeganistão (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1728797.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Pilotos de Guerra (2021)" tvg-name="Pilotos de Guerra (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/c3EnvbwhnT6u7HAiEVunDpNSYv0.jpg" group-title="Filmes | Guerra",Pilotos de Guerra (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1730247.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Grande Batalha (2018)" tvg-name="A Grande Batalha (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/buZA2PJAIHxDBby6vYGgvcYpaxH.jpg" group-title="Filmes | Guerra",A Grande Batalha (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1728033.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Batalha Esquecida (2021)" tvg-name="A Batalha Esquecida (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kWbI2goToe3p1rJR3aq5zXuhRn5.jpg" group-title="Filmes | Guerra",A Batalha Esquecida (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1727990.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Rambo IV (2008)" tvg-name="Rambo IV (2008)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2NbmBzgG1chI3fS31HHfZEEsApw.jpg" group-title="Filmes | Guerra",Rambo IV (2008)
-http://loadbl2.online:80/movie/31685132/08374408/1730161.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Último Samurai (2003)" tvg-name="O Último Samurai (2003)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uOXcVNT3eKPfU93GwcXd2XFssJv.jpg" group-title="Filmes | Guerra",O Último Samurai (2003)
-http://loadbl2.online:80/movie/31685132/08374408/1729907.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Tróia (2004)" tvg-name="Tróia (2004)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iKp2NxUkqPVSPN2FdXUn9gxj4Nn.jpg" group-title="Filmes | Guerra",Tróia (2004)
-http://loadbl2.online:80/movie/31685132/08374408/1730584.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Rogue Warfare: Ameaça Global (2019)" tvg-name="Rogue Warfare: Ameaça Global (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jZEAAW1W6mNxLZ87Aur79DjXdPv.jpg" group-title="Filmes | Guerra",Rogue Warfare: Ameaça Global (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1730275.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Sem Retorno (2020)" tvg-name="Sem Retorno (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l5oziYNRdgh8S3vb7fLvvvcfk0Q.jpg" group-title="Filmes | Guerra",Sem Retorno (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1730338.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="100 Dias de Resistência (2019)" tvg-name="100 Dias de Resistência (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/naG6PCVZupvYaOf9kGgKd2MVZRZ.jpg" group-title="Filmes | Guerra",100 Dias de Resistência (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1727969.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Santos e Soldados: Missão Berlim (2012)" tvg-name="Santos e Soldados: Missão Berlim (2012)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qYHKMD7Q1lUtJc1QO6x8uByqVLX.jpg" group-title="Filmes | Guerra",Santos e Soldados: Missão Berlim (2012)
-http://loadbl2.online:80/movie/31685132/08374408/1730321.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os 23: Prisioneiros no Iraque (2019)" tvg-name="Os 23: Prisioneiros no Iraque (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xe9nBRtAuJdcIQpGJcxNrF8T6KO.jpg" group-title="Filmes | Guerra",Os 23: Prisioneiros no Iraque (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1730013.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Operação Overlord (2018)" tvg-name="Operação Overlord (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jnkxGuVgA9B9Hy9kbHdhS9VVK9g.jpg" group-title="Filmes | Guerra",Operação Overlord (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1729960.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Forças Especiais (2011)" tvg-name="Forças Especiais (2011)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ik9qM5wQj1s7i6uBlKWLa2XJWoz.jpg" group-title="Filmes | Guerra",Forças Especiais (2011)
-http://loadbl2.online:80/movie/31685132/08374408/1729014.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Sniper Americano (2014)" tvg-name="Sniper Americano (2014)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mAXzc2oDTTYcnn6IGHlSXvmXloG.jpg" group-title="Filmes | Guerra",Sniper Americano (2014)
-http://loadbl2.online:80/movie/31685132/08374408/1730424.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Falcão Negro em Perigo (2001)" tvg-name="Falcão Negro em Perigo (2001)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mwlZSgXxX0XrRGP7gMLdJxlrOTY.jpg" group-title="Filmes | Guerra",Falcão Negro em Perigo (2001)
-http://loadbl2.online:80/movie/31685132/08374408/1729001.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Operação Chromite (2016)" tvg-name="Operação Chromite (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bzMHYaEh5CiqaQDVSHz15X1H2tP.jpg" group-title="Filmes | Guerra",Operação Chromite (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1729939.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Lobisomens do Terceiro Reich (2018)" tvg-name="Lobisomens do Terceiro Reich (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fAXacAiYRuVAzoCTfGnzGHXzeMu.jpg" group-title="Filmes | Guerra",Lobisomens do Terceiro Reich (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1729349.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Atirador: Fantasma (2016)" tvg-name="O Atirador: Fantasma (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/81Xcd6lpoRo7SVW8CVWB8VkzhFP.jpg" group-title="Filmes | Guerra",O Atirador: Fantasma (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1729580.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Fuga pela Fronteira (2020)" tvg-name="Fuga pela Fronteira (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yTrKZdCoARyXmuDBX7rahgrydhm.jpg" group-title="Filmes | Guerra",Fuga pela Fronteira (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1729061.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Sociedade da Justiça: 2ª Guerra Mundial (2021)" tvg-name="Sociedade da Justiça: 2ª Guerra Mundial (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/haFimehtZoP6rSz53kEqXSKianS.jpg" group-title="Filmes | Guerra",Sociedade da Justiça: 2ª Guerra Mundial (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1731769.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Tempo e o Vento (2013)" tvg-name="O Tempo e o Vento (2013)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kIxXO2dYXW4TqkUApiFdl1DzROM.jpg" group-title="Filmes | Guerra",O Tempo e o Vento (2013)
-http://loadbl2.online:80/movie/31685132/08374408/1735025.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Pai, Filho, Pátria (2020)" tvg-name="Pai, Filho, Pátria (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ulUEelaJcab8uNZGyytFSuumXB9.jpg" group-title="Filmes | Guerra", Pátria (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1736355.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Saga of Tanya the Evil: O Filme (2019)" tvg-name="Saga of Tanya the Evil: O Filme (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8vuQngrdp2osdMXw8pBawJfF4Xg.jpg" group-title="Filmes | Guerra",Saga of Tanya the Evil: O Filme (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1743194.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Lados Opostos (2021)" tvg-name="Lados Opostos (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4LLBtwwAqMfou51XQax0Axr2dSo.jpg" group-title="Filmes | Guerra",Lados Opostos (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1781092.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Irmãos de Guerra (2022)" tvg-name="Irmãos de Guerra (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ozHweLTPGEWRQyr1z4npGjm6ko0.jpg" group-title="Filmes | Guerra",Irmãos de Guerra (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1781404.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Resgate do Soldado Ryan (1998)" tvg-name="O Resgate do Soldado Ryan (1998)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hMLxNLCXRDd62acfCBn6mIyW1HU.jpg" group-title="Filmes | Guerra",O Resgate do Soldado Ryan (1998)
-http://loadbl2.online:80/movie/31685132/08374408/1792463.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Fantasmas de Guerra (2020)" tvg-name="Fantasmas de Guerra (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5Ofcmv3WHbQlK4tdjB9JJ0P4qIS.jpg" group-title="Filmes | Guerra",Fantasmas de Guerra (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1793218.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="The Last Kingdom: Seven Kings Must Die (2023)" tvg-name="The Last Kingdom: Seven Kings Must Die (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mMbc0XeYyo85V8GPdyBXh3jEnEJ.jpg" group-title="Filmes | Guerra",The Last Kingdom: Seven Kings Must Die (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1793659.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Corações de Ferro (2014)" tvg-name="Corações de Ferro (2014)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8WtUjpboPESZbabGbC4ryd81KcR.jpg" group-title="Filmes | Guerra",Corações de Ferro (2014)
-http://loadbl2.online:80/movie/31685132/08374408/1793688.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Soldado Anônimo: Lei do Retorno (2019)" tvg-name="Soldado Anônimo: Lei do Retorno (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v9dZv0gPHnmozXBZF7sKNrZ4UwY.jpg" group-title="Filmes | Guerra",Soldado Anônimo: Lei do Retorno (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1793690.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="À Espreita (2023)" tvg-name="À Espreita (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qfglisVh5Nmo1nGYCoMzqyZUWcz.jpg" group-title="Filmes | Guerra",À Espreita (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1793765.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Uma Sombra na Nuvem (2020)" tvg-name="Uma Sombra na Nuvem (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hMo1lNG4KnWZX6mxEaEoRiuyPtB.jpg" group-title="Filmes | Guerra",Uma Sombra na Nuvem (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1793829.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Irmãos de Honra (2022)" tvg-name="Irmãos de Honra (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wvCvlxAxnlTV13yNIf4j7h7FqvQ.jpg" group-title="Filmes | Guerra",Irmãos de Honra (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1794047.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Busca Interminável (2021)" tvg-name="Busca Interminável (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/CGgdR5dJyGa3g9j95VuESL9q0Y.jpg" group-title="Filmes | Guerra",Busca Interminável (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1793993.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Jung_E (2023)" tvg-name="Jung_E (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ig8TLhlSuGxchpzOciV7anfN7st.jpg" group-title="Filmes | Guerra",Jung_E (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1794405.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Missão Condor (2023)" tvg-name="Missão Condor (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dX4zUmTl86s1ao92aKJG1pbrjhO.jpg" group-title="Filmes | Guerra",Missão Condor (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1794445.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Sangue e Ouro (2023)" tvg-name="Sangue e Ouro (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1YZT69IKGRUV620PZFmniAGoVrG.jpg" group-title="Filmes | Guerra",Sangue e Ouro (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1794585.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="À Espreita (2023)" tvg-name="À Espreita (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qfglisVh5Nmo1nGYCoMzqyZUWcz.jpg" group-title="Filmes | Guerra",À Espreita (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1794189.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Pacto (2023)" tvg-name="O Pacto (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pTQZT9R6YjKrweJ0llPtq57j1Z0.jpg" group-title="Filmes | Guerra",O Pacto (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1794508.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Segredos de Espiões (2020)" tvg-name="Segredos de Espiões (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iPtwg29ai63UOo7X9BQI6UvVlwJ.jpg" group-title="Filmes | Guerra",Segredos de Espiões (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1794686.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Segredo de Berlim (2006)" tvg-name="O Segredo de Berlim (2006)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gCmP8A2Crejq1YDnFQxgD0RAp8N.jpg" group-title="Filmes | Guerra",O Segredo de Berlim (2006)
-http://loadbl2.online:80/movie/31685132/08374408/1794926.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Caminhos da Sobrevivência (2023)" tvg-name="Caminhos da Sobrevivência (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/FSFhUQD96WlDLfYfheod05WOQo.jpg" group-title="Filmes | Guerra",Caminhos da Sobrevivência (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1795032.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Ethel & Ernest (2016)" tvg-name="Ethel & Ernest (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sSBSbvdI9j381JSORvhAhRu7Mrh.jpg" group-title="Filmes | Guerra",Ethel & Ernest (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1808496.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Nuremberg: As Fitas Perdidas (2022)" tvg-name="Nuremberg: As Fitas Perdidas (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xobaJbWHEkX9032TdQeRJEIoD3f.jpg" group-title="Filmes | Guerra",Nuremberg: As Fitas Perdidas (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1809257.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Rainha Guerreira (2023)" tvg-name="A Rainha Guerreira (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zXiqgwerUrAtIzVL9OyRcG90oTh.jpg" group-title="Filmes | Guerra",A Rainha Guerreira (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1815182.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="RedBad: A Invasão dos Francos (2018)" tvg-name="RedBad: A Invasão dos Francos (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qEtW1ldSynOwgPXesghxS7ntSXA.jpg" group-title="Filmes | Guerra",RedBad: A Invasão dos Francos (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1825326.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Dunkirk (2017)" tvg-name="Dunkirk (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kO6ewhlh7OIGRRbHwylDafEM1QG.jpg" group-title="Filmes | Guerra",Dunkirk (2017)
-http://loadbl2.online:80/movie/31685132/08374408/1826693.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Zona de Risco (2024)" tvg-name="Zona de Risco (2024)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cCRAMT530bTcZ4xs6E6pTUoAalE.jpg" group-title="Filmes | Guerra",Zona de Risco (2024)
-http://loadbl2.online:80/movie/31685132/08374408/1826786.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Ethel & Ernest (2016)" tvg-name="Ethel & Ernest (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sSBSbvdI9j381JSORvhAhRu7Mrh.jpg" group-title="Filmes | Guerra",Ethel & Ernest (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1837144.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Youjo Senki (2019)" tvg-name="Youjo Senki (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8vuQngrdp2osdMXw8pBawJfF4Xg.jpg" group-title="Filmes | Guerra",Youjo Senki (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1837548.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Sua Melhor História (2017)" tvg-name="Sua Melhor História (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/o3kGAV72Atuk9P35afELbgqXaIa.jpg" group-title="Filmes | Guerra",Sua Melhor História (2017)
-http://loadbl2.online:80/movie/31685132/08374408/1840531.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Jojo Rabbit (2019)" tvg-name="Jojo Rabbit (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zFJZKMcjBaVLNPZJQUAFNoTL48d.jpg" group-title="Filmes | Guerra",Jojo Rabbit (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1839748.mkv
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Top Gang! Ases Muito Loucos (1991)" tvg-name="Top Gang! Ases Muito Loucos (1991)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pzdcjtJmK6lbCsfMD1sA6KnzKZm.jpg" group-title="Filmes | Guerra",Top Gang! Ases Muito Loucos (1991)
-http://loadbl2.online:80/movie/31685132/08374408/1840616.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Exército do Pai (2016)" tvg-name="O Exército do Pai (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/73ZUUasqlNaEni9ZqB4mtzzBnlY.jpg" group-title="Filmes | Guerra",O Exército do Pai (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1840085.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Bastardoz (2020)" tvg-name="Bastardoz (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ac9cLKaSWBRtdOEFzOZkm2YnhUh.jpg" group-title="Filmes | Guerra",Bastardoz (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1839256.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Top Gang 2! A Missão (1993)" tvg-name="Top Gang 2! A Missão (1993)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/th9xB4OsGxUjrgcSYPB72z9vdWE.jpg" group-title="Filmes | Guerra",Top Gang 2! A Missão (1993)
-http://loadbl2.online:80/movie/31685132/08374408/1840622.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Ponte do Rio Kwai (1957)" tvg-name="A Ponte do Rio Kwai (1957)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/z4NWsLsLogVh2XfLXbPaaGrX8Zz.jpg" group-title="Filmes | Guerra",A Ponte do Rio Kwai (1957)
-http://loadbl2.online:80/movie/31685132/08374408/1839030.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Grande Ditador (1940)" tvg-name="O Grande Ditador (1940)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/t7BTnBuWcxp6iCKxxn4wM4EaLAY.jpg" group-title="Filmes | Guerra",O Grande Ditador (1940)
-http://loadbl2.online:80/movie/31685132/08374408/1840069.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Morto Vivo (2009)" tvg-name="O Morto Vivo (2009)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bECzzYkRFlCZZAjQ9wboMGyWFcL.jpg" group-title="Filmes | Guerra",O Morto Vivo (2009)
-http://loadbl2.online:80/movie/31685132/08374408/1840126.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="As Incríveis Histórias de Max e Léon (2016)" tvg-name="As Incríveis Histórias de Max e Léon (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hilUQdHZXAOumnWHidQ4LDHtvh3.jpg" group-title="Filmes | Guerra",As Incríveis Histórias de Max e Léon (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1839203.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Filhas do Sol (2018)" tvg-name="Filhas do Sol (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bR3yOXLuRiJUV4mGUM4CmkJC5JD.jpg" group-title="Filmes | Guerra",Filhas do Sol (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1841822.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Mariya: O Simbolo de Uma Guerra (2022)" tvg-name="Mariya: O Simbolo de Uma Guerra (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tKhZ07SBiTaCljSOXyseUrzQQfJ.jpg" group-title="Filmes | Guerra",Mariya: O Simbolo de Uma Guerra (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1842154.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Che: O Argentino (2008)" tvg-name="Che: O Argentino (2008)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ekUpkM5tStkZuzpIzg77PbkG6SM.jpg" group-title="Filmes | Guerra",Che: O Argentino (2008)
-http://loadbl2.online:80/movie/31685132/08374408/1841511.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Zoológico de Varsóvia (2017)" tvg-name="O Zoológico de Varsóvia (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hM1XynlvPHvRD5dIKE883YXBS2.jpg" group-title="Filmes | Guerra",O Zoológico de Varsóvia (2017)
-http://loadbl2.online:80/movie/31685132/08374408/1842613.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Guarda de Auschwitz (2018)" tvg-name="O Guarda de Auschwitz (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3BLIxPo0OVNBXVTP7X6g2cGAuVr.jpg" group-title="Filmes | Guerra",O Guarda de Auschwitz (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1842426.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Operação Cerveja (2022)" tvg-name="Operação Cerveja (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/purjgeOOOZKJ9MIHTyGdAJ0LsJE.jpg" group-title="Filmes | Guerra",Operação Cerveja (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1842633.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Cavalo de Guerra (2011)" tvg-name="Cavalo de Guerra (2011)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8KCu49IhGK5IpqKRO1i2UGLQt6A.jpg" group-title="Filmes | Guerra",Cavalo de Guerra (2011)
-http://loadbl2.online:80/movie/31685132/08374408/1841486.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Tolkien (2019)" tvg-name="Tolkien (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/A7eYO3t7oZQdfJj5KlJBI7GhT9H.jpg" group-title="Filmes | Guerra",Tolkien (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1843083.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Anne Frank, Minha Melhor Amiga (2021)" tvg-name="Anne Frank, Minha Melhor Amiga (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/720Hb1K6gZqPxWx16XtyUHPWfFd.jpg" group-title="Filmes | Guerra", Minha Melhor Amiga (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1841288.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Entre Irmãos (2009)" tvg-name="Entre Irmãos (2009)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/buKRRR6Z6TztAuMUw7DUXCwn4hs.jpg" group-title="Filmes | Guerra",Entre Irmãos (2009)
-http://loadbl2.online:80/movie/31685132/08374408/1841793.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Piloto - Uma Batalha Pela Sobrevivência (2021)" tvg-name="O Piloto - Uma Batalha Pela Sobrevivência (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mRV9tKNpxRvN8ezShKkwaFBsrw5.jpg" group-title="Filmes | Guerra",O Piloto - Uma Batalha Pela Sobrevivência (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1842529.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Círculo de Fogo (2001)" tvg-name="Círculo de Fogo (2001)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/d4N60DrroHC0JFhn8CXgB1IJHrc.jpg" group-title="Filmes | Guerra",Círculo de Fogo (2001)
-http://loadbl2.online:80/movie/31685132/08374408/1841504.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Longe dos Homens (2015)" tvg-name="Longe dos Homens (2015)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xRJMkvvESLtRtpZAADEcI7c9Ez8.jpg" group-title="Filmes | Guerra",Longe dos Homens (2015)
-http://loadbl2.online:80/movie/31685132/08374408/1842076.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Terror na Síria (2018)" tvg-name="Terror na Síria (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dby3MpllNvWjOqccys01214xl2n.jpg" group-title="Filmes | Guerra",Terror na Síria (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1843043.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Voz da Resistência (2021)" tvg-name="A Voz da Resistência (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sKNKpWSJBWyceOIdZjEl0yTzZt2.jpg" group-title="Filmes | Guerra",A Voz da Resistência (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1841203.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="As Legiões Emergentes (2019)" tvg-name="As Legiões Emergentes (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vgUoejL9fMVfXylBPekyEInOsnQ.jpg" group-title="Filmes | Guerra",As Legiões Emergentes (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1841334.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Abençoe-me, Ultima: A Curandeira (2013)" tvg-name="Abençoe-me, Ultima: A Curandeira (2013)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jWtu6b6m0rrSGNP76CPh1BbH1r0.jpg" group-title="Filmes | Guerra", Ultima: A Curandeira (2013)
-http://loadbl2.online:80/movie/31685132/08374408/1841228.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Jogando a Linha (2023)" tvg-name="Jogando a Linha (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tQpEqBoOWkNJRGpSQDTTsXCxVVL.jpg" group-title="Filmes | Guerra",Jogando a Linha (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1841996.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Tragédia de Macbeth (2021)" tvg-name="A Tragédia de Macbeth (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iOW4dWoOvGpgj0Pld4sjMGkvK6L.jpg" group-title="Filmes | Guerra",A Tragédia de Macbeth (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1841194.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Tempos de Escuridão (2020)" tvg-name="Tempos de Escuridão (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/j2gaMXecjYs1F70fmsFCcuOjl5J.jpg" group-title="Filmes | Guerra",Tempos de Escuridão (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1843024.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Consequências (2019)" tvg-name="Consequências (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p3j8GWWWS04N5eoKHeyDsTjbqp1.jpg" group-title="Filmes | Guerra",Consequências (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1841548.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Nada de Novo no Front (2022)" tvg-name="Nada de Novo no Front (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qmcKs0Aoft7MBdBoj1haZyPRgM2.jpg" group-title="Filmes | Guerra",Nada de Novo no Front (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1842266.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Pianista (2002)" tvg-name="O Pianista (2002)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s0evYrftQZepUEaLPUFUdRvBG80.jpg" group-title="Filmes | Guerra",O Pianista (2002)
-http://loadbl2.online:80/movie/31685132/08374408/1842547.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Perigo Iminente (2019)" tvg-name="Perigo Iminente (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zkCljVHb1SdhuPTMftSFegju6q.jpg" group-title="Filmes | Guerra",Perigo Iminente (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1842730.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Napoleão (2023)" tvg-name="Napoleão (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oaUS0YJN3cHpvin1BMNmmnv0gRX.jpg" group-title="Filmes | Guerra",Napoleão (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1842268.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Fim de Arsênio Godard (2013)" tvg-name="O Fim de Arsênio Godard (2013)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/t8dAv0mMTkdw4ZSyxkjSuil1CfV.jpg" group-title="Filmes | Guerra",O Fim de Arsênio Godard (2013)
-http://loadbl2.online:80/movie/31685132/08374408/1842423.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Verdade e Honra (2020)" tvg-name="Verdade e Honra (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wiWxWuOoWKpygNHR5q3sciuvC1U.jpg" group-title="Filmes | Guerra",Verdade e Honra (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1843250.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Guardiões do Céu (2013)" tvg-name="Guardiões do Céu (2013)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8d7JYw5qFOVCAl6koniLGCmHdb8.jpg" group-title="Filmes | Guerra",Guardiões do Céu (2013)
-http://loadbl2.online:80/movie/31685132/08374408/1841905.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Conferência (2022)" tvg-name="A Conferência (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/A3xi46qJs9kGAgsPrUj8DgGjjhc.jpg" group-title="Filmes | Guerra",A Conferência (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1840988.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Caminho da Liberdade (2009)" tvg-name="O Caminho da Liberdade (2009)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rh0kqC8Yemop4BXypCtOildGAvy.jpg" group-title="Filmes | Guerra",O Caminho da Liberdade (2009)
-http://loadbl2.online:80/movie/31685132/08374408/1842359.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Lista de Schindler (1993)" tvg-name="A Lista de Schindler (1993)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tagKKnJLK8W5qKJW7Cl2GR2OPCs.jpg" group-title="Filmes | Guerra",A Lista de Schindler (1993)
-http://loadbl2.online:80/movie/31685132/08374408/1841076.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Uma Vida Oculta (2019)" tvg-name="Uma Vida Oculta (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oh5cKQgC54MAu62YCXNHVPiKIoY.jpg" group-title="Filmes | Guerra",Uma Vida Oculta (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1843277.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Uma Guerra Pessoal (2018)" tvg-name="Uma Guerra Pessoal (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6tuw5ZA1n1JJZGAIyOpBtYJynCt.jpg" group-title="Filmes | Guerra",Uma Guerra Pessoal (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1843199.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Até o Último Homem (2016)" tvg-name="Até o Último Homem (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/88sCL8OQMoieKpHClqRCCbcgH6w.jpg" group-title="Filmes | Guerra",Até o Último Homem (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1841374.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Última Linha de Defesa (2020)" tvg-name="A Última Linha de Defesa (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qESC7AdyfqMwYl1ZhQpp5d5iJiG.jpg" group-title="Filmes | Guerra",A Última Linha de Defesa (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1841189.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Espiã (2006)" tvg-name="A Espiã (2006)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1jwOKQ9vPopoWkOW3SJ2lbPCUoQ.jpg" group-title="Filmes | Guerra",A Espiã (2006)
-http://loadbl2.online:80/movie/31685132/08374408/1841019.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="U-571 - A Batalha do Atlântico (2000)" tvg-name="U-571 - A Batalha do Atlântico (2000)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yeUhRSrlFcXhsuUai2ozWH6rNnK.jpg" group-title="Filmes | Guerra",U-571 - A Batalha do Atlântico (2000)
-http://loadbl2.online:80/movie/31685132/08374408/1843109.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Legítimo Rei (2018)" tvg-name="Legítimo Rei (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6LvYgoxdh3coBd69CxKJaoju9lv.jpg" group-title="Filmes | Guerra",Legítimo Rei (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1842043.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Última Esperança Soviética (2021)" tvg-name="A Última Esperança Soviética (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dYAIG6RxtSRPcge3Rzw9fxPSUzE.jpg" group-title="Filmes | Guerra",A Última Esperança Soviética (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1841171.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Disputa (2020)" tvg-name="A Disputa (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jYFaFJPg79ngwBrxjQw4aThzen4.jpg" group-title="Filmes | Guerra",A Disputa (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1841000.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Além das Águas (2016)" tvg-name="Além das Águas (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gs7YE1aQRQLPl1U4EyLcAOiKhZK.jpg" group-title="Filmes | Guerra",Além das Águas (2016)
-http://loadbl2.online:80/movie/31685132/08374408/1841268.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Macbeth: Ambição e Guerra (2015)" tvg-name="Macbeth: Ambição e Guerra (2015)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qPSNeOexSLbMrMl58vSejR5Znas.jpg" group-title="Filmes | Guerra",Macbeth: Ambição e Guerra (2015)
-http://loadbl2.online:80/movie/31685132/08374408/1842121.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Sexto Ônibus (2022)" tvg-name="O Sexto Ônibus (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7FmU7GOV6fEUO4fNZRD5vwemMzM.jpg" group-title="Filmes | Guerra",O Sexto Ônibus (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1842572.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Menino e a Guerra (2020)" tvg-name="O Menino e a Guerra (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ovyPj16iGWnO9dPWHJDzvz8Q7Qf.jpg" group-title="Filmes | Guerra",O Menino e a Guerra (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1842468.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Kaleb - O Cão Herói (2020)" tvg-name="Kaleb - O Cão Herói (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fEBYqFsKrAfyQzvCOf5j2lgAzE5.jpg" group-title="Filmes | Guerra",Kaleb - O Cão Herói (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1842018.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Emancipation: Uma História de Liberdade (2022)" tvg-name="Emancipation: Uma História de Liberdade (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/izTIOynukDcN9dp7uPlwBjHr8f5.jpg" group-title="Filmes | Guerra",Emancipation: Uma História de Liberdade (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1841740.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Surdo (2019)" tvg-name="Surdo (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/x14J1zwAKpjng61bGlqz5egS3Yg.jpg" group-title="Filmes | Guerra",Surdo (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1842998.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Uma Lição de Esperança (2020)" tvg-name="Uma Lição de Esperança (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7EzVSW5F9Kbt8VIJJJ2G4x1hz5q.jpg" group-title="Filmes | Guerra",Uma Lição de Esperança (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1843212.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Face da Verdade (2019)" tvg-name="A Face da Verdade (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/JAShb31Bbn03ZluMvbfmCHLZcR.jpg" group-title="Filmes | Guerra",A Face da Verdade (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1841038.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Árvore dos Sonhos (1994)" tvg-name="A Árvore dos Sonhos (1994)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dcczrfhdsiDU2649JLBGVmDlNcN.jpg" group-title="Filmes | Guerra",A Árvore dos Sonhos (1994)
-http://loadbl2.online:80/movie/31685132/08374408/1840957.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Honra ao Mérito (2017)" tvg-name="Honra ao Mérito (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1zNbZTXagFXpGtoe49xqKXmOuRF.jpg" group-title="Filmes | Guerra",Honra ao Mérito (2017)
-http://loadbl2.online:80/movie/31685132/08374408/1841939.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Linhas de Wellington (2012)" tvg-name="Linhas de Wellington (2012)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bSqoOh0WlRnMbOG0cxqkvLjRtH2.jpg" group-title="Filmes | Guerra",Linhas de Wellington (2012)
-http://loadbl2.online:80/movie/31685132/08374408/1842066.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Protocolo de Auschwitz (2021)" tvg-name="O Protocolo de Auschwitz (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uTvodu8Jqq8C5uiEXbsFmto4GJI.jpg" group-title="Filmes | Guerra",O Protocolo de Auschwitz (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1842544.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Invencível (2014)" tvg-name="Invencível (2014)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4ewpP8s2PBOvsxQN9waaMWPCniy.jpg" group-title="Filmes | Guerra",Invencível (2014)
-http://loadbl2.online:80/movie/31685132/08374408/1841981.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Resistência (2020)" tvg-name="Resistência (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jMPSL9R3TyGZC1lSItTDWqah89G.jpg" group-title="Filmes | Guerra",Resistência (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1842841.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Juventudes Roubadas (2014)" tvg-name="Juventudes Roubadas (2014)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6aO9Noc9Cqu7V4LJlXYGP9Iu7I1.jpg" group-title="Filmes | Guerra",Juventudes Roubadas (2014)
-http://loadbl2.online:80/movie/31685132/08374408/1842017.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Menino do Pijama Listrado (2008)" tvg-name="O Menino do Pijama Listrado (2008)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zYRk58BJd7bLErTWlx3tVsUUbbV.jpg" group-title="Filmes | Guerra",O Menino do Pijama Listrado (2008)
-http://loadbl2.online:80/movie/31685132/08374408/1842476.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Na Escuridão (2011)" tvg-name="Na Escuridão (2011)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/i3DVA0SguyYNXuaia4fuVqmdG2W.jpg" group-title="Filmes | Guerra",Na Escuridão (2011)
-http://loadbl2.online:80/movie/31685132/08374408/1842234.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Caminhos da Sobrevivência (2023)" tvg-name="Caminhos da Sobrevivência (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/FSFhUQD96WlDLfYfheod05WOQo.jpg" group-title="Filmes | Guerra",Caminhos da Sobrevivência (2023)
-http://loadbl2.online:80/movie/31685132/08374408/1841444.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Primeiro Mataram Meu Pai (2017)" tvg-name="Primeiro Mataram Meu Pai (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/umBuMm1xry8SfOdetIyaNX56hed.jpg" group-title="Filmes | Guerra",Primeiro Mataram Meu Pai (2017)
-http://loadbl2.online:80/movie/31685132/08374408/1842769.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Salvando Leningrado (2019)" tvg-name="Salvando Leningrado (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8HB6UlnxAHJBjtvsL5HYJb7BN8v.jpg" group-title="Filmes | Guerra",Salvando Leningrado (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1842873.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Outra Face da Guerra (2019)" tvg-name="A Outra Face da Guerra (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/arlwPVSQg3fsBCDhwORpiHnZjYt.jpg" group-title="Filmes | Guerra",A Outra Face da Guerra (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1841119.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Um Homem Comum (2017)" tvg-name="Um Homem Comum (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/m1JxuEwEufGqNAPJj7Tbk2pYGqh.jpg" group-title="Filmes | Guerra",Um Homem Comum (2017)
-http://loadbl2.online:80/movie/31685132/08374408/1843147.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Zaytoun (2012)" tvg-name="Zaytoun (2012)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mthd0wx6aalh17DV73Awh9bIKKQ.jpg" group-title="Filmes | Guerra",Zaytoun (2012)
-http://loadbl2.online:80/movie/31685132/08374408/1843296.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Wife of a Spy (2020) (2020)" tvg-name="Wife of a Spy (2020) (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kuPmxWrkajRgbfLaVLScAmbkHMb.jpg" group-title="Filmes | Guerra",Wife of a Spy (2020) (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1843288.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="36 Horas de Guerra (2021)" tvg-name="36 Horas de Guerra (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eRUrER9xFIiLp2aMIJjCTEOU3VX.jpg" group-title="Filmes | Guerra",36 Horas de Guerra (2021)
-http://loadbl2.online:80/movie/31685132/08374408/1840951.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Man Down: O Terror da Guerra (2015)" tvg-name="Man Down: O Terror da Guerra (2015)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v4dlt8HUBgCuUiJTXID8OB4cZLF.jpg" group-title="Filmes | Guerra",Man Down: O Terror da Guerra (2015)
-http://loadbl2.online:80/movie/31685132/08374408/1842117.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Banqueiro da Resistência (2018)" tvg-name="O Banqueiro da Resistência (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fKRLcJeGrE83aiRVl4PKNCtGgVU.jpg" group-title="Filmes | Guerra",O Banqueiro da Resistência (2018)
-http://loadbl2.online:80/movie/31685132/08374408/1842351.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os Meninos Que Enganavam Nazistas (2017)" tvg-name="Os Meninos Que Enganavam Nazistas (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/o9yyogXcUZG3NaBgXvwJMcEQ4b7.jpg" group-title="Filmes | Guerra",Os Meninos Que Enganavam Nazistas (2017)
-http://loadbl2.online:80/movie/31685132/08374408/1842662.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="AK-47: A Arma Que Mudou o Mundo (2020)" tvg-name="AK-47: A Arma Que Mudou o Mundo (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4djODIhP8TZtjkG6w2xZjOuLk6.jpg" group-title="Filmes | Guerra",AK-47: A Arma Que Mudou o Mundo (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1841225.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Grande Guerra (2019)" tvg-name="A Grande Guerra (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8XjW4WTBq7aKvBqVqkUr3hjnfhx.jpg" group-title="Filmes | Guerra",A Grande Guerra (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1841047.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Soldado que Não Existiu (2022)" tvg-name="O Soldado que Não Existiu (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hJXW2GUJhNzpuftOp5yx1E6puEw.jpg" group-title="Filmes | Guerra",O Soldado que Não Existiu (2022)
-http://loadbl2.online:80/movie/31685132/08374408/1842592.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Fantasma Vermelho (2020)" tvg-name="O Fantasma Vermelho (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7OpcrpuTSYOXd5IGfcPPPjbzNhm.jpg" group-title="Filmes | Guerra",O Fantasma Vermelho (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1842417.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Paciente Inglês (1996)" tvg-name="O Paciente Inglês (1996)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yBnEL8I7MXUvOvdcZV1MJJQDoxU.jpg" group-title="Filmes | Guerra",O Paciente Inglês (1996)
-http://loadbl2.online:80/movie/31685132/08374408/1842514.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Em Campo Minado (2014)" tvg-name="Em Campo Minado (2014)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yfTH8A4XM6b7CkWEjjll4nirmji.jpg" group-title="Filmes | Guerra",Em Campo Minado (2014)
-http://loadbl2.online:80/movie/31685132/08374408/1841751.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Midway: Batalha em Alto Mar (2019)" tvg-name="Midway: Batalha em Alto Mar (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/f2x8lIh0olfwqe5Jbwsw4Ojc5ie.jpg" group-title="Filmes | Guerra",Midway: Batalha em Alto Mar (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1842188.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Equipe Assassina (2019)" tvg-name="Equipe Assassina (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/z8q4TzpKdnRLfEiob3CDVR2uAz0.jpg" group-title="Filmes | Guerra",Equipe Assassina (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1841768.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Cartas de Iwo Jima (2006)" tvg-name="Cartas de Iwo Jima (2006)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bePSUYRqxtQrLNGdx3E3BFxqiHT.jpg" group-title="Filmes | Guerra",Cartas de Iwo Jima (2006)
-http://loadbl2.online:80/movie/31685132/08374408/1841473.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Herói da Liberdade (2020)" tvg-name="Herói da Liberdade (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nD3eegYICfOZmQTENopz8NXu4Ci.jpg" group-title="Filmes | Guerra",Herói da Liberdade (2020)
-http://loadbl2.online:80/movie/31685132/08374408/1841921.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Batalha de Shindisi (2019)" tvg-name="A Batalha de Shindisi (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rY4bsuJm07d9XlOq5ysQTl0yuUv.jpg" group-title="Filmes | Guerra",A Batalha de Shindisi (2019)
-http://loadbl2.online:80/movie/31685132/08374408/1840932.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Flores do Oriente (2011)" tvg-name="Flores do Oriente (2011)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6OBhpnPcL7kHX8KW8l5n603TNbC.jpg" group-title="Filmes | Guerra",Flores do Oriente (2011)
-http://loadbl2.online:80/movie/31685132/08374408/1841847.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Fé Que Nos Une (2015)" tvg-name="A Fé Que Nos Une (2015)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/z2wMgojA3bGkHD3QvWlBRrStPEQ.jpg" group-title="Filmes | Guerra",A Fé Que Nos Une (2015)
-http://loadbl2.online:80/movie/31685132/08374408/1841025.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Caçadores de Obras-Primas (2014)" tvg-name="Caçadores de Obras-Primas (2014)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pPr0yONkXWA9GgX3PAoM1YA8P9W.jpg" group-title="Filmes | Guerra",Caçadores de Obras-Primas (2014)
-http://loadbl2.online:80/movie/31685132/08374408/1841489.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="The First World War (1934)" tvg-name="The First World War (1934)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qM69rAEnILHJPWviqJDy3fHU5zx.jpg" group-title="Filmes | Guerra",The First World War (1934)
-http://loadbl2.online:80/movie/31685132/08374408/1843521.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Pilotos de Combate (2024)" tvg-name="Pilotos de Combate (2024)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eKML6xBIWCAlDsOCltxqEcZsgnY.jpg" group-title="Filmes | Guerra",Pilotos de Combate (2024)
-http://loadbl2.online:80/movie/31685132/08374408/2017648.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Zona de Interesse (2023)" tvg-name="Zona de Interesse (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bZlZ1hcmP6KkZfXxXcNngaFzMcS.jpg" group-title="Filmes | Guerra",Zona de Interesse (2023)
-http://loadbl2.online:80/movie/31685132/08374408/2020996.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Bombardeio à Roterdã (2012)" tvg-name="Bombardeio à Roterdã (2012)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q0wlmX9tMW8hgASpIKFNmBjaehz.jpg" group-title="Filmes | Guerra",Bombardeio à Roterdã (2012)
-http://loadbl2.online:80/movie/31685132/08374408/2021063.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Corte Marcial Da Nave Da Revolta (2023)" tvg-name="A Corte Marcial Da Nave Da Revolta (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jii0CWMcjFmCfrTXsRyMuwjlNY3.jpg" group-title="Filmes | Guerra",A Corte Marcial Da Nave Da Revolta (2023)
-http://loadbl2.online:80/movie/31685132/08374408/2021176.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Ataque à Colina 400 (2023)" tvg-name="Ataque à Colina 400 (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7ZtIxZp4tf0Gp5JtVKV4iCShTrg.jpg" group-title="Filmes | Guerra",Ataque à Colina 400 (2023)
-http://loadbl2.online:80/movie/31685132/08374408/2023644.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Uma Vida: A História de Nicholas Winton (2023)" tvg-name="Uma Vida: A História de Nicholas Winton (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/o65cLhzXPp9nBb5RvKRqLfZiMcH.jpg" group-title="Filmes | Guerra",Uma Vida: A História de Nicholas Winton (2023)
-http://loadbl2.online:80/movie/31685132/08374408/2035536.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Planeta dos Macacos: A Guerra (2017)" tvg-name="Planeta dos Macacos: A Guerra (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gNAvlP4VYF6H6a4EyIcdZP9QBrM.jpg" group-title="Filmes | Guerra",Planeta dos Macacos: A Guerra (2017)
-http://loadbl2.online:80/movie/31685132/08374408/2112797.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Fera da Guerra (1988)" tvg-name="A Fera da Guerra (1988)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ux2wud5NtD6A2omfXBta8wxTyRT.jpg" group-title="Filmes | Guerra",A Fera da Guerra (1988)
-http://loadbl2.online:80/movie/31685132/08374408/2121121.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Franco Atirador (1978)" tvg-name="O Franco Atirador (1978)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xjeaIyoZOWnPCX5E1JvzmkNv4QC.jpg" group-title="Filmes | Guerra",O Franco Atirador (1978)
-http://loadbl2.online:80/movie/31685132/08374408/2121479.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Guerra e Humanidade III: Uma Prece de Soldado (1961)" tvg-name="Guerra e Humanidade III: Uma Prece de Soldado (1961)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gkRDYYEStn8Lb0MTMxVyl5bNvTP.jpg" group-title="Filmes | Guerra",Guerra e Humanidade III: Uma Prece de Soldado (1961)
-http://loadbl2.online:80/movie/31685132/08374408/2121357.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Horizonte de Glórias (1951)" tvg-name="Horizonte de Glórias (1951)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iCIoWmBPN9rkJH1z9sccozEmfIa.jpg" group-title="Filmes | Guerra",Horizonte de Glórias (1951)
-http://loadbl2.online:80/movie/31685132/08374408/2121371.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Alvarez Kelly (1966)" tvg-name="Alvarez Kelly (1966)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6kIcuVMyJJKmxy7bFbI9q1DWByR.jpg" group-title="Filmes | Guerra",Alvarez Kelly (1966)
-http://loadbl2.online:80/movie/31685132/08374408/2121188.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="MacArthur, O General Rebelde (1977)" tvg-name="MacArthur, O General Rebelde (1977)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yLgRA4vHvWkLKsH7k2rEPXaXMkm.jpg" group-title="Filmes | Guerra", O General Rebelde (1977)
-http://loadbl2.online:80/movie/31685132/08374408/2121406.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Braddock 2: O Início da Missão (1985)" tvg-name="Braddock 2: O Início da Missão (1985)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7rCGFMqk4ewvk1T2dpqMcJyVdMx.jpg" group-title="Filmes | Guerra",Braddock 2: O Início da Missão (1985)
-http://loadbl2.online:80/movie/31685132/08374408/2121236.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Braddock 3: O Resgate (1988)" tvg-name="Braddock 3: O Resgate (1988)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pAqbmhgUO65EuIysncrxoqOWnvC.jpg" group-title="Filmes | Guerra",Braddock 3: O Resgate (1988)
-http://loadbl2.online:80/movie/31685132/08374408/2121232.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Metido em Encrencas (1988)" tvg-name="Metido em Encrencas (1988)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jz9ALPaROE4v7eFmJrn5vjKvw5x.jpg" group-title="Filmes | Guerra",Metido em Encrencas (1988)
-http://loadbl2.online:80/movie/31685132/08374408/2121438.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="...E o Vento Levou (1939)" tvg-name="...E o Vento Levou (1939)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/erwBUaSZLgMo79KRcQYw0bAV9h3.jpg" group-title="Filmes | Guerra",...E o Vento Levou (1939)
-http://loadbl2.online:80/movie/31685132/08374408/2121332.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os Doze Condenados (1967)" tvg-name="Os Doze Condenados (1967)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/djGA2A1DuP8YYIkLmeiMzIgC9B9.jpg" group-title="Filmes | Guerra",Os Doze Condenados (1967)
-http://loadbl2.online:80/movie/31685132/08374408/2121576.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Amargo Regresso (1978)" tvg-name="Amargo Regresso (1978)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wnzOGO1LyeIEmjJgcjf7gt7Vdy4.jpg" group-title="Filmes | Guerra",Amargo Regresso (1978)
-http://loadbl2.online:80/movie/31685132/08374408/2121193.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Doutor Jivago (1965)" tvg-name="Doutor Jivago (1965)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xG9sb3Hq8SUy6hOq3AYHbBzVFKf.jpg" group-title="Filmes | Guerra",Doutor Jivago (1965)
-http://loadbl2.online:80/movie/31685132/08374408/2121312.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os Guerreiros Pilantras (1970)" tvg-name="Os Guerreiros Pilantras (1970)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6KGyPIm4uui1PCdO4JIkSJstrxd.jpg" group-title="Filmes | Guerra",Os Guerreiros Pilantras (1970)
-http://loadbl2.online:80/movie/31685132/08374408/2121569.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os Canhões de Navarone (1961)" tvg-name="Os Canhões de Navarone (1961)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sWOcOmSdKXKsjgf3FLR2asyK68r.jpg" group-title="Filmes | Guerra",Os Canhões de Navarone (1961)
-http://loadbl2.online:80/movie/31685132/08374408/2121571.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A Ponte do Rio Kwai (1957)" tvg-name="A Ponte do Rio Kwai (1957)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/z4NWsLsLogVh2XfLXbPaaGrX8Zz.jpg" group-title="Filmes | Guerra",A Ponte do Rio Kwai (1957)
-http://loadbl2.online:80/movie/31685132/08374408/2121162.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Bom Dia, Vietnã (1987)" tvg-name="Bom Dia, Vietnã (1987)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nCGK7GwtjCu2gvdfyvxLX3JkxE9.jpg" group-title="Filmes | Guerra", Vietnã (1987)
-http://loadbl2.online:80/movie/31685132/08374408/2121208.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Os Russos Estão Chegando! Os Russos Estão Chegando! (1966)" tvg-name="Os Russos Estão Chegando! Os Russos Estão Chegando! (1966)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Zerhh8zQc7CimKdQMI1HnppRY2.jpg" group-title="Filmes | Guerra",Os Russos Estão Chegando! Os Russos Estão Chegando! (1966)
-http://loadbl2.online:80/movie/31685132/08374408/2121581.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="No Coração do Perigo (1984)" tvg-name="No Coração do Perigo (1984)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cdPGmQdr8hr41K2LKFUzEGBHzbQ.jpg" group-title="Filmes | Guerra",No Coração do Perigo (1984)
-http://loadbl2.online:80/movie/31685132/08374408/2121437.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Beau Geste (1966)" tvg-name="Beau Geste (1966)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sNrbpDwMDT0SSlOG8w3Xc8dpYZj.jpg" group-title="Filmes | Guerra",Beau Geste (1966)
-http://loadbl2.online:80/movie/31685132/08374408/2121203.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Comando 10 de Navarone (1978)" tvg-name="O Comando 10 de Navarone (1978)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3bFRwivCZuXx7fHWt4SpYaiHkNL.jpg" group-title="Filmes | Guerra",O Comando 10 de Navarone (1978)
-http://loadbl2.online:80/movie/31685132/08374408/2121469.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Tempo de Glória (1989)" tvg-name="Tempo de Glória (1989)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mGfE62Tzbwcumt4lgrnnALJsspO.jpg" group-title="Filmes | Guerra",Tempo de Glória (1989)
-http://loadbl2.online:80/movie/31685132/08374408/2121669.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Labirinto do Fauno (2006)" tvg-name="O Labirinto do Fauno (2006)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/53ZMT8Y18gwLpInzRLMEebAZxew.jpg" group-title="Filmes | Guerra",O Labirinto do Fauno (2006)
-http://loadbl2.online:80/movie/31685132/08374408/2129995.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Máquina de Guerra (2017)" tvg-name="Máquina de Guerra (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xwuCSeHmcIEvcy37KtGBvQVGXqk.jpg" group-title="Filmes | Guerra",Máquina de Guerra (2017)
-http://loadbl2.online:80/movie/31685132/08374408/2129975.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Coragem Sem Limites (2019)" tvg-name="Coragem Sem Limites (2019)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aAB0Twce1wryIaUY1CC88Xj81N2.jpg" group-title="Filmes | Guerra",Coragem Sem Limites (2019)
-http://loadbl2.online:80/movie/31685132/08374408/2140394.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Comandante (2023)" tvg-name="Comandante (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iIeiEDu6OKfMFFfyyxQ68EGhlS2.jpg" group-title="Filmes | Guerra",Comandante (2023)
-http://loadbl2.online:80/movie/31685132/08374408/2140438.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Codinome: Banderas (2018)" tvg-name="Codinome: Banderas (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dBUXcKPe4od2yRAYN4wUUdmahBF.jpg" group-title="Filmes | Guerra",Codinome: Banderas (2018)
-http://loadbl2.online:80/movie/31685132/08374408/2141900.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Jorge da Capadócia (2024)" tvg-name="Jorge da Capadócia (2024)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ynDiIH3bfEfAoAX5MOno3BcIiZs.jpg" group-title="Filmes | Guerra",Jorge da Capadócia (2024)
-http://loadbl2.online:80/movie/31685132/08374408/2141914.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Guerra Civil (2024)" tvg-name="Guerra Civil (2024)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Use5sOQWXL3BvcaKqUH7eQ7I53.jpg" group-title="Filmes | Guerra",Guerra Civil (2024)
-http://loadbl2.online:80/movie/31685132/08374408/2145545.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Corporação Nazi (2014)" tvg-name="Corporação Nazi (2014)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xp2FO3znAZJHzJo0knNemvKr8FO.jpg" group-title="Filmes | Guerra",Corporação Nazi (2014)
-http://loadbl2.online:80/movie/31685132/08374408/2147895.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Ike: O Dia D (2004)" tvg-name="Ike: O Dia D (2004)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/llOn9IMvneQBUrvYGq0g445CQ8x.jpg" group-title="Filmes | Guerra",Ike: O Dia D (2004)
-http://loadbl2.online:80/movie/31685132/08374408/2147901.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Acima das Linhas Inimigas (2022)" tvg-name="Acima das Linhas Inimigas (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sUz7EJ0Ec9vw8g9i2BmymwvzJjo.jpg" group-title="Filmes | Guerra",Acima das Linhas Inimigas (2022)
-http://loadbl2.online:80/movie/31685132/08374408/2148596.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="O Amante da Guerra (1962)" tvg-name="O Amante da Guerra (1962)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dqbk13nDd47dL4heJBxjEprOi73.jpg" group-title="Filmes | Guerra",O Amante da Guerra (1962)
-http://loadbl2.online:80/movie/31685132/08374408/2149645.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="A História de um Soldado (1984)" tvg-name="A História de um Soldado (1984)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kobXWJE7VLtYExOlK9qW5MVFHTO.jpg" group-title="Filmes | Guerra",A História de um Soldado (1984)
-http://loadbl2.online:80/movie/31685132/08374408/2150701.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Quando a Guerra Acabar (2023)" tvg-name="Quando a Guerra Acabar (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zglxxVFyhiwwh0X3xfvXa8bPAve.jpg" group-title="Filmes | Guerra",Quando a Guerra Acabar (2023)
-http://loadbl2.online:80/movie/31685132/08374408/2151918.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Guerra Sem Regras (2024)" tvg-name="Guerra Sem Regras (2024)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xVlsA37y6w9COClNkvk6xq8yN5p.jpg" group-title="Filmes | Guerra",Guerra Sem Regras (2024)
-http://loadbl2.online:80/movie/31685132/08374408/2167684.mp4
-#EXTINF:-1 tvg-id="#EXTINF:-1 tvg-name="Falklands War: The Forgotten Battle (2022)" tvg-name="Falklands War: The Forgotten Battle (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/roM5mPBNXkIrnHK1FMBt0szC1Zx.jpg" group-title="Filmes | Guerra",Falklands War: The Forgotten Battle (2022)
-http://loadbl2.online:80/movie/31685132/08374408/2168226.mp4
+#EXTINF:-1 tvg-id="" tvg-name="12 Heróis (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/mBgAJeIx1d5kxU8nR748o9qnAUK.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",12 Heróis (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789487.mp4
+#EXTINF:-1 tvg-id="" tvg-name="13 Horas: Os Soldados Secretos de Benghazi (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/K4lEgO47Axbidt5MJo5KljpP3G.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",13 Horas: Os Soldados Secretos de Benghazi (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789488.mp4
+#EXTINF:-1 tvg-id="" tvg-name="1918 – A Batalha de Kruty (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/2N0eKs4OD4zM9dpdECZFVK6havp.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",1918 – A Batalha de Kruty (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789489.mp4
+#EXTINF:-1 tvg-id="" tvg-name="300 1 - 2007" tvg-logo="https://image.tmdb.org/t/p/w780/2N0eKs4OD4zM9dpdECZFVK6havp.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",300 1 - 2007
+http://dns.6tp.xyz/movie/luizneto/997143156/2789490.mp4
+#EXTINF:-1 tvg-id="" tvg-name="300: A Ascensão do Império (2014)" tvg-logo="https://image.tmdb.org/t/p/w780/l9T9hsVca2mh0S29olWRUE3uBpz.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",300: A Ascensão do Império (2014)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789491.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Batalha das Ardenas: A Última Ofensiva de Hitler (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/brVPZyqIdTAScO8vg1Au8fbsd0b.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",A Batalha das Ardenas: A Última Ofensiva de Hitler (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789492.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Batalha Esquecida (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/kWbI2goToe3p1rJR3aq5zXuhRn5.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",A Batalha Esquecida (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789493.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Fera da Guerra (1988)" tvg-logo="https://image.tmdb.org/t/p/w780/ux2wud5NtD6A2omfXBta8wxTyRT.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",A Fera da Guerra (1988)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789494.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Queda! As Últimas Horas de Hitler (2004)" tvg-logo="https://image.tmdb.org/t/p/w780/i8woFd0ljnO2rmg46wdoFPcPmPu.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",A Queda! As Últimas Horas de Hitler (2004)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789495.mp4
+#EXTINF:-1 tvg-id="" tvg-name="A Última Resistência (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/iSOmOm5PlJ3kEhkQJxtqMSeuWpQ.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",A Última Resistência (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789496.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Agonia e Glória (1980)" tvg-logo="https://image.tmdb.org/t/p/w780/h0VcqQ3z1RroKk7WtiW0E6DDho2.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Agonia e Glória (1980)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789497.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Alexandre (2004)" tvg-logo="https://image.tmdb.org/t/p/w780/lu55rlKDCHymiBRgcxxTjZpe5gU.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Alexandre (2004)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789498.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Aliados (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/jN2Q3zbNKIVn9RhqUPC8JnIibhb.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Aliados (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789499.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Amor em Tempos de Guerra (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/x5MIYyGx3ukYXK0jNFxnDYwaiz7.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Amor em Tempos de Guerra (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789500.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Arma Secreta (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/56mOlQjqZ5YrmsVyBmN7QcWfIwA.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Arma Secreta (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789501.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Ato de Coragem (2012)" tvg-logo="https://image.tmdb.org/t/p/w780/1jwRYDsSEwJQhdBiiWgjvv7jZKX.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Ato de Coragem (2012)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789504.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Attila (2001)" tvg-logo="https://image.tmdb.org/t/p/w780/9wUNLxXAWvkX1wIC8Yu225qjAQ9.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Attila (2001)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789505.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Até o Último Homem (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/88sCL8OQMoieKpHClqRCCbcgH6w.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Até o Último Homem (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789503.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Bastardos Inglórios (2009)" tvg-logo="https://image.tmdb.org/t/p/w780/6UjYycIR6VLYgggfNpmSPJHmFS0.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Bastardos Inglórios (2009)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789506.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Caçadores de Obras-Primas (2014)" tvg-logo="https://image.tmdb.org/t/p/w780/pPr0yONkXWA9GgX3PAoM1YA8P9W.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Caçadores de Obras-Primas (2014)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789507.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Comboio 48: A Última Resistência (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/xSF9LRDRoie7YNwMT1yAfJ8IWNz.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Comboio 48: A Última Resistência (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789511.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Coração Valente (1995)" tvg-logo="https://image.tmdb.org/t/p/w780/tWBbNikf5ng7BuNGA55MkvhLrag.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Coração Valente (1995)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789512.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Corações de Ferro (2014)" tvg-logo="https://image.tmdb.org/t/p/w780/tVZXsjBC9HIoKv6WnAv0nWObbrT.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Corações de Ferro (2014)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789513.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Círculo de Fogo (2001)" tvg-logo="https://image.tmdb.org/t/p/w780/d4N60DrroHC0JFhn8CXgB1IJHrc.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Círculo de Fogo (2001)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789508.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Códigos de Guerra (2002)" tvg-logo="https://image.tmdb.org/t/p/w780/yEHEAa0dP56gGbQb4A21QYu4uHP.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Códigos de Guerra (2002)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789509.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Despertar de um Pesadelo" tvg-logo="https://image.tmdb.org/t/p/w400/vLHtlBAVC633xbII1fpBF23Kykx.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Despertar de um Pesadelo
+http://dns.6tp.xyz/movie/luizneto/997143156/2803363.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Dunkirk (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/kO6ewhlh7OIGRRbHwylDafEM1QG.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Dunkirk (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789514.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Filhas do Sol (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/bR3yOXLuRiJUV4mGUM4CmkJC5JD.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Filhas do Sol (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789502.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Fomos Heróis (2002)" tvg-logo="https://image.tmdb.org/t/p/w780/eyR74V84d3u5QNYGRKXfaJmHo5M.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Fomos Heróis (2002)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789516.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Guerra ao Terror (2008)" tvg-logo="https://image.tmdb.org/t/p/w780/2CYMFR1ufrAZwoZ11d8aRax1Ial.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Guerra ao Terror (2008)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789517.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Guerra no Pacífico (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/xflJGiQ0MTT1jHf9KQp5kXYvtUu.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Guerra no Pacífico (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789518.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Guerra Sob a Terra (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/ndOvtUxWiCAF6QsVajGidQJeZTM.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Guerra Sob a Terra (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789519.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Heróis de Uma Guerra (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/2qzEhkJlNoTwb61UiWGeJP347N.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Heróis de Uma Guerra (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789520.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Heróis do Ar (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/9j10Nd2HPUt6XDswmeSFkc8bp41.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Heróis do Ar (2020)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789521.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Homens de Coragem (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/xImr3Z2Q537XcgPAd16oLh7Dcg7.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Homens de Coragem (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789522.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Inimigo Invisível (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/5AE9KrZWBUo0GUlYkxcSsToRlhF.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Inimigo Invisível (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789523.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Invencível (2014)" tvg-logo="https://image.tmdb.org/t/p/w780/4ewpP8s2PBOvsxQN9waaMWPCniy.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Invencível (2014)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789524.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Julgamento em Nuremberg (1961)" tvg-logo="https://image.tmdb.org/t/p/w780/3ollXGoWPfbZZrNCLH6Y7o3ufoU.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Julgamento em Nuremberg (1961)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789525.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Linhas Inimigas (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/2MuH7e5uNagt9djLR74JTgVFzEa.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Linhas Inimigas (2020)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789526.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Longe dos Homens (2015)" tvg-logo="https://image.tmdb.org/t/p/w780/xRJMkvvESLtRtpZAADEcI7c9Ez8.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Longe dos Homens (2015)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789527.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Marcas da Guerra (2015)" tvg-logo="https://image.tmdb.org/t/p/w780/yKTFCdZjocd4kFwVkhBoKFokWzY.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Marcas da Guerra (2015)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789529.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Megan Leavey (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/ajZUEsDpo3EgiHZ8HX9yQJIRnFf.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Megan Leavey (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789530.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Missão de Honra (2018)" tvg-logo="https://image.tmdb.org/t/p/w780/3lQAAu6WZ7l0Cn4KW3igVGIMPXl.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Missão de Honra (2018)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789531.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Monster: Desejo Assassino" tvg-logo="https://image.tmdb.org/t/p/w400/fSt2mEzmVFEnjI0qpcWvLCc8oKL.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Monster: Desejo Assassino
+http://dns.6tp.xyz/movie/luizneto/997143156/2803345.mp4
+#EXTINF:-1 tvg-id="" tvg-name="My Way - Prisioneiros de Guerra (2011)" tvg-logo="https://image.tmdb.org/t/p/w780/iMtEu7346RUV26OMwoqOPHrKERe.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",My Way - Prisioneiros de Guerra (2011)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789532.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Máquina de Guerra (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/xwuCSeHmcIEvcy37KtGBvQVGXqk.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Máquina de Guerra (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789528.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Na Mira do Atirador (2017)" tvg-logo="https://image.tmdb.org/t/p/w780/cPOTcTNkvmARiv8ikYZbDfUYezJ.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Na Mira do Atirador (2017)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789533.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Nascido para Lutar" tvg-logo="https://image.tmdb.org/t/p/w400/4aQLOBLdqrvzjDQIGppj4biMsbR.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Nascido para Lutar
+http://dns.6tp.xyz/movie/luizneto/997143156/2803380.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Bombardeio (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/u83WpSu9ke9yA3kZ9vXbM2HEGN2.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",O Bombardeio (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789534.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Comando 10 de Navarone (1978)" tvg-logo="https://image.tmdb.org/t/p/w780/3bFRwivCZuXx7fHWt4SpYaiHkNL.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",O Comando 10 de Navarone (1978)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789510.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Grande Herói (2013)" tvg-logo="https://image.tmdb.org/t/p/w780/9Xcir0rOyYydPhGRYgG0Ctt1sqf.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",O Grande Herói (2013)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789535.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Menino do Pijama Listrado (2008)" tvg-logo="https://image.tmdb.org/t/p/w780/zYRk58BJd7bLErTWlx3tVsUUbbV.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",O Menino do Pijama Listrado (2008)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789536.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Protocolo de Auschwitz (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/uTvodu8Jqq8C5uiEXbsFmto4GJI.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",O Protocolo de Auschwitz (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789537.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Resgate do Soldado Ryan (1998)" tvg-logo="https://image.tmdb.org/t/p/w780/hMLxNLCXRDd62acfCBn6mIyW1HU.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",O Resgate do Soldado Ryan (1998)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789538.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Último Ataque de Hitler (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/pPrGCHk7SVQWLpviozVlOa6HUmF.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",O Último Ataque de Hitler (2020)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789539.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Último Samurai (2003)" tvg-logo="https://image.tmdb.org/t/p/w780/uOXcVNT3eKPfU93GwcXd2XFssJv.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",O Último Samurai (2003)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789540.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Operação Valquíria (2008)" tvg-logo="https://image.tmdb.org/t/p/w780/9KfelzsdBZXjcE0jyIMs6xXJcMY.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Operação Valquíria (2008)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789541.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os 800 (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/mx0PP392PYCZ4x0xNryO5ry637X.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Os 800 (2020)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789542.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Canhões de Navarone (1961)" tvg-logo="https://image.tmdb.org/t/p/w780/sWOcOmSdKXKsjgf3FLR2asyK68r.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Os Canhões de Navarone (1961)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789543.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pearl Harbor (2001)" tvg-logo="https://image.tmdb.org/t/p/w780/y8A0Cvp8WQmZ3bjbnsL53lY0dsC.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Pearl Harbor (2001)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789544.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Perigo Iminente (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/zkCljVHb1SdhuPTMftSFegju6q.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Perigo Iminente (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789545.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Platoon (1986)" tvg-logo="https://image.tmdb.org/t/p/w780/ppzDmaYdw0WQg9Qy29SYCh9Dvog.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Platoon (1986)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789546.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Rei Arthur (2004)" tvg-logo="https://image.tmdb.org/t/p/w780/6ZvrFx5oTxabIikuBh2XJq6Rc3u.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Rei Arthur (2004)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789547.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sem Retorno (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/l5oziYNRdgh8S3vb7fLvvvcfk0Q.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Sem Retorno (2020)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789548.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sniper Americano (2014)" tvg-logo="https://image.tmdb.org/t/p/w780/mAXzc2oDTTYcnn6IGHlSXvmXloG.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Sniper Americano (2014)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789549.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Soldado Anônimo (2005)" tvg-logo="https://image.tmdb.org/t/p/w780/1foTLTFAqI5I4CriXUhaSpUetwm.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Soldado Anônimo (2005)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789550.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Soldado Anônimo 2: Campo Em Chamas (2014)" tvg-logo="https://image.tmdb.org/t/p/w780/nqPumNNafnqUyk9DNuxTSrisq6X.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Soldado Anônimo 2: Campo Em Chamas (2014)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789551.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Soldado Anônimo 3: O Cerco (2016)" tvg-logo="https://image.tmdb.org/t/p/w780/bc9BHYmTjkiPpr3xISgIz0ssgPv.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Soldado Anônimo 3: O Cerco (2016)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789552.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Tempos de Escuridão (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/j2gaMXecjYs1F70fmsFCcuOjl5J.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Tempos de Escuridão (2020)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789553.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Tempos de Escuridão (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/j2gaMXecjYs1F70fmsFCcuOjl5J.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Tempos de Escuridão (2020)
+http://dns.6tp.xyz/movie/luizneto/997143156/2794071.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Torpedo: U-235 (2019)" tvg-logo="https://image.tmdb.org/t/p/w780/kbRuiYJCctdzKJpIBSv1mSw7j7r.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Torpedo: U-235 (2019)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789554.mp4
+#EXTINF:-1 tvg-id="" tvg-name="U-571 - A Batalha do Atlântico (2000)" tvg-logo="https://image.tmdb.org/t/p/w780/yeUhRSrlFcXhsuUai2ozWH6rNnK.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",U-571 - A Batalha do Atlântico (2000)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789555.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Um Plano Brilhante" tvg-logo="https://image.tmdb.org/t/p/w400/eDMGDQ8MHoOPn5V159Fx1RTKRdQ.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Um Plano Brilhante
+http://dns.6tp.xyz/movie/luizneto/997143156/2803802.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Zeros e Uns (2021)" tvg-logo="https://image.tmdb.org/t/p/w780/nUklycRTVya348M5dG7JyticAsW.jpg" group-title="🎬 Filmes | Guerra 🎖️💣",Zeros e Uns (2021)
+http://dns.6tp.xyz/movie/luizneto/997143156/2789556.mp4
