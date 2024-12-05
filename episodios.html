@@ -1,128 +1,171 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Episódios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/episodio.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script>
-       const arquivosM3U = ['js/Lista/M3U/SERIES/Séries Geral.m3u'];
-       let episodios = [];
-       let episodioAtualIndex = 0;
+       const arquivosM3U = [
+    'js/Lista/M3U/SERIES/Séries Geral.m3u'
+];
+let episodios = []; // Lista de episódios carregados
+let episodioAtualIndex = 0; // Índice do episódio atual
 
-       async function carregarEpisodios() {
-           const urlParams = new URLSearchParams(window.location.search);
-           const serie = urlParams.get('serie');
-           if (!serie) {
-               document.getElementById('episodiosList').textContent = 'Nenhuma série selecionada.';
-               return;
-           }
-           document.title = `Episódios de ${serie}`;
-           document.getElementById('tituloSerie').textContent = `Episódios de ${serie}`;
+async function carregarEpisodios() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const serie = urlParams.get('serie');
+    if (!serie) {
+        document.getElementById('episodiosList').textContent = 'Nenhuma série selecionada.';
+        return;
+    }
 
-           for (const arquivo of arquivosM3U) {
-               try {
-                   const response = await fetch(arquivo);
-                   if (!response.ok) continue;
-                   const m3uText = await response.text();
-                   exibirEpisodiosDaSerie(m3uText, serie);
-               } catch (error) {
-                   console.error(`Erro ao carregar o arquivo ${arquivo}:`, error);
-               }
-           }
+    document.title = `Episódios de ${serie}`;
+    document.getElementById('tituloSerie').textContent = `Episódios de ${serie}`;
 
-           const ultimoEpisodio = localStorage.getItem(`ultimoEpisodio_${serie}`);
-           if (ultimoEpisodio) {
-               const ultimoIndex = episodios.findIndex(ep => ep.link === ultimoEpisodio);
-               if (ultimoIndex !== -1) {
-                   episodioAtualIndex = ultimoIndex;
-                   await reproduzirVideo(episodios[episodioAtualIndex].link);
-               }
-           }
-       }
+    for (const arquivo of arquivosM3U) {
+        try {
+            const response = await fetch(arquivo);
+            if (!response.ok) continue;
+            const m3uText = await response.text();
+            exibirEpisodiosDaSerie(m3uText, serie);
+        } catch (error) {
+            console.error(`Erro ao carregar o arquivo ${arquivo}:`, error.message);
+        }
+    }
 
-       function exibirEpisodiosDaSerie(m3uText, serie) {
-           const linhas = m3uText.split("\n");
-           const episodiosList = document.getElementById('episodiosList');
-           episodiosList.innerHTML = '';
+    // Carrega o último episódio assistido, se houver
+    const ultimoEpisodio = localStorage.getItem(`ultimoEpisodio_${serie}`);
+    if (ultimoEpisodio) {
+        const ultimoIndex = episodios.findIndex(ep => ep.link === ultimoEpisodio);
+        if (ultimoIndex !== -1) {
+            episodioAtualIndex = ultimoIndex;
+            reproduzirVideo(episodios[episodioAtualIndex].link);
+        }
+    }
+}
 
-           linhas.forEach((linha, index) => {
-               linha = linha.trim();
-               if (linha.startsWith("#EXTINF")) {
-                   const [, nome] = linha.split(",");
-                   const match = nome.match(/^(.*) \((\d{4})\) (S\d+ E\d+)/);
-                   if (match) {
-                       const [_, serieNome, ano, temporadaEp] = match;
-                       if (serieNome.trim() === serie.trim()) {
-                           const link = linhas[index + 1]?.trim();
-                           if (link && !link.startsWith("#")) {
-                               const episodioObj = { nome: temporadaEp, link: link };
-                               episodios.push(episodioObj);
-                               const episodioLink = document.createElement("a");
-                               episodioLink.href = link;
-                               episodioLink.textContent = `${temporadaEp} (${ano})`;
-                               episodioLink.classList.add("episodio");
-                               episodioLink.addEventListener("click", (e) => {
-                                   e.preventDefault();
-                                   episodioAtualIndex = episodios.indexOf(episodioObj);
-                                   reproduzirVideo(link);
-                               });
-                               episodiosList.appendChild(episodioLink);
-                           }
-                       }
-                   }
-               }
-           });
-           if (episodios.length === 0) {
-               episodiosList.textContent = 'Nenhum episódio encontrado para esta série.';
-           }
-       }
+function exibirEpisodiosDaSerie(m3uText, serie) {
+    const linhas = m3uText.split("\n");
+    const episodiosList = document.getElementById('episodiosList');
+    episodiosList.innerHTML = '';
 
-       async function reproduzirVideo(url) {
-           try {
-               const response = await fetch(url);
-               if (!response.ok) throw new Error(`Falha ao buscar vídeo em ${url}`);
-               const finalLink = await response.text();
-               const videoUrl = extrairUrlDoVideo(finalLink); // Adaptações podem ser necessárias
-               
-               const player = Plyr.setup('#videoPlayer')[0];
-               player.source = { type: 'video', sources: [{ src: videoUrl, type: 'video/mp4' }] };
-               player.play();
+    linhas.forEach((linha, index) => {
+        linha = linha.trim();
+        if (linha.startsWith("#EXTINF")) {
+            const [info, nome] = linha.split(",");
+            const match = nome.match(/^(.*) \((\d{4})\) (S\d+ E\d+)/); // Novo regex para "1 Contra Todos (2016) S1 E1"
+            if (match) {
+                const [_, serieNome, ano, temporadaEp] = match;
+                if (serieNome.trim() === serie.trim()) {
+                    const link = linhas[index + 1]?.trim();
+                    if (link && !link.startsWith("#")) {
+                        const episodioObj = { nome: temporadaEp, link: link };
+                        episodios.push(episodioObj);
 
-               const urlParams = new URLSearchParams(window.location.search);
-               const serie = urlParams.get('serie');
-               localStorage.setItem(`ultimoEpisodio_${serie}`, url);
-           } catch (error) {
-               console.error('Erro ao reproduzir vídeo:', error);
-           }
-       }
+                        // Cria o link do episódio na página
+                        const episodioLink = document.createElement("a");
+                        episodioLink.href = link;
+                        episodioLink.textContent = `${temporadaEp} (${ano})`;
+                        episodioLink.classList.add("episodio");
+                        episodioLink.addEventListener("click", (e) => {
+                            e.preventDefault();
+                            episodioAtualIndex = episodios.indexOf(episodioObj);
+                            reproduzirVideo(link);
+                        });
+                        episodiosList.appendChild(episodioLink);
+                    }
+                }
+            }
+        }
+    });
 
-       function extrairUrlDoVideo(responseText) {
-           // Modifique aqui para extrair corretamente a URL do vídeo do HTML/texto retornado
-           const regex = /(http[^\s]+)/;
-           const match = responseText.match(regex);
-           return match ? match[0] : null;
-       }
+    if (episodios.length === 0) {
+        episodiosList.textContent = 'Nenhum episódio encontrado para esta série.';
+    }
+}
 
-       document.addEventListener('DOMContentLoaded', carregarEpisodios);
+function reproduzirVideo(url) {
+    const player = videojs('videoPlayer'); // Inicializa o player
+    player.src({ type: 'video/mp4', src: url }); // Define a fonte do vídeo
+
+    player.ready(() => {
+        player.requestFullscreen(); // Tenta entrar em tela cheia
+        player.play(); // Reproduz o vídeo
+    });
+
+    // Salva o episódio atual
+    const urlParams = new URLSearchParams(window.location.search);
+    const serie = urlParams.get('serie');
+    localStorage.setItem(`ultimoEpisodio_${serie}`, url);
+
+    // Evento para passar para o próximo episódio ao terminar
+    player.on('ended', () => {
+        episodioAtualIndex++;
+        if (episodioAtualIndex < episodios.length) {
+            reproduzirVideo(episodios[episodioAtualIndex].link);
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', carregarEpisodios);
+
+
     </script>
 </head>
 <body>
     <nav class="Barra-Lateral">
-        <!-- Conteúdo da barra lateral -->
+        <div class="btn-expandir" id="btn-exp">
+            <i class="bi bi-list"></i>
+            <img class="img--cabeçalho txt-link" src="" alt="Logo">
+        </div>
+        <ul>
+            <li class="item-menu">
+                <a href="index.html">
+                    <span class="icon"><i class="bi bi-house"></i></span>
+                    <span class="txt-link">Inicio</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="TV-AO-VIVO.html">
+                    <span class="icon"><i class="bi bi-tv"></i></span>
+                    <span class="txt-link">TV Ao Vivo</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="Filmes.html">
+                    <span class="icon"><i class="bi bi-film"></i></span>
+                    <span class="txt-link">Filmes</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="Series.html">
+                    <span class="icon"><i class="bi bi-easel2"></i></span>
+                    <span class="txt-link">Séries</span>
+                </a>
+            </li>
+        </ul>
     </nav>
     <div class="header">
         <h1 class="Lista-Filmes">Lista de Séries</h1>
+        <a class="cabeçalho-pesquisa" href="">Pesquisa</a>
     </div>
     <div class="Video">
         <h1 class="tituloSerie" id="tituloSerie"></h1>
         <div class="episodiosList" id="episodiosList"></div>
     </div>
-    <div class="plyr__video-embed" id="playerContainer">
-        <video id="videoPlayer" controls playsinline></video>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.polyfilled.js"></script>
+    <video
+        id="videoPlayer"
+        class="video-js"
+        controls
+        preload="auto"
+        data-setup='{}'>
+        <source src="" type="video/mp4">
+    </video>
+    <script src="js/menu.js"></script>
+    <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
 </body>
 </html>
