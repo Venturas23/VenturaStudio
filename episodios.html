@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Episódios</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/episodio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script>
-       const arquivosM3U = [
-           'js/Lista/M3U/SERIES/Séries Geral.m3u'
-       ];
+       const arquivosM3U = ['js/Lista/M3U/SERIES/Séries Geral.m3u'];
        let episodios = [];
        let episodioAtualIndex = 0;
 
@@ -21,7 +19,6 @@
                document.getElementById('episodiosList').textContent = 'Nenhuma série selecionada.';
                return;
            }
-
            document.title = `Episódios de ${serie}`;
            document.getElementById('tituloSerie').textContent = `Episódios de ${serie}`;
 
@@ -32,7 +29,7 @@
                    const m3uText = await response.text();
                    exibirEpisodiosDaSerie(m3uText, serie);
                } catch (error) {
-                   console.error(`Erro ao carregar o arquivo ${arquivo}:`, error.message);
+                   console.error(`Erro ao carregar o arquivo ${arquivo}:`, error);
                }
            }
 
@@ -54,7 +51,7 @@
            linhas.forEach((linha, index) => {
                linha = linha.trim();
                if (linha.startsWith("#EXTINF")) {
-                   const [info, nome] = linha.split(",");
+                   const [, nome] = linha.split(",");
                    const match = nome.match(/^(.*) \((\d{4})\) (S\d+ E\d+)/);
                    if (match) {
                        const [_, serieNome, ano, temporadaEp] = match;
@@ -63,7 +60,6 @@
                            if (link && !link.startsWith("#")) {
                                const episodioObj = { nome: temporadaEp, link: link };
                                episodios.push(episodioObj);
-
                                const episodioLink = document.createElement("a");
                                episodioLink.href = link;
                                episodioLink.textContent = `${temporadaEp} (${ano})`;
@@ -79,27 +75,25 @@
                    }
                }
            });
-
            if (episodios.length === 0) {
                episodiosList.textContent = 'Nenhum episódio encontrado para esta série.';
            }
        }
 
        function reproduzirVideo(url) {
-           const player = document.getElementById('videoPlayer');
-           player.src = url;
+           const player = Plyr.setup('#videoPlayer')[0];
+           player.source = { type: 'video', sources: [{ src: url, type: 'video/mp4' }] };
            player.play();
-
            const urlParams = new URLSearchParams(window.location.search);
            const serie = urlParams.get('serie');
            localStorage.setItem(`ultimoEpisodio_${serie}`, url);
 
-           player.onended = () => {
+           player.on('ended', () => {
                episodioAtualIndex++;
                if (episodioAtualIndex < episodios.length) {
                    reproduzirVideo(episodios[episodioAtualIndex].link);
                }
-           };
+           });
        }
 
        document.addEventListener('DOMContentLoaded', carregarEpisodios);
@@ -107,48 +101,18 @@
 </head>
 <body>
     <nav class="Barra-Lateral">
-        <div class="btn-expandir" id="btn-exp">
-            <i class="bi bi-list"></i>
-            <img class="img--cabeçalho txt-link" src="" alt="Logo">
-        </div>
-        <ul>
-            <li class="item-menu">
-                <a href="index.html">
-                    <span class="icon"><i class="bi bi-house"></i></span>
-                    <span class="txt-link">Inicio</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="TV-AO-VIVO.html">
-                    <span class="icon"><i class="bi bi-tv"></i></span>
-                    <span class="txt-link">TV Ao Vivo</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="Filmes.html">
-                    <span class="icon"><i class="bi bi-film"></i></span>
-                    <span class="txt-link">Filmes</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="Series.html">
-                    <span class="icon"><i class="bi bi-easel2"></i></span>
-                    <span class="txt-link">Séries</span>
-                </a>
-            </li>
-        </ul>
+        <!-- Conteúdo da barra lateral -->
     </nav>
     <div class="header">
         <h1 class="Lista-Filmes">Lista de Séries</h1>
-        <a class="cabeçalho-pesquisa" href="">Pesquisa</a>
     </div>
     <div class="Video">
         <h1 class="tituloSerie" id="tituloSerie"></h1>
         <div class="episodiosList" id="episodiosList"></div>
     </div>
-    <video id="videoPlayer" controls preload="auto">
-        <source src="" type="video/mp4">
-    </video>
-    <script src="js/menu.js"></script>
+    <div class="plyr__video-embed" id="playerContainer">
+        <video id="videoPlayer" controls playsinline></video>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.polyfilled.js"></script>
 </body>
 </html>
