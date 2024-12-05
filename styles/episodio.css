@@ -5,7 +5,12 @@
     --cinzagra:linear-gradient(0deg, #000000 35.49%, #1f1f1f 165.37%);
     --cinzagraops:linear-gradient(180deg, #000000 35.49%, #1f1f1f 165.37%);
 }
-
+#videoPlayer {
+    display: block !important;
+    visibility: visible !important;
+    width: 100%;
+    height: auto;
+}
 body {
     font-family: var(--fonte-principal);
     background:#000000;
