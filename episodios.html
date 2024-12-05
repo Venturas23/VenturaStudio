@@ -91,6 +91,9 @@ function exibirEpisodiosDaSerie(m3uText, serie) {
 function reproduzirVideo(url) {
     const player = videojs('videoPlayer'); // Inicializa o player
     player.src({ type: 'video/mp4', src: url }); // Define a fonte do vídeo
+    player.on('error', () => {
+    console.error("Erro ao carregar o vídeo:", player.error());
+});
 
     player.ready(() => {
         player.requestFullscreen(); // Tenta entrar em tela cheia
