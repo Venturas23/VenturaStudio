@@ -38,7 +38,7 @@
                const ultimoIndex = episodios.findIndex(ep => ep.link === ultimoEpisodio);
                if (ultimoIndex !== -1) {
                    episodioAtualIndex = ultimoIndex;
-                   reproduzirVideo(episodios[episodioAtualIndex].link);
+                   await reproduzirVideo(episodios[episodioAtualIndex].link);
                }
            }
        }
@@ -80,20 +80,30 @@
            }
        }
 
-       function reproduzirVideo(url) {
-           const player = Plyr.setup('#videoPlayer')[0];
-           player.source = { type: 'video', sources: [{ src: url, type: 'video/mp4' }] };
-           player.play();
-           const urlParams = new URLSearchParams(window.location.search);
-           const serie = urlParams.get('serie');
-           localStorage.setItem(`ultimoEpisodio_${serie}`, url);
+       async function reproduzirVideo(url) {
+           try {
+               const response = await fetch(url);
+               if (!response.ok) throw new Error(`Falha ao buscar vídeo em ${url}`);
+               const finalLink = await response.text();
+               const videoUrl = extrairUrlDoVideo(finalLink); // Adaptações podem ser necessárias
+               
+               const player = Plyr.setup('#videoPlayer')[0];
+               player.source = { type: 'video', sources: [{ src: videoUrl, type: 'video/mp4' }] };
+               player.play();
 
-           player.on('ended', () => {
-               episodioAtualIndex++;
-               if (episodioAtualIndex < episodios.length) {
-                   reproduzirVideo(episodios[episodioAtualIndex].link);
-               }
-           });
+               const urlParams = new URLSearchParams(window.location.search);
+               const serie = urlParams.get('serie');
+               localStorage.setItem(`ultimoEpisodio_${serie}`, url);
+           } catch (error) {
+               console.error('Erro ao reproduzir vídeo:', error);
+           }
+       }
+
+       function extrairUrlDoVideo(responseText) {
+           // Modifique aqui para extrair corretamente a URL do vídeo do HTML/texto retornado
+           const regex = /(http[^\s]+)/;
+           const match = responseText.match(regex);
+           return match ? match[0] : null;
        }
 
        document.addEventListener('DOMContentLoaded', carregarEpisodios);
