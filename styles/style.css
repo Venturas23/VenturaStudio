@@ -5,7 +5,9 @@
     --cinzagra:linear-gradient(0deg, #000000 35.49%, #1f1f1f 165.37%);
     --cinzagraops:linear-gradient(180deg, #000000 35.49%, #1f1f1f 165.37%);
 }
-
+@media screen and (min-width: 1024px) {
+    
+}
 body {
     font-family: var(--fonte-principal);
     background:#000000;
