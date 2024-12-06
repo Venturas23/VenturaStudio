@@ -89,7 +89,12 @@ function exibirEpisodiosDaSerie(m3uText, serie) {
 }
 
 function reproduzirVideo(url) {
-    const player = videojs('videoPlayer'); // Inicializa o player
+    const player = videojs('videoPlayer', {
+    techOrder: ['html5', 'flash'],
+    controls: true,
+    autoplay: true,
+    preload: 'auto'
+}); // Inicializa o player
     player.src({ type: 'video/mp4', src: url }); // Define a fonte do vídeo
 
     player.ready(() => {
@@ -162,6 +167,7 @@ document.addEventListener('DOMContentLoaded', carregarEpisodios);
         class="video-js"
         controls
         preload="auto"
+        crossorigin="anonymous"
         data-setup='{}'>
         <source src="" type="video/mp4">
     </video>
