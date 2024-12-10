@@ -184,8 +184,9 @@
     }
     .Barra-Pesquisa{
         position: absolute;
-        left: 870px;
-        top: 90px;
+        left: 360px;
+        transform: scale(0.8);
+        top: 120px;
     }
     
     .Barra-Pesquisa span{

@@ -263,6 +263,10 @@
     
 }
 @media screen and (min-width: 769px) {
+    .html{
+        height: auto;
+        width: auto;
+    }
 body {
     font-family: var(--fonte-principal);
     background:#000000;
@@ -366,8 +370,7 @@ ul li.item-menu a .icon > i{
 .Filmes-Disponiveis{
     display: inline-block;
     position: absolute;
-    top: 54px;
-    left: 190px;
+    transform: translate(45%, 100%);
     white-space: nowrap;
     font-size: 30px;
 }
@@ -381,8 +384,7 @@ ul li.item-menu a .icon > i{
 }
 .Filtro{
     position: absolute;
-    left: 1535px;
-    top: 91px;
+    transform: translate(420%, 340%);
     font-size: 17px;
     background-color: #353535;
     color: white;
@@ -392,15 +394,14 @@ ul li.item-menu a .icon > i{
 }
 .Texto-Filtro{
     position: absolute;
-    left: 1300px;
-    top: 87px;
+    transform: translate(250%, 250%);
     white-space: nowrap;
     font-size: 20px;
 }
 .Lista-Filmes{
     display: inline-block;
     position: absolute;
-    left: 5%;
+    transform: translate(70%, 10%);
 }
 
 .Capa-Geral{
