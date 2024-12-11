@@ -72,7 +72,7 @@ function exibirEpisodiosDaSerie(m3uText, serie) {
                         episodioLink.textContent = `${temporadaEp} (${ano})`;
                         episodioLink.classList.add("episodio");
                         episodioLink.addEventListener("click", (e) => {
-                            e.preventDefault();
+                            //e.preventDefault();
                             episodioAtualIndex = episodios.indexOf(episodioObj);
                             reproduzirVideo(link);
                         });
