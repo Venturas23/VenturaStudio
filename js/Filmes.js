@@ -149,7 +149,7 @@ const arquivosM3U = [
                     
                     img.onclick = (e) => {
                         //e.preventDefault();
-                        reproduzirVideo(canal.link);
+                        //reproduzirVideo(canal.link);
                     };
                 }
         
