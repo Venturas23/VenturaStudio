@@ -148,7 +148,7 @@ const arquivosM3U = [
                     listItem.appendChild(img);
                     
                     img.onclick = (e) => {
-                        e.preventDefault();
+                        //e.preventDefault();
                         reproduzirVideo(canal.link);
                     };
                 }
