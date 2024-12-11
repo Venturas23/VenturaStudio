@@ -97,7 +97,7 @@ const arquivosM3U = [
             let grupo = '';
             let capa = '';
             let link = '';
-            
+        
             // Filtrar linhas que contêm o termo de busca
             const canaisFiltrados = linhas.reduce((result, linha) => {
                 linha = linha.trim();
@@ -134,24 +134,24 @@ const arquivosM3U = [
                 const listItem = document.createElement("div");
                 listItem.classList.add('Item-Geral');
                 
-                const linkElement = document.createElement("a");
-                linkElement.href = canal.link;
-                linkElement.textContent = canal.nomeCanal;
-                linkElement.style = 'visibility:collapse';
-        
                 if (canal.capa) {
                     const img = document.createElement("img");
                     img.src = canal.capa;
                     img.alt = `Capa de ${canal.nomeCanal}`;
                     img.classList.add('Capa-Geral');
-                    img.href = canal.link;
-                    listItem.appendChild(img);
                     
-                    img.onclick = (e) => {
-                        //e.preventDefault();
-                        //reproduzirVideo(canal.link);
+                    // Ao clicar na imagem, abrir link em nova aba
+                    img.onclick = () => {
+                        window.open(canal.link, "_blank");
                     };
+        
+                    listItem.appendChild(img);
                 }
+        
+                const linkElement = document.createElement("a");
+                linkElement.href = canal.link;
+                linkElement.textContent = canal.nomeCanal;
+                linkElement.style = 'visibility:collapse'; // Oculta o texto para exibir apenas a capa
         
                 listItem.appendChild(linkElement);
                 canalList.appendChild(listItem);
@@ -160,6 +160,7 @@ const arquivosM3U = [
             // Exibir botões de navegação
             exibirBotoesPaginacao(canaisFiltrados.length);
         }
+        
         
         function exibirBotoesPaginacao(totalItens) {
             const totalPaginas = Math.ceil(totalItens / itensPorPagina);
