@@ -411,12 +411,9 @@ ul li.item-menu a .icon > i{
 
 .Capa-Geral{
     position: relative;
-    width: 300px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     display: block;
-    border-radius: 10px;
-    top: 20px;
-    left: 10px;
     transition: 0.3s ease;
     z-index: 8;
 }
@@ -441,6 +438,7 @@ ul li.item-menu a .icon > i{
     width: 340px;
     height: 700px;
     overflow: hidden;
+    border-radius: 10px;
 }
 .Item-Geral p{
     visibility: hidden;
