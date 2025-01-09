@@ -115,8 +115,12 @@
     white-space: nowrap;
     font-size: 30px;
     }
+    .Texto-de-Alerta{
+        position: relative;
+        left: 120px;
+    }
     .Alinhar{
-        display: inline-block;
+        width:100vw;
         position: absolute;
     }
     .Filtro{
@@ -162,6 +166,7 @@
     }
     
     .Item-Geral{
+        transform: scale(50%);
         position: relative;
         top: 120px;
         left: 120px;
@@ -179,8 +184,9 @@
     }
     .Barra-Pesquisa{
         position: absolute;
-        left: 870px;
-        top: 90px;
+        left: 360px;
+        transform: scale(0.8);
+        top: 120px;
     }
     
     .Barra-Pesquisa span{
@@ -263,10 +269,6 @@
     
 }
 @media screen and (min-width: 769px) {
-    .html{
-        height: auto;
-        width: auto;
-    }
 body {
     font-family: var(--fonte-principal);
     background:#000000;
@@ -370,7 +372,8 @@ ul li.item-menu a .icon > i{
 .Filmes-Disponiveis{
     display: inline-block;
     position: absolute;
-    transform: translate(45%, 100%);
+    top: 54px;
+    left: 10%;
     white-space: nowrap;
     font-size: 30px;
 }
@@ -379,12 +382,13 @@ ul li.item-menu a .icon > i{
     left: 120px;
 }
 .Alinhar{
-    display: inline-block;
     position: absolute;
+    width:100vw;
 }
 .Filtro{
     position: absolute;
-    transform: translate(420%, 340%);
+    left: 65%;
+    top: 91px;
     font-size: 17px;
     background-color: #353535;
     color: white;
@@ -394,24 +398,25 @@ ul li.item-menu a .icon > i{
 }
 .Texto-Filtro{
     position: absolute;
-    transform: translate(250%, 250%);
+    left: 1300px;
+    top: 87px;
     white-space: nowrap;
     font-size: 20px;
 }
 .Lista-Filmes{
     display: inline-block;
     position: absolute;
-    transform: translate(70%, 10%);
+    left: 40%;
 }
 
 .Capa-Geral{
     position: relative;
-    width: 300px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     display: block;
     border-radius: 10px;
-    top: 20px;
-    left: 10px;
+    top: 0px;
+    left: 0px;
     transition: 0.3s ease;
     z-index: 8;
 }
@@ -429,12 +434,13 @@ ul li.item-menu a .icon > i{
     top: 120px;
     left: 120px;
     display: inline-flex;
-    margin: 10px;
+    margin: 0.5vw;
     text-align: center;
     font-size: 200%;
+    border-radius: 1vw;
     word-break: break-word;
-    width: 340px;
-    height: 700px;
+    width: 20vw;
+    height: 30vw;
     overflow: hidden;
 }
 .Item-Geral p{
@@ -442,7 +448,7 @@ ul li.item-menu a .icon > i{
 }
 .Barra-Pesquisa{
     position: absolute;
-    left: 870px;
+    left: 35%;
     top: 90px;
 }
 
@@ -523,4 +529,7 @@ ul li.item-menu a .icon > i{
 .botao-paginacao:hover{
     background-color: #1f1f1f;
 }
+}
+#canalList{
+    width:100vw
 }
