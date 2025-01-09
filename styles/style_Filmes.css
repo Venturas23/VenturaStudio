@@ -415,8 +415,8 @@ ul li.item-menu a .icon > i{
     height: 100%;
     display: block;
     border-radius: 10px;
-    top: 20px;
-    left: 10px;
+    top: 0px;
+    left: 0px;
     transition: 0.3s ease;
     z-index: 8;
 }
@@ -437,6 +437,7 @@ ul li.item-menu a .icon > i{
     margin: 10px;
     text-align: center;
     font-size: 200%;
+    border-radius:10px;
     word-break: break-word;
     width: 20vw;
     height: 30vw;
