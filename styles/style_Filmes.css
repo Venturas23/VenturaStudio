@@ -434,10 +434,10 @@ ul li.item-menu a .icon > i{
     top: 120px;
     left: 120px;
     display: inline-flex;
-    margin: 10px;
+    margin: 0.5vw;
     text-align: center;
     font-size: 200%;
-    border-radius:10px;
+    border-radius: 1vw;
     word-break: break-word;
     width: 20vw;
     height: 30vw;
