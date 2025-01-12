@@ -1,28 +1,28 @@
 const arquivosM3U = [
-    'js/Lista/M3U/SERIES/ANIMES.m3u',
-    'js/Lista/M3U/SERIES/APPLE TV.m3u',
-    'js/Lista/M3U/SERIES/BRASIL PARALELO.m3u',
-    'js/Lista/M3U/SERIES/CRUNCHYROLL.m3u',
-    'js/Lista/M3U/SERIES/CURSOS E AULAS.m3u',
-    'js/Lista/M3U/SERIES/DESENHOS.m3u',
-    'js/Lista/M3U/SERIES/DISCOVERY+.m3u',
-    'js/Lista/M3U/SERIES/DISNEY+.m3u',
-    'js/Lista/M3U/SERIES/DOCUMENTARIOS.m3u',
-    'js/Lista/M3U/SERIES/DORAMA.m3u',
-    'js/Lista/M3U/SERIES/GLOBOPLAY.m3u',
-    'js/Lista/M3U/SERIES/HBO MAX.m3u',
-    'js/Lista/M3U/SERIES/LEGENDADAS.m3u',
-    'js/Lista/M3U/SERIES/NETFLIX.m3u',
-    'js/Lista/M3U/SERIES/NETIONAL GEOGRAPHIC.m3u',
-    'js/Lista/M3U/SERIES/NOVELAS.m3u',
-    'js/Lista/M3U/SERIES/OUTRAS EMISSORAS.m3u',
-    'js/Lista/M3U/SERIES/PARAMOUNT+.m3u',
-    'js/Lista/M3U/SERIES/PRIME VIDEO.m3u',
-    'js/Lista/M3U/SERIES/PROGRAMAS DE TV.m3u',
-    'js/Lista/M3U/SERIES/REALITY SHOW.m3u',
-    'js/Lista/M3U/SERIES/STAR+.m3u',
-    'js/Lista/M3U/SERIES/TREINE EM CASA - AULAS.m3u',
-    'js/Lista/M3U/SERIES/TURCAS E NOVELAS.m3u'
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/ANIMES.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/APPLE TV.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/BRASIL PARALELO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/CRUNCHYROLL.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/CURSOS E AULAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DESENHOS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DISCOVERY+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DISNEY+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DOCUMENTARIOS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DORAMA.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/GLOBOPLAY.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/HBO MAX.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/LEGENDADAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/NETFLIX.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/NETIONAL GEOGRAPHIC.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/NOVELAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/OUTRAS EMISSORAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/PARAMOUNT+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/PRIME VIDEO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/PROGRAMAS DE TV.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/REALITY SHOW.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/STAR+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/TREINE EM CASA - AULAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/TURCAS E NOVELAS.m3u'
 ];
 
 let seriesAgrupadas = {}; // Guardará as séries agrupadas para a pesquisa
@@ -82,7 +82,7 @@ function exibirSeries(m3uText) {
     const linhas = m3uText.split("\n");
     seriesAgrupadas = {}; // Reinicia o objeto para agrupar as séries
     let serieNomeAtual = '';
-    
+
     linhas.forEach((linha) => {
         linha = linha.trim();
         
@@ -96,8 +96,8 @@ function exibirSeries(m3uText) {
             const capa = tvgLogoMatch ? tvgLogoMatch[1] : '';
             const categoria = groupTitleMatch ? groupTitleMatch[1] : 'Outros';
 
-            // Padrão ajustado para "Nome da Série (Ano) S1 E1"
-            const match = nomeCompleto.match(/^(.*) \((\d{4})\) (S\d+ E\d+)/);
+            // Atualizado para o novo padrão "Nome Série Ano S01E05"
+            const match = nomeCompleto.match(/^(.*) (\d{4}) (S\d+E\d+)/);
             if (match) {
                 const [_, serieNome, ano, episodio] = match;
 
@@ -126,6 +126,7 @@ function exibirSeries(m3uText) {
 
     exibirSeriesNaPagina(seriesAgrupadas);
 }
+
 let itensPorPagina = 45; // Número de séries por página
 let paginaAtual = 1;    // Página inicial
 // Exibição agrupada por série
@@ -162,7 +163,8 @@ function exibirSeriesNaPagina(seriesAgrupadas) {
             imgCapa.addEventListener("click", () => {
                 // Codifica o nome da série para evitar problemas com caracteres especiais
                 const encodedSerieNome = encodeURIComponent(serieNome);
-                window.location.href = `episodios.html?serie=${encodedSerieNome}`;
+                const encodedGroupTitle = encodeURIComponent(categoria);
+                window.location.href = `episodios.html?serie=${encodedSerieNome}&categoria=${encodedGroupTitle}`;
             });
 
             serieDiv.appendChild(imgCapa);

@@ -271,6 +271,7 @@
 @media screen and (min-width: 769px) {
 body {
     font-family: var(--fonte-principal);
+    width: 80%;
     background:#000000;
     color: white;
     overflow-x:hidden;
@@ -407,13 +408,14 @@ ul li.item-menu a .icon > i{
     left: 45%;
 }
 #serieList {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(200px, 1fr)); /* Cria colunas flexíveis */
-    gap: 16px; /* Espaçamento entre as séries */
+    display: flex;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    gap: 5vw;
     position: relative;
-    
-    left: 90px;
-    top:100px;
+    left: 10vw;
+    top: 5vw;
+    flex-wrap: wrap;
+    width: 100vw;
 }
 .serie{
     height: 600px;
@@ -422,18 +424,10 @@ ul li.item-menu a .icon > i{
 }
 .serie img{
     transition: 0.3s ease-in;
-    height: 500px;
-    width: 300px;
-    border-radius: 10px;
+    height: 30vw;
+    width: 20vw;
+    border-radius: 1vw;
     display: block;
-    scale: 1.0;
-}
-.serie img:hover{
-    height: 500px;
-    width: 300px;
-    border-radius: 10px;
-    display: block;
-    scale: 1.05;
 }
 .serie h3{
     position: relative;
@@ -502,14 +496,14 @@ ul li.item-menu a .icon > i{
 }
 #paginacaoContainer{
     position: relative;
-    top: 70px;
-    left: 120px;
+    top: 20vh;
+    left: 9vw;
     display: flex;
-    flex-wrap: wrap; /* Permite quebra de linha quando o limite da tela é atingido */
-    gap: 8px; /* Espaçamento entre os botões */
-    justify-content: center; /* Centraliza os botões na horizontal */
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
     margin-top: 10px;
-    width: 1900px;
+}
 }
 
 .botao-paginacao {

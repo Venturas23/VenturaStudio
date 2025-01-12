@@ -508,13 +508,13 @@ ul li.item-menu a .icon > i{
 }
 .paginacaoContainer{
     position: relative;
-    left: 120px;
+    left: 0px;
     display: flex;
-    flex-wrap: wrap; /* Permite quebra de linha quando o limite da tela é atingido */
-    gap: 8px; /* Espaçamento entre os botões */
-    justify-content: center; /* Centraliza os botões na horizontal */
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
     margin-top: 10px;
-    width: 1900px;
+    width: 100vw;
 }
 
 .botao-paginacao {

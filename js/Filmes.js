@@ -1,44 +1,44 @@
 const arquivosM3U = [
-    'js/Lista/M3U/FILMES/4K.m3u',
-    'js/Lista/M3U/FILMES/007 COLEÇÃO.m3u',
-    'js/Lista/M3U/FILMES/2024 LANÇAMENTO.m3u',
-    'js/Lista/M3U/FILMES/AÇÃO.m3u',
-    'js/Lista/M3U/FILMES/ANIMAÇÃO.m3u',
-    'js/Lista/M3U/FILMES/ANIME.m3u',
-    'js/Lista/M3U/FILMES/APPLE TV+.m3u',
-    'js/Lista/M3U/FILMES/AVENTURA.m3u',
-    'js/Lista/M3U/FILMES/BRASIL PARALELO.m3u',
-    'js/Lista/M3U/FILMES/COMEDIA.m3u',
-    'js/Lista/M3U/FILMES/COPA DO MUNDO 2022.m3u',
-    'js/Lista/M3U/FILMES/CRIME.m3u',
-    'js/Lista/M3U/FILMES/DC COMICS.m3u',
-    'js/Lista/M3U/FILMES/DESPERTAR UMA NOVA CONSCIÊNCIA.m3u',
-    'js/Lista/M3U/FILMES/DISNEY+.m3u',
-    'js/Lista/M3U/FILMES/DOCUMENTARIOS.m3u',
-    'js/Lista/M3U/FILMES/DRAMA.m3u',
-    'js/Lista/M3U/FILMES/ESPECIAL NATAL.m3u',
-    'js/Lista/M3U/FILMES/FANTASIA.m3u',
-    'js/Lista/M3U/FILMES/FAROESTE.m3u',
-    'js/Lista/M3U/FILMES/FICÇÃO.m3u',
-    'js/Lista/M3U/FILMES/GERAL.m3u',
-    'js/Lista/M3U/FILMES/GLOBOPLAY.m3u',
-    'js/Lista/M3U/FILMES/GUERRA.m3u',
-    'js/Lista/M3U/FILMES/HBO MAX.m3u',
-    'js/Lista/M3U/FILMES/INFANTIL.m3u',
-    'js/Lista/M3U/FILMES/LEGENDADOS.m3u',
-    'js/Lista/M3U/FILMES/MARVEL.m3u',
-    'js/Lista/M3U/FILMES/NACIONAL.m3u',
-    'js/Lista/M3U/FILMES/NETFLIX.m3u',
-    'js/Lista/M3U/FILMES/NO CINEMA ( EM CARTAZ ).m3u',
-    'js/Lista/M3U/FILMES/PARAMOUNT+.m3u',
-    'js/Lista/M3U/FILMES/PEDIDO DE CLIENTES.m3u',
-    'js/Lista/M3U/FILMES/PRIME VIDEO.m3u',
-    'js/Lista/M3U/FILMES/RELIGIOSO.m3u',
-    'js/Lista/M3U/FILMES/ROMANCE.m3u',
-    'js/Lista/M3U/FILMES/SONS PARA DORMIR.m3u',
-    'js/Lista/M3U/FILMES/STAR+.m3u',
-    'js/Lista/M3U/FILMES/SUSPENSE.m3u',
-    'js/Lista/M3U/FILMES/TERROR.m3u'
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/4K.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/007 COLEÇÃO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/2024 LANÇAMENTO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/AÇÃO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/ANIMAÇÃO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/ANIME.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/APPLE TV+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/AVENTURA.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/BRASIL PARALELO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/COMEDIA.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/COPA DO MUNDO 2022.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/CRIME.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/DC COMICS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/DESPERTAR UMA NOVA CONSCIÊNCIA.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/DISNEY+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/DOCUMENTARIOS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/DRAMA.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/ESPECIAL NATAL.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/FANTASIA.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/FAROESTE.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/FICÇÃO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/GERAL.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/GLOBOPLAY.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/GUERRA.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/HBO MAX.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/INFANTIL.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/LEGENDADOS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/MARVEL.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/NACIONAL.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/NETFLIX.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/NO CINEMA ( EM CARTAZ ).m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/PARAMOUNT+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/PEDIDO DE CLIENTES.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/PRIME VIDEO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/RELIGIOSO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/ROMANCE.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/SONS PARA DORMIR.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/STAR+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/SUSPENSE.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/TERROR.m3u'
     // Adicione mais arquivos aqui
   ];
   function removerExtensao(nomeArquivo) {
@@ -97,7 +97,7 @@ const arquivosM3U = [
             let grupo = '';
             let capa = '';
             let link = '';
-        
+            
             // Filtrar linhas que contêm o termo de busca
             const canaisFiltrados = linhas.reduce((result, linha) => {
                 linha = linha.trim();
@@ -134,24 +134,24 @@ const arquivosM3U = [
                 const listItem = document.createElement("div");
                 listItem.classList.add('Item-Geral');
                 
+                const linkElement = document.createElement("a");
+                linkElement.href = canal.link;
+                linkElement.textContent = canal.nomeCanal;
+                linkElement.style = 'visibility:collapse';
+        
                 if (canal.capa) {
                     const img = document.createElement("img");
                     img.src = canal.capa;
                     img.alt = `Capa de ${canal.nomeCanal}`;
                     img.classList.add('Capa-Geral');
-                    
-                    // Ao clicar na imagem, abrir link em nova aba
-                    img.onclick = () => {
-                        window.open(canal.link, "_blank");
-                    };
-        
+                    img.href = canal.link;
                     listItem.appendChild(img);
+                    
+                    img.onclick = (e) => {
+                        e.preventDefault();
+                        reproduzirVideo(canal.link);
+                    };
                 }
-        
-                const linkElement = document.createElement("a");
-                linkElement.href = canal.link;
-                linkElement.textContent = canal.nomeCanal;
-                linkElement.style = 'visibility:collapse'; // Oculta o texto para exibir apenas a capa
         
                 listItem.appendChild(linkElement);
                 canalList.appendChild(listItem);
@@ -160,7 +160,6 @@ const arquivosM3U = [
             // Exibir botões de navegação
             exibirBotoesPaginacao(canaisFiltrados.length);
         }
-        
         
         function exibirBotoesPaginacao(totalItens) {
             const totalPaginas = Math.ceil(totalItens / itensPorPagina);

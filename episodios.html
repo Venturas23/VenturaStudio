@@ -9,35 +9,67 @@
     <link rel="stylesheet" href="styles/episodio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script>
-       const arquivosM3U = [
-    'js/Lista/M3U/SERIES/Séries Geral.m3u'
+      const arquivosM3U = [
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/ANIMES.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/APPLE TV.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/BRASIL PARALELO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/CRUNCHYROLL.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/CURSOS E AULAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DESENHOS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DISCOVERY+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DISNEY+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DOCUMENTARIOS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/DORAMA.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/GLOBOPLAY.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/HBO MAX.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/LEGENDADAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/NETFLIX.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/NETIONAL GEOGRAPHIC.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/NOVELAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/OUTRAS EMISSORAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/PARAMOUNT+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/PRIME VIDEO.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/PROGRAMAS DE TV.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/REALITY SHOW.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/STAR+.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/TREINE EM CASA - AULAS.m3u',
+    'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/SERIES/TURCAS E NOVELAS.m3u'
 ];
+ // Exemplo de arquivos organizados por categoria
+
 let episodios = []; // Lista de episódios carregados
 let episodioAtualIndex = 0; // Índice do episódio atual
 
 async function carregarEpisodios() {
     const urlParams = new URLSearchParams(window.location.search);
     const serie = urlParams.get('serie');
-    if (!serie) {
-        document.getElementById('episodiosList').textContent = 'Nenhuma série selecionada.';
+    const categoria = urlParams.get('categoria'); // Obtém a categoria
+    console.log(categoria)
+
+    if (!serie || !categoria) {
+        document.getElementById('episodiosList').textContent = 'Nenhuma série ou categoria selecionada.';
         return;
     }
 
     document.title = `Episódios de ${serie}`;
     document.getElementById('tituloSerie').textContent = `Episódios de ${serie}`;
 
-    for (const arquivo of arquivosM3U) {
-        try {
-            const response = await fetch(arquivo);
-            if (!response.ok) continue;
-            const m3uText = await response.text();
-            exibirEpisodiosDaSerie(m3uText, serie);
-        } catch (error) {
-            console.error(`Erro ao carregar o arquivo ${arquivo}:`, error.message);
-        }
+    // Filtra o arquivo da categoria
+    const arquivoCategoria = arquivosM3U.find(arquivo => arquivo.includes(categoria));
+    if (!arquivoCategoria) {
+        document.getElementById('episodiosList').textContent = 'Nenhum arquivo encontrado para esta categoria.';
+        return;
     }
 
-    // Carrega o último episódio assistido, se houver
+    try {
+        const response = await fetch(arquivoCategoria);
+        if (!response.ok) throw new Error('Falha ao carregar o arquivo M3U.');
+        const m3uText = await response.text();
+        exibirEpisodiosDaSerie(m3uText, serie);
+    } catch (error) {
+        console.error(`Erro ao carregar o arquivo ${arquivoCategoria}:`, error.message);
+    }
+
     const ultimoEpisodio = localStorage.getItem(`ultimoEpisodio_${serie}`);
     if (ultimoEpisodio) {
         const ultimoIndex = episodios.findIndex(ep => ep.link === ultimoEpisodio);
@@ -56,8 +88,8 @@ function exibirEpisodiosDaSerie(m3uText, serie) {
     linhas.forEach((linha, index) => {
         linha = linha.trim();
         if (linha.startsWith("#EXTINF")) {
-            const [info, nome] = linha.split(",");
-            const match = nome.match(/^(.*) \((\d{4})\) (S\d+ E\d+)/); // Novo regex para "1 Contra Todos (2016) S1 E1"
+            const [_, nome] = linha.split(",");
+            const match = nome.match(/^(.*) (\d{4}) (S\d+E\d+)/);
             if (match) {
                 const [_, serieNome, ano, temporadaEp] = match;
                 if (serieNome.trim() === serie.trim()) {
@@ -66,15 +98,12 @@ function exibirEpisodiosDaSerie(m3uText, serie) {
                         const episodioObj = { nome: temporadaEp, link: link };
                         episodios.push(episodioObj);
 
-                        // Cria o link do episódio na página
                         const episodioLink = document.createElement("a");
                         episodioLink.href = link;
                         episodioLink.textContent = `${temporadaEp} (${ano})`;
                         episodioLink.classList.add("episodio");
                         episodioLink.addEventListener("click", (e) => {
-                            //e.preventDefault();
                             episodioAtualIndex = episodios.indexOf(episodioObj);
-                            reproduzirVideo(link);
                         });
                         episodiosList.appendChild(episodioLink);
                     }
@@ -90,24 +119,22 @@ function exibirEpisodiosDaSerie(m3uText, serie) {
 
 function reproduzirVideo(url) {
     const player = videojs('videoPlayer', {
-    techOrder: ['html5', 'flash'],
-    controls: true,
-    autoplay: true,
-    preload: 'auto'
-}); // Inicializa o player
-    player.src({ type: 'video/mp4', src: url }); // Define a fonte do vídeo
+        techOrder: ['html5', 'flash'],
+        controls: true,
+        autoplay: true,
+        preload: 'auto'
+    });
+    player.src({ type: 'video/mp4', src: url });
 
     player.ready(() => {
-        player.requestFullscreen(); // Tenta entrar em tela cheia
-        player.play(); // Reproduz o vídeo
+        player.requestFullscreen();
+        player.play();
     });
 
-    // Salva o episódio atual
     const urlParams = new URLSearchParams(window.location.search);
     const serie = urlParams.get('serie');
     localStorage.setItem(`ultimoEpisodio_${serie}`, url);
 
-    // Evento para passar para o próximo episódio ao terminar
     player.on('ended', () => {
         episodioAtualIndex++;
         if (episodioAtualIndex < episodios.length) {
@@ -117,7 +144,6 @@ function reproduzirVideo(url) {
 }
 
 document.addEventListener('DOMContentLoaded', carregarEpisodios);
-
 
     </script>
 </head>

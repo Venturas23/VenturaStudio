@@ -405,12 +405,10 @@ ul li.item-menu a .icon > i{
 
 .Capa-Geral{
     position: relative;
-    width: 300px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     display: block;
     border-radius: 10px;
-    top: 20px;
-    left: 10px;
     transition: 0.3s ease;
     z-index: 8;
 }
@@ -428,12 +426,12 @@ ul li.item-menu a .icon > i{
     top: 120px;
     left: 120px;
     display: inline-flex;
-    margin: 10px;
+    margin: 0.5vw;
     text-align: center;
     font-size: 200%;
     word-break: break-word;
-    width: 340px;
-    height: 700px;
+    width: 20vw;
+    height: 30vw;
     overflow: hidden;
 }
 .Item-Geral p{
