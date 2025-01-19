@@ -418,13 +418,13 @@ ul li.item-menu a .icon > i{
     width: 100vw;
 }
 .serie{
-    height: 600px;
-    width: 300px;
-    padding: 20px;
+    height: 70vh;
+    width: 20vw;
+    padding: 15px;
 }
 .serie img{
     transition: 0.3s ease-in;
-    height: 30vw;
+    height: 60vh;
     width: 20vw;
     border-radius: 1vw;
     display: block;
@@ -520,5 +520,4 @@ ul li.item-menu a .icon > i{
 }
 .botao-paginacao.ativo{
     background-color: #353535;
-}
 }

@@ -442,9 +442,21 @@ ul li.item-menu a .icon > i{
     width: 20vw;
     height: 30vw;
     overflow: hidden;
+    border: 10px solid transparent;
+    cursor: pointer;
+    
 }
 .Item-Geral p{
     visibility: hidden;
+}
+.Item-Geral:focus{
+    border-color: white;
+    outline: none;
+}
+.Item-Geral:focus img{
+    border-color: white;
+    outline: none;
+    transform: scale(1.07);
 }
 .Barra-Pesquisa{
     position: absolute;

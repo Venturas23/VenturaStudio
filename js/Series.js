@@ -145,9 +145,10 @@ function exibirSeriesNaPagina(seriesAgrupadas) {
     const fim = inicio + itensPorPagina;
     const seriesPaginadas = seriesFiltradas.slice(inicio, fim);
 
-    seriesPaginadas.forEach(([serieNome, { capa, categoria, ano, episodios }]) => {
+    seriesPaginadas.forEach(([serieNome, { capa, categoria, ano, episodios }], index) => {
         const serieDiv = document.createElement("div");
         serieDiv.classList.add("serie");
+        serieDiv.setAttribute("tabindex", index + 1); // Adiciona tabindex para navegação
 
         const tituloSerie = document.createElement("h3");
         tituloSerie.textContent = `${serieNome} (${ano})`;
@@ -158,17 +159,24 @@ function exibirSeriesNaPagina(seriesAgrupadas) {
             imgCapa.src = capa;
             imgCapa.alt = `Capa de ${serieNome}`;
             imgCapa.classList.add("capa");
+            imgCapa.setAttribute("tabindex", index + 1); // Adiciona tabindex para a capa
 
-            // Redireciona ao clicar na capa
-            imgCapa.addEventListener("click", () => {
-                // Codifica o nome da série para evitar problemas com caracteres especiais
-                const encodedSerieNome = encodeURIComponent(serieNome);
-                const encodedGroupTitle = encodeURIComponent(categoria);
-                window.location.href = `episodios.html?serie=${encodedSerieNome}&categoria=${encodedGroupTitle}`;
+            // Redireciona ao clicar ou pressionar Enter na capa
+            imgCapa.addEventListener("click", () => redirecionarParaEpisodios(serieNome, categoria));
+            imgCapa.addEventListener("keydown", (e) => {
+                if (e.key === "Enter") {
+                    redirecionarParaEpisodios(serieNome, categoria);
+                }
             });
 
             serieDiv.appendChild(imgCapa);
         }
+
+        serieDiv.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                redirecionarParaEpisodios(serieNome, categoria);
+            }
+        });
 
         serieList.appendChild(serieDiv);
     });
@@ -176,6 +184,13 @@ function exibirSeriesNaPagina(seriesAgrupadas) {
     // Exibe os botões de navegação de página
     exibirBotoesPaginacao(seriesFiltradas.length);
 }
+
+function redirecionarParaEpisodios(serieNome, categoria) {
+    const encodedSerieNome = encodeURIComponent(serieNome);
+    const encodedGroupTitle = encodeURIComponent(categoria);
+    window.location.href = `episodios.html?serie=${encodedSerieNome}&categoria=${encodedGroupTitle}`;
+}
+
 
 
 function exibirBotoesPaginacao(totalItens) {
