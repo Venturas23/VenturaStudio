@@ -1,547 +1,93 @@
-:root {
-    --fonte-principal:"Poppins";
-    --vermelho: #E50914;
-    --preta: #141414;
-    --cinzagra:linear-gradient(0deg, #000000 35.49%, #1f1f1f 165.37%);
-    --cinzagraops:linear-gradient(180deg, #000000 35.49%, #1f1f1f 165.37%);
-}
-@media screen and (max-width: 768px) {
-    body {
-        font-family: var(--fonte-principal);
-        background:#000000;
-        color: white;
-        width: 100%;
-        overflow-x:hidden;
-        height: 100vh;
-        
-    }
-    
-    nav.Barra-Lateral{
-        width: 150px;
-        height: 100%;
-        background-color:#0e0e0e ;
-        padding: 40px 0 0px 0;
-        box-shadow: 0 0 50px #0e0e0e;
-        position: fixed;
-        top: 0px;
-        left: -42px;
-        overflow: hidden;
-        transition: .4s ease-out;
-        z-index: 10;
-    }
-    nav.Barra-Lateral.expandir{
-        width: 300px;
-    }
-    .btn-expandir{
-        width: 100%;
-        padding-left: 75px;
-    }
-    .btn-expandir > i{
-        color:white;
-        font-size: 30px;
-        cursor: pointer;
-    }
-    .img--cabeçalho{
-        position: relative;
-        left: 2%;
-        padding-left: 40px;
-        transition: .5s;
-        opacity: 0;
-    }
-    ul{
-        height: 100%;
-        list-style-type: none;
-    }
-    ul li.item-menu{
-        transition: 0.5s ease;
-        
-    }
-    ul li.ativo{
-        background-color: #1f1f1f;
-    }
-    ul li.item-menu:hover{
-        background-color: #353535;
-    }
-    ul li.item-menu a{
-        color: white;
-        text-decoration: none;
-        font-size: 20px;
-        padding: 20px 0;
-        display: flex;
-        margin-bottom: 20px;
-        line-height: 40px;
-    }
-    ul li.item-menu a .txt-link{
-        margin-left: 80px;
-        white-space: nowrap;
-        transition: .5s;
-        opacity: 0;
-    }
-    nav.Barra-Lateral.expandir .txt-link{
-        margin-left: 45px;
-        opacity: 1;
-    }
-    ul li.item-menu a .icon > i{
-        font-size: 30px;
-        padding-left: 35px;
-    
-    }
-    .video-js{
-        width: 0px;
-        left: 0px;
-        top: 0px;
-    }
-    
-    .header{
-        position: absolute;
-        background: var(--cinzagra);
-        height: 80px;
-        width: 100%;
-        top: 0px;
-        left: 0px;
-        color: white;
-        z-index: 8  ;
-    }
-    .cabeçalho-pesquisa{
-        display: inline-block;
-        position: absolute;
-        left: 79%;
-    }
-    .Filmes-Disponiveis{
-        display: inline-block;
-    position: relative;
-    top: 45px;
-    left: 130px;
-    white-space: nowrap;
-    font-size: 30px;
-    }
-    .Texto-de-Alerta{
-        position: relative;
-        left: 120px;
-    }
-    .Alinhar{
-        width:100vw;
-        position: absolute;
-    }
-    .Filtro{
-        position: absolute;
-    padding: 10px 30px;
-    left: 450px;
-    top: 70px;
-    font-size: 17px;
-    background-color: #353535;
-    color: white;
-    border-radius: 25px;
-    text-align: center;
-    border-color: #353535;
-    }
-    .Texto-Filtro{
-        visibility: hidden;
-    }
-    .Lista-Filmes{
-        display: inline-block;
-        position: absolute;
-        left: 38%;
-        white-space: nowrap;
-    }
-    
-    .Capa-Geral{
-        position: relative;
-        width: 300px;
-        height: 500px;
-        display: block;
-        border-radius: 10px;
-        top: 20px;
-        left: 10px;
-        transition: 0.3s ease;
-        z-index: 8;
-    }
-    .Capa-Geral:hover{
-        
-        transform: scale(1.07);
-    }
-    .Capa-Geral:hover img{
-        
-        transform: scale(1.2);
-    }
-    
-    .Item-Geral{
-        transform: scale(50%);
-        position: relative;
-        top: 120px;
-        left: 120px;
-        display: inline-flex;
-        margin: 10px;
-        text-align: center;
-        font-size: 200%;
-        word-break: break-word;
-        width: 340px;
-        height: 700px;
-        overflow: hidden;
-    }
-    .Item-Geral p{
-        visibility: hidden;
-    }
-    .Barra-Pesquisa{
-        position: absolute;
-        left: 360px;
-        transform: scale(0.8);
-        top: 120px;
-    }
-    
-    .Barra-Pesquisa span{
-        transition: 0.3s ease-out;
-        font-size: 25px;
-        position: relative;
-        top: 3px;
-        left: 350px;
-        z-index: 3;
-        padding: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .Barra-Pesquisa span:hover{
-        transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        background-color: #1f1f1f;
-        border-radius: 100%;
-        padding: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .Barra-Pesquisa span.expandir{
-        font-size: 25px;
-        position: relative;
-        top: 3px;
-        left: 55px;
-    }
-    .Barra-Pesquisa input{
-        position: relative;
-        transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        color: white;
-        background-color: #1f1f1f;
-        font-size: 18px;
-        border-radius: 100px;
-        padding: 10px;
-        right: 10px;
-        padding-left:100px ;
-        visibility: hidden;
-        opacity: 0;
-        z-index: 1;
-    }
-    .Barra-Pesquisa input.expandir{
-        position: relative;
-        color: white;
-        background-color: #1f1f1f;
-        font-size: 18px;
-        border-radius: 100px;
-        right: 0px;
-        padding: 10px;
-        padding-left:100px ;
-        visibility: visible;
-        opacity: 1;
-    }
-    .Barra-Pesquisa select{
-        visibility: hidden;
-    }
-    .paginacaoContainer{
-        position: relative;
-        left: 120px;
-        display: flex;
-        flex-wrap: wrap; /* Permite quebra de linha quando o limite da tela é atingido */
-        gap: 8px; /* Espaçamento entre os botões */
-        justify-content: center; /* Centraliza os botões na horizontal */
-        margin-top: 10px;
-        width: 1900px;
-    }
-    
-    .botao-paginacao {
-        padding: 8px 12px;
-        border: none;
-        border-radius: 100%;
-        background-color: #0e0e0e;
-        color: white;
-        cursor: pointer;
-        transition: background-color 0.3s ease-out;
-    }
-    .botao-paginacao:hover{
-        background-color: #1f1f1f;
-    }
-    
-}
-@media screen and (min-width: 769px) {
 body {
-    font-family: var(--fonte-principal);
-    background:#000000;
-    color: white;
-    width: 80%;
-    overflow-x:hidden;
-    height: 100vh;
-    
-}
-nav.Barra-Lateral{
-    width: 150px;
-    height: 100%;
-    background-color:#0e0e0e ;
-    padding: 40px 0 0px 0;
-    box-shadow: 0 0 50px #0e0e0e;
-    position: fixed;
-    top: 0px;
-    left: -42px;
-    overflow: hidden;
-    transition: .4s ease-out;
-    z-index: 10;
-}
-nav.Barra-Lateral.expandir{
-    width: 300px;
-}
-.btn-expandir{
-    width: 100%;
-    padding-left: 75px;
-}
-.btn-expandir > i{
-    color:white;
-    font-size: 30px;
-    cursor: pointer;
-}
-.img--cabeçalho{
-    position: relative;
-    left: 2%;
-    padding-left: 40px;
-    transition: .5s;
-    opacity: 0;
-}
-ul{
-    height: 100%;
-    list-style-type: none;
-}
-ul li.item-menu{
-    transition: 0.5s ease;
-    
-}
-ul li.ativo{
-    background-color: #1f1f1f;
-}
-ul li.item-menu:hover{
-    background-color: #353535;
-}
-ul li.item-menu a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px 0;
-    display: flex;
-    margin-bottom: 20px;
-    line-height: 40px;
-}
-ul li.item-menu a .txt-link{
-    margin-left: 80px;
-    white-space: nowrap;
-    transition: .5s;
-    opacity: 0;
-}
-nav.Barra-Lateral.expandir .txt-link{
-    margin-left: 45px;
-    opacity: 1;
-}
-ul li.item-menu a .icon > i{
-    font-size: 30px;
-    padding-left: 35px;
-
-}
-.video-js{
-    width: 0px;
-    left: 0px;
-    top: 0px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #fff;
+  overflow-y: hidden;
 }
 
-.header{
-    position: absolute;
-    background: var(--cinzagra);
-    height: 80px;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    color: white;
-    z-index: 8  ;
-}
-.cabeçalho-pesquisa{
-    display: inline-block;
-    position: absolute;
-    left: 79%;
-}
-.Filmes-Disponiveis{
-    display: inline-block;
-    position: absolute;
-    top: 54px;
-    left: 10%;
-    white-space: nowrap;
-    font-size: 30px;
-}
-.Texto-de-Alerta{
-    position: relative;
-    left: 120px;
-}
-.Alinhar{
-    position: absolute;
-    width:100vw;
-}
-.Filtro{
-    position: absolute;
-    left: 65%;
-    top: 91px;
-    font-size: 17px;
-    background-color: #353535;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    border-color: #353535;
-}
-.Texto-Filtro{
-    position: absolute;
-    left: 1300px;
-    top: 87px;
-    white-space: nowrap;
-    font-size: 20px;
-}
-.Lista-Filmes{
-    display: inline-block;
-    position: absolute;
-    left: 40%;
+#categoriasContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
 }
 
-.Capa-Geral{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: block;
-    border-radius: 10px;
-    top: 0px;
-    left: 0px;
-    transition: 0.3s ease;
-    z-index: 8;
-}
-.Capa-Geral:hover{
-    
-    transform: scale(1.07);
-}
-.Capa-Geral:hover img{
-    
-    transform: scale(1.2);
+
+.titulo-categoria {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
-.Item-Geral{
-    position: relative;
-    top: 120px;
-    left: 120px;
-    display: inline-flex;
-    margin: 0.5vw;
-    text-align: center;
-    font-size: 200%;
-    border-radius: 1vw;
-    word-break: break-word;
-    width: 20vw;
-    height: 30vw;
-    overflow: hidden;
-    border: 10px solid transparent;
-    cursor: pointer;
-    
-}
-.Item-Geral p{
-    visibility: hidden;
-}
-.Item-Geral:focus{
-    border-color: white;
-    outline: none;
-}
-.Item-Geral:focus img{
-    border-color: white;
-    outline: none;
-    transform: scale(1.07);
-}
-.Barra-Pesquisa{
-    position: absolute;
-    left: 35%;
-    top: 90px;
+.item-filme:hover {
+  transform: scale(1.1);
 }
 
-.Barra-Pesquisa span{
-    transition: 0.3s ease-out;
-    font-size: 25px;
-    position: relative;
-    top: 3px;
-    left: 350px;
-    z-index: 3;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.Barra-Pesquisa span:hover{
-    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    background-color: #1f1f1f;
-    border-radius: 100%;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.Barra-Pesquisa span.expandir{
-    font-size: 25px;
-    position: relative;
-    top: 3px;
-    left: 55px;
-}
-.Barra-Pesquisa input{
-    position: relative;
-    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    color: white;
-    background-color: #1f1f1f;
-    font-size: 18px;
-    border-radius: 100px;
-    padding: 10px;
-    right: 10px;
-    padding-left:100px ;
-    visibility: hidden;
-    opacity: 0;
-    z-index: 1;
-}
-.Barra-Pesquisa input.expandir{
-    position: relative;
-    color: white;
-    background-color: #1f1f1f;
-    font-size: 18px;
-    border-radius: 100px;
-    right: 0px;
-    padding: 10px;
-    padding-left:100px ;
-    visibility: visible;
-    opacity: 1;
-}
-.Barra-Pesquisa select{
-    visibility: hidden;
-}
-.paginacaoContainer{
-    position: relative;
-    left: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-    margin-top: 10px;
-    width: 100vw;
+.botao-navegacao {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+  z-index: 1;
+  border-radius: 50%;
+  padding: 5px;
 }
 
-.botao-paginacao {
-    padding: 8px 12px;
-    border: none;
-    border-radius: 100%;
-    background-color: #0e0e0e;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease-out;
+.botao-anterior {
+  left: 10px;
 }
-.botao-paginacao:hover{
-    background-color: #1f1f1f;
+
+.botao-proximo {
+  right: 10px;
 }
+.carrossel {
+  display: flex;
+  gap: 10px;
+  overflow-x: hidden;
+  scroll-behavior:auto;
+  padding: 15px;
 }
-#canalList{
-    width:100vw
+
+.categoria {
+  margin-bottom: 20px;
 }
+
+.categoria:focus {
+  outline: 3px solid #1e90ff;
+  scroll-margin-top: 20px; /* Garante que a categoria fique visível ao receber foco */
+}
+
+.item-filme {
+  min-width: 150px;
+  background-color: #222;
+  border-radius: 1vw;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.item-filme img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.item-filme:focus {
+  outline: 3px solid #ff0000;
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.lazy {
+  background-color: #333; /* Placeholder antes de carregar */
+  width: 150px;
+  height: 200px;
+}
+

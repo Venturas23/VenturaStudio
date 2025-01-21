@@ -1,20 +1,20 @@
+var menuItem = document.querySelectorAll('.item-menu');
 
-let pressTimer;
-let keyPressed = false;
+function selectLink(){
+    menuItem.forEach((item)=>
+        item.classList.remove('ativo')
+    );
+    this.classList.add('ativo')
+}
+menuItem.forEach((item)=>
+    item.addEventListener('click', selectLink)
+);
 
-// Detecta quando a tecla Control é pressionada por 2 segundos
-document.addEventListener('keydown', (event) => {
-    if (event.key === "Control" && !keyPressed) {
-        keyPressed = true;
-        pressTimer = setTimeout(() => {
-            window.location.href = 'index.html'; // Substitua pelo link desejado
-        }, 500); // 2 segundos
-    }
-});
+//expandir o menu
 
-document.addEventListener('keyup', (event) => {
-    if (event.key === "Control") {
-        clearTimeout(pressTimer);
-        keyPressed = false;
-    }
+var btnExp = document.querySelector('#btn-exp');
+var menuSide = document.querySelector('.Barra-Lateral');
+
+btnExp.addEventListener('click', function(){
+    menuSide.classList.toggle('expandir');
 });
