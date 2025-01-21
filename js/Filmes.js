@@ -123,6 +123,7 @@ function navegarCarrossel(carrossel, itemAtual, direcao) {
     if (novoIndex >= 0 && novoIndex < itens.length) {
         const novoItem = itens[novoIndex];
         novoItem.focus(); // Move o foco para o próximo ou anterior
+        novoItem.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' }); // Garante visibilidade
     }
 }
 
@@ -155,42 +156,6 @@ function iniciarNavegacaoEntreCategorias() {
         };
     });
 }
-
-// Lazy loading com descarregamento de imagens fora de visão
-function iniciarLazyLoading() {
-    const itensFilme = document.querySelectorAll('.item-filme');
-
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach(entry => {
-                const item = entry.target;
-
-                if (entry.isIntersecting) {
-                    // Se o item está visível, carrega a imagem
-                    if (!item.querySelector('img')) {
-                        const img = document.createElement('img');
-                        img.src = item.dataset.capa;
-                        img.alt = item.dataset.nomeCanal;
-                        item.appendChild(img);
-                    }
-                } else {
-                    // Se o item sai de visão, remove a imagem
-                    const img = item.querySelector('img');
-                    if (img) {
-                        img.remove();
-                    }
-                }
-            });
-        },
-        {
-            root: null, // Usa o viewport como referência
-            rootMargin: '0px 400px' // Margem para pré-carregar e descarregar
-        }
-    );
-
-    itensFilme.forEach(item => observer.observe(item));
-}
-
 function abrirIframeFilme(url) {
     // Cria um iframe para o filme
     const iframe = document.createElement('iframe');
@@ -224,6 +189,37 @@ function abrirIframeFilme(url) {
         }
     };
 }
+// Lazy loading com descarregamento de imagens fora de visão
+function iniciarLazyLoading() {
+    const itensFilme = document.querySelectorAll('.item-filme');
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                const item = entry.target;
+
+                if (entry.isIntersecting) {
+                    // Se o item está visível, carrega a imagem
+                    if (!item.querySelector('img')) {
+                        const img = document.createElement('img');
+                        img.src = item.dataset.capa;
+                        img.alt = item.dataset.nomeCanal;
+                        img.loading = "lazy"; // Melhora o carregamento de imagens
+                        item.appendChild(img);
+                    }
+                }
+            });
+        },
+        {
+            root: null, // Usa o viewport como referência
+            rootMargin: '0px 400px' // Margem para pré-carregar e descarregar
+        }
+    );
+
+    itensFilme.forEach(item => observer.observe(item));
+}
+
+
 
 // Inicializa as categorias
 listarCategorias();
