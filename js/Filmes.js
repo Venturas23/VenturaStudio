@@ -85,10 +85,10 @@ async function carregarCategoria(categoriaDiv, arquivoUrl) {
         filmeItem.dataset.link = filme.link;
 
         // Adiciona eventos
-        filmeItem.onclick = () => reproduzirVideo(filme.link);
+        filmeItem.onclick = () => abrirIframeFilme(filme.link);
         filmeItem.onkeydown = (e) => {
             if (e.key === 'Enter' || e.key === ' ') {
-                reproduzirVideo(filme.link);
+                abrirIframeFilme(filme.link);
             } else if (e.key === 'ArrowRight') {
                 navegarCarrossel(carrossel, filmeItem, 1); // Próximo item
             } else if (e.key === 'ArrowLeft') {
@@ -221,9 +221,38 @@ function iniciarNavegacaoEntreCategorias() {
 }
 
 // Função para reproduzir vídeo
-function reproduzirVideo(url) {
-    alert(`Reproduzindo vídeo: ${url}`);
-    // Aqui você pode implementar o player de vídeo
+function abrirIframeFilme(url) {
+    // Cria um iframe para o filme
+    const iframe = document.createElement('iframe');
+    iframe.src = url;
+    iframe.style.position = 'fixed';
+    iframe.style.top = '0';
+    iframe.style.left = '0';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.border = 'none';
+    iframe.style.zIndex = '1000';
+
+    // Adiciona o iframe ao body
+    document.body.appendChild(iframe);
+
+    // Solicita que o iframe fique em tela cheia
+    if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+    } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+    } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+    }
+
+    // Remove o iframe quando o usuário sair da tela cheia
+    iframe.onfullscreenchange = () => {
+        if (!document.fullscreenElement) {
+            iframe.remove();
+        }
+    };
 }
 
 // Inicializa o sistema
