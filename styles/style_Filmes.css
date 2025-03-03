@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #121212;
+  background-color: #0a0a0a;
   color: #fff;
   overflow-y: hidden;
 }
@@ -93,4 +93,17 @@ body {
   width: 150px;
   height: 200px;
 }
+.search {
+position: relative;
+left: 98vw;
+top:5vh;
+}
+.search svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: white;
+  cursor: pointer;
+} 
 

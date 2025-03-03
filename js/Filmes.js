@@ -80,9 +80,14 @@ async function carregarCategoria(categoriaDiv, arquivoUrl) {
         filmeItem.setAttribute('role', 'button');
         filmeItem.setAttribute('aria-label', `Filme: ${filme.nomeCanal}`);
         filmeItem.dataset.index = index;
-        filmeItem.dataset.capa = filme.capa || 'placeholder.jpg'; // Define o dataset para Lazy Loading
+        filmeItem.dataset.capa = filme.capa || 'placeholder.jpg';
         filmeItem.dataset.nomeCanal = filme.nomeCanal;
         filmeItem.dataset.link = filme.link;
+
+        const img = document.createElement('img');
+        img.src = filme.capa || 'placeholder.jpg';
+        img.alt = filme.nomeCanal;
+        filmeItem.appendChild(img);
 
         // Adiciona eventos
         filmeItem.onclick = () => abrirIframeFilme(filme.link);
@@ -98,44 +103,6 @@ async function carregarCategoria(categoriaDiv, arquivoUrl) {
 
         carrossel.appendChild(filmeItem);
     });
-
-    iniciarLazyLoadingImagens(carrossel); // Ativa o Lazy Loading para as imagens do carrossel
-}
-
-// Lazy Loading para imagens com remoção ao sair do foco
-function iniciarLazyLoadingImagens(carrossel) {
-    const itensFilme = carrossel.querySelectorAll('.item-filme');
-
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach(entry => {
-                const item = entry.target;
-
-                if (entry.isIntersecting) {
-                    // Se o item está visível, carrega a imagem
-                    if (!item.querySelector('img')) {
-                        const img = document.createElement('img');
-                        img.src = item.dataset.capa;
-                        img.alt = item.dataset.nomeCanal;
-                        img.loading = "lazy"; // Melhora o carregamento de imagens
-                        item.appendChild(img);
-                    }
-                } else {
-                    // Remove a imagem se o item sair do viewport
-                    const img = item.querySelector('img');
-                    if (img) {
-                        img.remove(); // Remove a imagem do DOM
-                    }
-                }
-            });
-        },
-        {
-            root: null, // Usa o viewport como referência
-            threshold: 0.1 // Quando 10% do item está visível
-        }
-    );
-
-    itensFilme.forEach(item => observer.observe(item));
 }
 
 // Inicializa as categorias com carregamento dinâmico
@@ -147,37 +114,14 @@ async function listarCategorias() {
         criarCategoria(arquivo.nome, index + 1);
     });
 
-    iniciarLazyLoadingCategorias(arquivosM3U);
-    iniciarNavegacaoEntreCategorias();
-}
-
-// Lazy loading de categorias
-function iniciarLazyLoadingCategorias(arquivosM3U) {
+    // Carrega todas as categorias
     const categorias = document.querySelectorAll('.categoria');
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach(async (entry) => {
-                const categoriaDiv = entry.target;
-                const categoriaIndex = categoriaDiv.dataset.index;
+    categorias.forEach(async (categoriaDiv, index) => {
+        const arquivoUrl = arquivosM3U[index].url;
+        await carregarCategoria(categoriaDiv, arquivoUrl);
+    });
 
-                if (entry.isIntersecting) {
-                    // Carrega a categoria visível
-                    const arquivoUrl = arquivosM3U[categoriaIndex - 1].url;
-                    await carregarCategoria(categoriaDiv, arquivoUrl);
-                } else {
-                    // Remove itens da categoria fora de visão
-                    const carrossel = categoriaDiv.querySelector('.carrossel');
-                    carrossel.innerHTML = '';
-                }
-            });
-        },
-        {
-            root: null, // Viewport
-            threshold: 0.1 // Quando 10% do elemento estiver visível
-        }
-    );
-
-    categorias.forEach(categoria => observer.observe(categoria));
+    iniciarNavegacaoEntreCategorias();
 }
 
 // Navegação no carrossel com setas do teclado
