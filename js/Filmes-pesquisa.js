@@ -1,4 +1,4 @@
-const baseFolderUrl = '/js/Lista/M3U/FILMES/';
+const baseFolderUrl = 'https://venturas23.github.io/VenturaStudio/js/Lista/M3U/FILMES/';
 
 async function fetchM3UFiles() {
     try {
