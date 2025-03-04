@@ -150,16 +150,17 @@ function exibirEpisodios(episodios) {
             episodioItem.appendChild(img);
         }
 
-        episodioItem.onclick = () => abrirIframeSerie(episodio.link, episodios, episodios.indexOf(episodio));
+        episodioItem.onclick = () => window.open(episodio.link, '_blank');
         episodioItem.onkeydown = (e) => {
             if (e.key === 'Enter' || e.key === ' ') {
-                abrirIframeSerie(episodio.link, episodios, episodios.indexOf(episodio));
+                window.open(episodio.link, '_blank');
             }
         };
 
         resultadosContainer.appendChild(episodioItem);
     });
 }
+
 
 // Função para reproduzir vídeo
 function abrirIframeSerie(url, episodios, index) {
@@ -210,3 +211,4 @@ function abrirIframeSerie(url, episodios, index) {
         }
     };
 }
+
