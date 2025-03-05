@@ -47,24 +47,49 @@ async function carregarFilmes(arquivoUrl) {
 // Função para criar uma categoria vazia
 function criarCategoria(categoriaNome, categoriaIndex) {
     const categoriasContainer = document.getElementById('categoriasContainer');
+    if (!categoriasContainer) {
+        console.error("Elemento 'categoriasContainer' não encontrado.");
+        return;
+    }
 
     const categoriaDiv = document.createElement('div');
     categoriaDiv.classList.add('categoria');
-    categoriaDiv.setAttribute('tabindex', 0);
-    categoriaDiv.setAttribute('aria-label', `Categoria ${categoriaNome}`);
     categoriaDiv.dataset.index = categoriaIndex;
 
     const titulo = document.createElement('h2');
     titulo.classList.add('titulo-categoria');
     titulo.textContent = categoriaNome;
 
+    const carrosselContainer = document.createElement('div');
+    carrosselContainer.classList.add('carrossel-container');
+
     const carrossel = document.createElement('div');
     carrossel.classList.add('carrossel');
     carrossel.dataset.categoria = categoriaIndex;
 
+    const btnPrev = document.createElement('button');
+    btnPrev.classList.add('btn-prev');
+    btnPrev.textContent = '<';
+    btnPrev.onclick = () => navegarCarrossel(carrossel, -1);
+
+    const btnNext = document.createElement('button');
+    btnNext.classList.add('btn-next');
+    btnNext.textContent = '>';
+    btnNext.onclick = () => navegarCarrossel(carrossel, 1);
+
+    carrosselContainer.appendChild(btnPrev);
+    carrosselContainer.appendChild(carrossel);
+    carrosselContainer.appendChild(btnNext);
+
     categoriaDiv.appendChild(titulo);
-    categoriaDiv.appendChild(carrossel);
+    categoriaDiv.appendChild(carrosselContainer);
     categoriasContainer.appendChild(categoriaDiv);
+}
+
+function navegarCarrossel(carrossel, direcao) {
+    const itemWidth = carrossel.querySelector('.item-filme').offsetWidth;
+    const scrollAmount = itemWidth * direcao;
+    carrossel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
 }
 
 // Função para carregar os itens de uma categoria
@@ -76,9 +101,6 @@ async function carregarCategoria(categoriaDiv, arquivoUrl) {
     filmes.forEach((filme, index) => {
         const filmeItem = document.createElement('div');
         filmeItem.classList.add('item-filme');
-        filmeItem.setAttribute('tabindex', -1);
-        filmeItem.setAttribute('role', 'button');
-        filmeItem.setAttribute('aria-label', `Filme: ${filme.nomeCanal}`);
         filmeItem.dataset.index = index;
         filmeItem.dataset.capa = filme.capa || 'placeholder.jpg';
         filmeItem.dataset.nomeCanal = filme.nomeCanal;
@@ -91,15 +113,6 @@ async function carregarCategoria(categoriaDiv, arquivoUrl) {
 
         // Adiciona eventos
         filmeItem.onclick = () => abrirIframeFilme(filme.link);
-        filmeItem.onkeydown = (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-                abrirIframeFilme(filme.link);
-            } else if (e.key === 'ArrowRight') {
-                navegarCarrossel(carrossel, filmeItem, 1); // Próximo item
-            } else if (e.key === 'ArrowLeft') {
-                navegarCarrossel(carrossel, filmeItem, -1); // Item anterior
-            }
-        };
 
         carrossel.appendChild(filmeItem);
     });
@@ -120,55 +133,12 @@ async function listarCategorias() {
         const arquivoUrl = arquivosM3U[index].url;
         await carregarCategoria(categoriaDiv, arquivoUrl);
     });
-
-    iniciarNavegacaoEntreCategorias();
-}
-
-// Navegação no carrossel com setas do teclado
-function navegarCarrossel(carrossel, itemAtual, direcao) {
-    const itens = Array.from(carrossel.querySelectorAll('.item-filme'));
-    const indexAtual = itens.indexOf(itemAtual);
-    const novoIndex = indexAtual + direcao;
-
-    if (novoIndex >= 0 && novoIndex < itens.length) {
-        const novoItem = itens[novoIndex];
-        novoItem.focus(); // Move o foco para o próximo ou anterior
-        novoItem.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' }); // Garante visibilidade
-    }
-}
-
-// Navegação entre categorias com Enter e setas
-function iniciarNavegacaoEntreCategorias() {
-    const categorias = Array.from(document.querySelectorAll('.categoria'));
-
-    categorias.forEach(categoria => {
-        categoria.onkeydown = (e) => {
-            if (e.key === 'Enter') {
-                const carrossel = categoria.querySelector('.carrossel');
-                const primeiroItem = carrossel.querySelector('.item-filme');
-                if (primeiroItem) {
-                    primeiroItem.focus();
-                }
-            } else if (e.key === 'ArrowDown') {
-                const proximaCategoria = categorias[categorias.indexOf(categoria) + 1];
-                if (proximaCategoria) {
-                    proximaCategoria.focus();
-                }
-            } else if (e.key === 'ArrowUp') {
-                const categoriaAnterior = categorias[categorias.indexOf(categoria) - 1];
-                if (categoriaAnterior) {
-                    categoriaAnterior.focus();
-                }
-            }
-        };
-    });
 }
 
 // Função para abrir o link do filme em outra aba
 function abrirIframeFilme(url) {
     window.open(url, '_blank');
 }
-
 
 // Inicializa o sistema
 listarCategorias();
